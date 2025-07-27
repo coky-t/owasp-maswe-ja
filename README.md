@@ -2,7 +2,7 @@
 
 This is the unofficial Japanese translation of the [OWASP Mobile Application Security Weakness Enumeration (MASWE)](https://github.com/OWASP/maswe).
 
-**Work In Progress**
+**!!! Work In Progress !!!**
 
 - Document Repository - <https://github.com/coky-t/owasp-maswe-ja>
 
