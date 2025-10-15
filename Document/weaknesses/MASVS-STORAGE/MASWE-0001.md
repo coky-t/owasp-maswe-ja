@@ -23,10 +23,10 @@ status: new
 
 ## 流入の形態
 
-This can typically occur in two ways:
+これは一般的に以下の二つの方法で発生します。
 
-- **System Logs**: The application may log sensitive data to the system log, which can be accessed by other applications on the device (in old OS versions or compromised devices or if they hold the appropriate permissions).
-- **App Logs**: The application may log sensitive data to a file in the application's data directory, which can be accessed by any application on the device if the device is rooted.
+- **システムログ**: アプリケーションはシステムログに機密データをログ記録することがあり、デバイス (古い OS バージョン、侵害されたデバイス、または適切なパーミッションを持つもの) 上の他のアプリケーションからアクセスできます。
+- **アプリログ**: アプリケーションはアプリケーションのデータディレクトリのファイルに機密データをログ記録することがあり、デバイスがルート化されている場合、デバイス上の任意のアプリケーションからアクセスできます。
 
 ## 影響
 
