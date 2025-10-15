@@ -17,9 +17,9 @@ status: new
 
 ## 概要
 
-Mobile apps may write [sensitive data](../../Document/0x04b-Mobile-App-Security-Testing.md#identifying-sensitive-data "Sensitive Data") to logs. This may include sensitive user data, such as passwords, credit card numbers, or other personally identifiable information (PII), as well as sensitive system data, such as cryptographic keys, session tokens, or other sensitive information.
+モバイルアプリはログに [機密データ](https://github.com/coky-t/owasp-mastg-ja/blob/master/Document/0x04b-Mobile-App-Security-Testing.md#identifying-sensitive-data "Sensitive Data") を書き込むことがあります。これは、パスワード、クレジットカード番号、その他の個人を識別できる情報 (PII) などの機密ユーザーデータや、暗号鍵、セッショントークン、その他の機密情報などの機密システムデータを含むことがあります。
 
-Logging all possible information is very useful at development time, especially for debugging the app. However, in production it might not always be necessary and should be prevented whenever possible to avoid any accidentally exposure to potential attackers.
+開発時、特にアプリのデバッグには、あらゆる情報をログ記録することが非常に役立ちます。しかし、本番環境では必ずしも必要ではなく、潜在的な攻撃者に誤って開示することを避けるために、可能な限り防ぐ必要があります。
 
 ## 流入の形態
 
