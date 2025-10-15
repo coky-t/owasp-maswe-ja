@@ -34,15 +34,15 @@ status: new
 
 ## 緩和策
 
-The following are generic recommendations to avoid logging sensitive data in production releases:
+以下は本番リリースで機密データのログ記録を避けるための一般的な推奨事項です。
 
-- Avoid logging sensitive data at all.
-- Redact sensitive data in logs.
-- Remove logging statements unless deemed necessary to the application or explicitly identified as safe, e.g. as a result of a security audit.
-- Use log levels properly to ensure that sensitive data is not logged in production releases.
-- Use flags to disable logging in production releases.
+- すべての機密データのログ記録を避けます。
+- ログ内の機密データを削除します。
+- アプリケーションに必要であると判断された場合、またはセキュリティ監査の結果などにより明示的に安全であると判断された場合を除き、ログ記録ステートメントを削除します。
+- ログレベルを適切に使用して、本番リリースで機密データがログ記録されないようにします。
+- フラグを使用して本番リリースでログ記録を無効にします。
 
-The documentation for each platform provides best practices for developers:
+各プラットフォームのドキュメントでは開発者向けのベストプラクティスを提供しています。
 
-- [Android mitigations to avoid log disclosure](https://developer.android.com/privacy-and-security/risks/log-info-disclosure#mitigations)
-- [iOS mitigations to avoid log disclosure](https://developer.apple.com/documentation/os/logging/generating_log_messages_from_your_code#3665948)
+- [ログ開示を避けるための Android の緩和策](https://developer.android.com/privacy-and-security/risks/log-info-disclosure#mitigations)
+- [ログ開示を避けるための iOS の緩和策](https://developer.apple.com/documentation/os/logging/generating_log_messages_from_your_code#3665948)
