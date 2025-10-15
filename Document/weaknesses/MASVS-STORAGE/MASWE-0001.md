@@ -30,7 +30,7 @@ status: new
 
 ## 影響
 
-Loss of confidentiality: Sensitive data within logs is at risk of being exposed to an attacker with access to the device who may be able to extract it. This may lead to further attacks, such as identity theft, or compromise of the application's backend.
+機密性の喪失: ログ内の機密データは、デバイスにアクセスできる攻撃者に公開されるリスクがあり、抽出できる可能性があります。これは、個人情報の窃取やアプリケーションのバックエンドの侵害など、さらなる攻撃につながる可能性があります。
 
 ## 緩和策
 
