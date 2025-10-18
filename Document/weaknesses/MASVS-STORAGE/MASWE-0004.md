@@ -20,7 +20,7 @@ status: new
 
 ## 概要
 
-iOS and Android automatically back up app data to cloud services, and users can also create local backups on physical machines, or backups are automatically created during data transfers when switching between phones. When developers fail to properly configure how their app handles backups and neglect to exclude sensitive files, the backups may contain sensitive user and app data. Under certain conditions, the backups may not be adequately secured by the cloud provider, or a malicious actor could tamper with the backed up files, potentially altering the app's behavior or extracting confidential information.
+iOS と Android はアプリデータを自動的にクラウドサービスにバックアップします。ユーザーは物理マシン上にローカルバックアップを作成することもできますし、スマートフォンを切り替える際のデータ転送時に自動的にバックアップが作成されます。開発者がアプリのバックアップ処理方法を適切に設定しておらず、機密ファイルを除外していない場合、バックアップには機密性の高いユーザーデータやアプリデータを含む可能性があります。特定の状況下では、クラウドプロバイダによってバックアップが適切に保護されていないことや、悪意のある人物がバックアップファイルを改竄し、アプリの動作を変更したり、機密情報を抽出する可能性があります。
 
 ## 影響
 
