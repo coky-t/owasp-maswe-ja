@@ -30,9 +30,9 @@ iOS と Android はアプリデータを自動的にクラウドサービスに�
 
 ## 流入の形態
 
-- **Automatic System Backups**: By default, iOS and Android back up app data to the cloud once the user consents during the initial setup.
-- **Local Backups**: Users can back up their devices to local systems (e.g., laptops). If local backups are stored unencrypted or not securely handled, attackers could tamper with this data.
-- **Device-To-Device Transfer**: Transferring data between devices (e.g., via iCloud or Google's device-to-device migration tools) enables an attacker to perform similar attacks.
+- **自動システムバックアップ**: デフォルトでは、初期設定時にユーザーが同意すると、iOA と Android はアプリデータをクラウドにバックアップします。
+- **ローカルバックアップ**: ユーザーはデバイスをローカルシステム (ラップトップなど) にバックアップできます。ローカルバックアップが暗号化せずに保存されていたり、安全に扱われていないと、攻撃者がデータを改竄する可能性があります。
+- **デバイス間転送**: デバイス間でデータを転送 (iCloud や Google のデバイス間移行ツールなどにより) すると、攻撃者が同様の攻撃を実行することを可能にします。
 
 ## 緩和策
 
