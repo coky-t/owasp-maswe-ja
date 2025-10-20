@@ -22,7 +22,7 @@ status: new
 
 ## 影響
 
-- **Loss of Confidentiality**: Under the right conditions an attacker could extract sensitive data stored internally within the application sandbox leading to loss of confidentiality and enable further attacks such as identity theft or account takeover.
+- **機密性の喪失**: 適切な条件下では、攻撃者がアプリケーションサンドボックス内に内部的に保存されている機密データを抽出し、機密性を喪失して、なりすましやアカウント乗っ取りなどのさらなる攻撃を可能にします。
 
 ## 流入の形態
 
