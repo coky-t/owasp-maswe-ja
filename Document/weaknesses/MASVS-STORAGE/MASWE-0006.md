@@ -16,9 +16,9 @@ status: new
 
 ## 概要
 
-Mobile apps may need to store sensitive data locally within private storage locations such as the application sandbox and this data is at risk of exposure via, for example, incorrect file permissions, an app vulnerability, device vulnerability or data backup mechanisms.
+モバイルアプリは、アプリケーションサンドボックスなどのプライベートストレージロケーション内にローカルに機密データを保存する必要があることがあり、このデータは、たとえば、不正なファイルパーミッション、アプリの脆弱性、デバイスの脆弱性、またはデータバックアップメカニズムを介した露出のリスクがあります。
 
-[Sensitive data](../../Document/0x04b-Mobile-App-Security-Testing.md#identifying-sensitive-data "Sensitive Data") may include personally identifiable information (PII), passwords, cryptographic keys or session tokens.
+[機密データ](https://github.com/coky-t/owasp-mastg-ja/blob/master/Document/0x04b-Mobile-App-Security-Testing.md#identifying-sensitive-data "Sensitive Data") には、個人を識別できる情報 (PII)、パスワード、暗号鍵、セッショントークンを含むことがあります。
 
 ## 影響
 
