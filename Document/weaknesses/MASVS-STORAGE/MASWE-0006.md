@@ -26,10 +26,10 @@ status: new
 
 ## 流入の形態
 
-- **Data Stored Unencrypted**: Sensitive data is written to the app's private data directory (sandbox) unencrypted.
-- **Hardcoded Encryption Key**: Sensitive data is encrypted but the key is hardcoded inside the application.
-- **Encryption Key Stored on Filesystem**: Sensitive data is encrypted but the key is stored alongside it or in another easily accessible location.
-- **Encryption Used is Insufficient**: Sensitive data is encrypted but the encryption is not considered to be strong.
+- **暗号化なしで保存されたデータ**: 機密データは暗号化なしでアプリのプライベートデータディレクトリ (サンドボックス) に書き込まれます。
+- **ハードコードされた暗号鍵**: 機密データは暗号化されますが、鍵はアプリケーション内にハードコードされています。
+- **ファイルシステムに保存された暗号鍵**: 機密データは暗号化されますが、鍵は近くまたは簡単にアクセスできる別の場所に保存されています。
+- **使用される暗号が不十分**: 機密データは暗号化されますが、暗号は強力とはいえません。
 
 ## 緩和策
 
