@@ -33,10 +33,10 @@ status: new
 
 ## 緩和策
 
-- Avoid storing sensitive data locally if not required for application functionality to reduce the likelihood and impact of this weakness. For example keeping PII server-side, rendering it at time of use, and removing any cached data on logout.
-- Store cryptographic keys exclusively using the platform's hardware-backed keystore solution, such as the Android Keystore or the iOS Keychain.
-- For storing other files and preferences, use platform-provided features for encrypting data at rest or other techniques implementing envelope encryption with Data Encryption Keys (DEK) and Key Encryption Keys (KEK) or equivalent methods. For example, on Android, use [`EncryptedFile`](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) or [`EncryptedSharedPreferences`](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences); on iOS, use [iOS Data Protection](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files).
+- アプリケーションの機能に必要でない場合は、機密データをローカルに保存することを避け、この弱点の発生可能性と影響を軽減します。たとえば、PII をサーバーサイドで保持し、使用時に提供し、ログアウト時にキャッシュされたデータを削除します。
+- Android キーストアや iOS キーチェーンなど、プラットフォームのハードウェア基盤のキーストアソリューションのみを使用して暗号鍵を保存します。
+- その他のファイルや設定を保存する場合は、プラットフォームが提供する保存時にデータを暗号化する機能や、Data Encryption Keys (DEK) と Key Encryption Keys (KEK) を用いてエンベロープ暗号化を実装するその他の技法、あるいは同等の手法を使用します。たとえば、Android では [`EncryptedFile`](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) または [`EncryptedSharedPreferences`](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences) を使用し、iOS では [iOS データ保護](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files) を使用します。
 
-!!! Warning
+### !!! 警告
 
-    The **Jetpack security crypto library**, including the `EncryptedFile` and  `EncryptedSharedPreferences` classes, has been [deprecated](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library). However, since an official replacement has not yet been released, we recommend using these classes until one is available.
+`EncryptedFile` クラスと `EncryptedSharedPreferences` クラスを含む **Jetpack Security Crypto ライブラリ** は [非推奨](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library) になりました。ただし、公式の代替品はまだリリースされていないため、それが利用可能になるまではこれらのクラスを使用することをお勧めします。
