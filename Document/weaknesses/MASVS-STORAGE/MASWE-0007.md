@@ -32,15 +32,15 @@ status: new
 
 ## 流入の形態
 
-This threat is primarily a concern for Android devices since they permit the use of external storage. Even if a device lacks physical external storage, Android emulates it to provide access to the external storage API.
+この脅威は主に外部ストレージの使用を許可する Android デバイスにとっての懸念事項です。デバイスに物理的な外部ストレージがない場合でも、Android はそれをエミュレートして外部ストレージ API へのアクセスを提供します。
 
-- **Data Stored Unencrypted**: Sensitive data is stored in the external storage unencrypted.
-- **Hardcoded Encryption Key**: Sensitive data is encrypted and stored in the external storage but the key is hardcoded inside the application.
-- **Encryption Key Stored on Filesystem**: Sensitive data is encrypted and stored in the external storage but the key is stored alongside it or in another easily accessible location.
-- **Encryption Used is Insufficient**: Sensitive data is encrypted but the encryption is not considered to be strong.
-- **Reuse of encryption key**: The encryption key is shared between two devices owned by a single user, enabling the process of data cloning between these devices in the external storage.
+- **暗号化なしで保存されたデータ**: 機密データは暗号化なしで外部ストレージに保存されます。
+- **ハードコードされた暗号鍵**: 機密データは暗号化されて外部ストレージに保存されますが、鍵はアプリケーション内にハードコードされています。
+- **ファイルシステムに保存された暗号鍵**: 機密データは暗号化されて外部ストレージに保存されますが、鍵は近くまたは簡単にアクセスできる別の場所に保存されています。
+- **使用される暗号が不十分**: 機密データは暗号化されますが、暗号は強力とはいえません。
+- **暗号鍵の再使用**: 暗号鍵は一人のユーザーが所有する二台のデバイス間で共有され、デバイス間で外部ストレージにデータ複製するプロセスを有効にします。
 
-On iOS, apps cannot directly write to or read from the arbitrary locations, as compared to desktop operating system or Android. iOS maintains strict sandboxing rules, meaning apps can only access their own sandboxed file directories.
+iOS では、デスクトップオペレーティングシステムや Android とは異なり、アプリは任意の場所に直接書き込みや読み込みをできません。iOS は厳格なサンドボックスルールを維持しており、アプリは自身のサンドボックス化されたファイルディレクトリのみにアクセスできることを意味します。
 
 ## 緩和策
 
