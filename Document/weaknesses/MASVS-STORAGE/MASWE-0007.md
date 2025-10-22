@@ -44,8 +44,8 @@ iOS では、デスクトップオペレーティングシステムや Android �
 
 ## 緩和策
 
-Sensitive data stored in the external storage should be encrypted, and any keys used for data encryption should be protected by the device's hardware-backed keystore, where available. It is highly discouraged to include cryptographic keys hardcoded inside the application. You can also consider storing your files in the [private app sandbox or internal storage](https://developer.android.com/training/data-storage/app-specific#internal) and using [Android's EncryptedFile API wrapper for file encryption](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile).
+外部ストレージに保存される機密データは暗号化する必要があり、利用可能な場合、データ暗号化に使用される鍵はデバイスのハードウェア基盤のキーストアで保護する必要があります。アプリケーション内に暗号鍵をハードコードすることは、絶対に阻止します。また、ファイルを [プライベートアプリサンドボックスまたは内部ストレージ](https://developer.android.com/training/data-storage/app-specific#internal) に保存し、[Android のファイル暗号化用の EncryptedFile API ラッパー](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) を使用することも検討できます。
 
-!!! Warning
+### !!! 警告
 
-    The **Jetpack security crypto library**, including the `EncryptedFile` and  `EncryptedSharedPreferences` classes, has been [deprecated](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library). However, since an official replacement has not yet been released, we recommend using these classes until one is available.
+`EncryptedFile` クラスと `EncryptedSharedPreferences` クラスを含む **Jetpack Security Crypto ライブラリ** は [非推奨](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library) になりました。ただし、公式の代替品はまだリリースされていないため、それが利用可能になるまではこれらのクラスを使用することをお勧めします。
