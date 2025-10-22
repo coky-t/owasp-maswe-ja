@@ -22,13 +22,13 @@ status: new
 
 ## 影響
 
-- **Loss of confidentiality**: An attacker can extract sensitive data stored externally, such as personal information and media like photos, documents, and audio files.
+- **機密性の喪失**: 攻撃者は、個人情報や、写真、ドキュメント、音声ファイルなどのメディアなど、外部に保存される機密データを抽出できます。
 
-- **Loss of secure material**: An attacker can extract passwords, cryptographic keys, and session tokens to facilitate additional attacks, such as identity theft or account takeover.
+- **安全なマテリアルの喪失**: 攻撃者はパスワード、暗号鍵、セッショントークンを抽出して、なりすましやアカウント乗っ取りなど、追加の攻撃を容易にすることができます。
 
-- **Modification of app's behaviour**: An attacker can tamper with data used by the app, altering the app's logic. For example, they could modify a database describing the state of premium features or inject a malicious payload to enable further attacks such as SQL injection and Path Traversal.
+- **アプリの動作の改変**: 攻撃者はアプリで使用されるデータを改竄し、アプリのロジックを改変する可能性があります。たとえば、プレミアム機能の状態を記述するようにデータベースを改変したり、悪意のあるペイロードを注入して SQL インジェクションやパストラバーサルなどのさらなる攻撃を有効にする可能性があります。
 
-- **Modification of downloaded code**: An app can download new functionality from the Internet and store the executable code in external storage before loading it into the process. An attacker can modify this code before it is used by the app.
+- **ダウンロードされたコードの改変**: アプリはインターネットから新しい機能をダウンロードし、実行コードをプロセス内にロードする前に外部ストレージに保存できます。攻撃者はこのコードがアプリによって使用される前に改変できます。
 
 ## 流入の形態
 
