@@ -16,9 +16,9 @@ status: new
 
 ## 概要
 
-Apps frequently opt to store data in the external storage due to its larger capacity. However, this convenience comes with a potential security drawback. Once a malicious app is granted the relevant permissions, it can access this data without user consent or interaction at any time. Additionally, external storage like SD cards can be physically removed and read by a malicious actor. Even if the external storage is emulated by the system, the risk arises from improper file permissions or the misuse of APIs for saving files. In such cases, the files become vulnerable to unauthorized access, modifications and deletions, posing a security threat to the application.
+アプリは、容量が大きいために、外部ストレージにデータを保存することを選択することがよくあります。しかし、この利便性には潜在的なセキュリティ上の欠点を伴います。悪意のあるアプリが重要なパーミッションを付与されると、ユーザーの同意ややり取りなしにいつでもこのデータにアクセスできます。さらに、SD カードなどの外部ストレージは、悪意のある人物により物理的に取り外され、読み取られる可能性があります。たとえ外部ストレージがシステムによってエミュレートされていたとしても、不適切なファイルパーミッションやファイル保存用の API の誤用によってリスクが生じます。そのような場合、ファイルは不正アクセス、改変、削除に対して脆弱になり、アプリケーションにとってセキュリティ脅威となります。
 
-Developers may consider switching to Private Storage or Shared Storage Requiring User Interaction if they need more privacy and security. However, if the external storage is the most suitable for the app, it's a good practise to encrypt data stored in the external storage. Below you can find potential security impacts and mitigations linked to the use of the external storage.
+開発者は、より高いプライバシーとセキュリティを必要とする場合、プライベートストレージやユーザーインタラクションを必要とする共有ストレージへの切り替えを検討できます。しかし、外部ストレージがアプリにとって最適である場合には、外部ストレージに保存するデータを暗号化することをお勧めします。以下では、外部ストレージの使用に関連する潜在的なセキュリティへの影響と緩和策を見出します。
 
 ## 影響
 
