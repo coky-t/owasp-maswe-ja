@@ -21,9 +21,9 @@ status: new
 
 ## 概要
 
-In cryptography, the security strength is heavily influenced by the methods used to generate cryptographic keys. One critical aspect is the key size, also known as the key length, which is measured in bits and must comply with the latest security best practices. Encryption algorithms that use insufficient key sizes are vulnerable to attack, while longer keys typically result in more complex encryption.
+暗号において、セキュリティの強度は暗号鍵を生成するために使用される手法に大きく影響を受けます。重要な側面の一つは鍵サイズ (鍵長とも呼ばれます) であり、ビット単位で測定され、最新のセキュリティベストプラクティスに準拠する必要があります。不十分な鍵サイズを使用する暗号アルゴリズムは攻撃に脆弱であり、鍵が長いほど一般的により複雑な暗号になります。
 
-However, even with a sufficiently large key size, the security of the encryption can be compromised if the key generation process is flawed. Failing to use strong, cryptographically secure pseudorandom number generators (CSPRNGs) with sufficient entropy can generate predictable keys that are easier for attackers to guess or reproduce and that are susceptible to repetitive patterns.
+しかし、鍵サイズが十分に大きくても、鍵生成プロセスに欠陥があれば暗号のセキュリティが侵害される可能性があります。十分なエントロピーを持つ強力で暗号論的にセキュアな擬似乱数生成器 (CSPRNG) を使用しないと、攻撃者が推測したり再現しやすく、繰り返しパターンの影響を受けやすい、予測可能な鍵を生成する可能性があります。
 
 ## 影響
 
