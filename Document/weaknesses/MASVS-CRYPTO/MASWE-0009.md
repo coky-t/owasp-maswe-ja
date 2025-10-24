@@ -27,9 +27,9 @@ status: new
 
 ## 影響
 
-- **Risk of Brute-Force Attacks**: Improper key generation, whether due to shorter key length or predictable random number generator (PRNG) inputs, increases the risk of brute-force attacks. Attackers can more easily guess or systematically try possible keys until they find the correct one.
-- **Loss of Confidentiality**: Encryption relies on strong keys to maintain the confidentiality of sensitive data. Seed values with insufficient entropy can allow attackers to decrypt and access confidential information, leading to unauthorized disclosure and potential data breaches.
-- **Loss of Integrity**: Improper key generation can compromise data integrity, allowing attackers to exploit vulnerabilities and potentially alter or tamper with the information without detection.
+- **ブルートフォース攻撃のリスク**: 短い鍵長や予測可能な乱数生成器 (PRNG) の入力値による、不適切な鍵生成はブルートフォース攻撃のリスクが高まります。攻撃者は容易に鍵を推測したり、正しい鍵を見つけるまで可能な鍵を体系的に試すことができます。
+- **機密性の喪失**: 暗号化は、機密データの機密性を維持するために、強力な鍵に依存しています。エントロピーが不十分なシード値は、攻撃者が機密情報を復号してアクセスでき、不正な開示や潜在的なデータ侵害につながる可能性があります。
+- **完全性の喪失**: 不適切な鍵生成はデータの完全性を損ない、攻撃者が脆弱性を悪用して、検出されずに情報を改変や改竄する可能性があります。
 
 ## 流入の形態
 
