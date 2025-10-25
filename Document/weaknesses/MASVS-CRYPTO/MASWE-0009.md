@@ -39,5 +39,5 @@ status: new
 
 ## 緩和策
 
-- Always use modern, well-established cryptographic libraries and APIs that follow best practices for entropy generation and key management.
-- Ensure that key lengths meet or exceed current standards for cryptographic security, such as 256-bit for AES encryption and 2048-bit for RSA (considering quantum computing attacks). See ["NIST Special Publication 800-57: Recommendation for Key Management: Part 1 – General"](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf) and ["NIST Special Publication 800-131A: Transitioning the Use of Cryptographic Algorithms and Key Lengths"](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) and ["BlueKrypt's Cryptographic Key Length Recommendation"](https://www.keylength.com/) for more information on cryptographic key sizes.
+- エントロピー生成と鍵管理のベストプラクティスに従う、最新の、十分に確立された暗号ライブラリと API を常に使用します。
+- 鍵長が、AES 暗号の場合は 256 ビット、RSA (量子コンピューティング攻撃を考慮) の場合 2048 ビットなど、暗号セキュリティの現在の標準を満たすか超えていることを確認してください。暗号鍵サイズの詳細情報については ["NIST Special Publication 800-57: Recommendation for Key Management: Part 1 – General"](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf)、["NIST Special Publication 800-131A: Transitioning the Use of Cryptographic Algorithms and Key Lengths"](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf)、["BlueKrypt's Cryptographic Key Length Recommendation"](https://www.keylength.com/) を参照してください。
