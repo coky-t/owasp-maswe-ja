@@ -33,9 +33,9 @@ status: new
 
 ## 流入の形態
 
-- **Insufficient Entropy**: Using a source of randomness with insufficient entropy can lead to predictable cryptographic keys.
-- **Insufficient Key Length**: Cryptographic keys that are too short provide inadequate security. For example, keys shorter than recommended lengths for modern algorithms may be vulnerable to brute force attacks, making them easier for attackers to break.
-- **Using Risky or Broken Algorithms**: Relying on deprecated, risky or inherently broken cryptographic algorithms can result in the generation of weaker keys. As these algorithms often have vulnerabilities or support shorter key lengths, they are more susceptible to modern attacks, compromising the overall security of the app.
+- **不十分なエントロピー**: 不十分なエントロピーのランダム性のソースを使用すると、予測可能な暗号鍵につながる可能性があります。
+- **不十分な鍵長**: 短すぎる暗号鍵は不適当なセキュリティを提供します。たとえば、細心のアルゴリズムで推奨される長さより短い鍵はブルートフォース攻撃に脆弱となり、攻撃者が簡単に解読できる可能性があります。
+- **リスクのあるアルゴリズムや破られたアルゴリズムの使用**: 非推奨であったり、リスクがあったり、本質的に破られている暗号アルゴリズムはより弱い鍵の生成につながる可能性があります。これらのアルゴリズムは脆弱性を抱えていたり、短い鍵長しかサポートしていないため、最新の攻撃に影響を受けやすくなり、アプリ全体のセキュリティを損なうことがよくあります。
 
 ## 緩和策
 
