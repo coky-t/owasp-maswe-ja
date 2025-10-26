@@ -18,9 +18,9 @@ status: new
 
 ## 概要
 
-Cryptographic keys are essential for securing sensitive data in mobile applications. However, if these keys are not properly protected at rest, they can be easily compromised. This weakness involves storing cryptographic keys in insecure locations, such as unencrypted SharedPreferences, unprotected files, hardcoding them within the application code, or including them in source control and versioning systems which may end in the final application package in production.
+暗号鍵はモバイルアプリケーションの機密データを保護するために不可欠です。しかし、これらの鍵が保存時に適切に保護されていない場合、簡単に侵害される可能性があります。この弱点は、暗号化されていない SharedPreferences、保護されていないファイルなどの安全でない場所に暗号鍵を保存したり、アプリケーションコード内にハードコードしたり、ソース管理システムやバージョン管理システムに含めることで最終的に本番のアプリケーションパッケージに組み込まれる可能性があることに起因します。
 
-Attackers can decompile or reverse-engineer the app to extract hardcoded keys.
+攻撃者はアプリを逆コンパイルやリバースエンジニアして、ハードコードされた鍵を抽出できます。
 
 ## 影響
 
