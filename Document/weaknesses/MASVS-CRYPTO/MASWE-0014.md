@@ -30,9 +30,9 @@ status: new
 
 ## 流入の形態
 
-- **Insecure Storage Locations**: Storing cryptographic keys in unencrypted SharedPreferences, unprotected files, or other insecure locations.
-- **Hardcoded Keys**: Including cryptographic keys directly in the application code, making them susceptible to extraction through decompilation and reverse-engineering.
-- **Lack of Encryption**: Exporting cryptographic keys in plain text without encrypting them using a secure method.
+- **安全でない保存場所**: 暗号化されていない SharedPreferences、保護されていないファイル、その他の安全でない場所に暗号鍵を保存すること。
+- **ハードコードされた鍵**: アプリケーションコードに暗号鍵を直接含めること。逆コンパイルやリバースエンジニアリングを通じて抽出の影響を受けやすくなります。
+- **暗号化の欠如**: 安全な手法を使用した暗号化なしで、暗号鍵を平文にエクスポートすること。
 
 ## 緩和策
 
