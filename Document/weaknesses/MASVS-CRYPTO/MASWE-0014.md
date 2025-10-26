@@ -24,9 +24,9 @@ status: new
 
 ## 影響
 
-- **Unauthorized Access**: If cryptographic keys are not properly protected, attackers may gain unauthorized access to sensitive data and potential identity theft.
-- **Loss of Integrity**: Compromised keys can allow attackers to tamper with encrypted data.
-- **Loss of Confidentiality**: Sensitive information can be exposed, resulting in a loss of confidentiality. Once keys are exposed, all data encrypted with those keys is at risk.
+- **不正アクセス**: 暗号鍵が適切に保護されていない場合、攻撃者は機密データに不正アクセスし、アイデンティティ窃取の可能性があります。
+- **完全性の喪失**: 鍵が侵害されると、攻撃者は暗号化されたデータを改竄できる可能性があります。
+- **機密性の喪失**: 機密情報がさらされると、機密性の喪失をもたらす可能性があります。鍵がさらされると、その鍵で暗号化されたすべてのデータが危険にさらされます。
 
 ## 流入の形態
 
