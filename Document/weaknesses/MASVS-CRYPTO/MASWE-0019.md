@@ -50,7 +50,7 @@ refs:
 
 ## 緩和策
 
-- **Use standard cryptographic libraries and avoid custom cryptography**: Avoid developing custom cryptographic algorithms or protocols. Always prefer well-established and widely accepted cryptographic libraries such as OpenSSL, BoringSSL, or platform-specific libraries such as Android's Conscrypt and Apple's CryptoKit. These libraries have undergone extensive testing and are regularly updated to address new security threats.
+- **標準の暗号ライブラリを使用し、カスタム暗号を避ける**: カスタム暗号アルゴリズムやプロトコルの開発は避けます。OpenSSL、BoringSSL などの十分に確立されて広く受け入れられている暗号ライブラリ、または Android の Conscrypt や Apple の CryptoKit などのプラットフォーム固有のライブラリを常に優先します。これらのライブラリは広範のテストを受け、新たなセキュリティ脅威に対処するために定期的に更新されています。
 
-- **Ensure compliance with security standards**: If you can't avoid using custom cryptography, make sure it's implemented to meet industry standards such as FIPS 140-2/3 (Federal Information Processing Standards) or the latest National Institute of Standards and Technology (NIST) recommendations.
-- **Perform periodic security audits**: If using custom cryptography is unavoidable, perform regular security audits (including thorough code reviews) to identify and remediate any flaws in your custom cryptographic implementations. Engage external security experts to provide an unbiased assessment.
+- **セキュリティ標準への準拠を確認する**: カスタム暗号の使用を避けられない場合は、FIPS 140-2/3 (Federal Information Processing Standards) や最新の National Institute of Standards and Technology (NIST) の推奨事項などの業界標準を満たすように実装されていることを確認します。
+- **定期的にセキュリティ監査を実施する**: カスタム暗号の使用が避けられない場合は、定期的なセキュリティ監査 (徹底的なコードレビューを含む) を実施し、カスタム暗号実装の欠陥を特定して修復します。外部のセキュリティ専門家に依頼し、公平な評価を受けます。
