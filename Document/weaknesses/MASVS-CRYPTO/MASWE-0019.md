@@ -42,11 +42,11 @@ refs:
 
 ## 流入の形態
 
-- **Deviation from standard libraries**: Not using well-known libraries for cryptography, such as those provided by the platforms like Conscrypt or CryptoKit, or other well-established libraries like OpenSSL, BouncyCastle, etc.
-- **Use of cryptographic constants**: Hardcoded cryptographic constants are typically used to implement cryptographic algorithms. These constants include S-boxes (substitution boxes) for block ciphers, permutation tables, etc.
-- **Use of low-level mathematical operations**: Low-level mathematical operations (such as bitwise operations, shifts, custom padding schemes) typically used in cryptographic algorithms.
-- **High entropy code**: An indicator of cryptographic implementations or heavily obfuscated code that may hide cryptographic algorithms from reverse engineering.
-- **Use of non-cryptographic functions**: Non-cryptographic functions such as Base64 encoding or XOR instead of encryption.
+- **標準ライブラリからの逸脱**: Conscrypt や CryptoKit などのプラットフォームによって提供されるライブラリや、OpenSSL、BouncyCastle などの他の十分に確立されたライブラリを使用していません。
+- **暗号定数の使用**: ハードコードされた暗号定数は一般的に暗号アルゴリズムの実装に使用されます。これらの定数には、ブロック暗号の S ボックス (置換ボックス)、順列表などがあります。
+- **低レベル算術演算の使用**: 暗号アルゴリズムで一般的に使用される低レベル算術演算 (ビット演算、シフト、カスタムパディングスキームなど)。
+- **高エントロピーコード**: 暗号実装または、暗号アルゴリズムをリバースエンジニアリングから隠す可能性のある高度に難読化されたコードの指標。
+- **非暗号関数の使用**: 暗号化の代わりの Base64 エンコーディングや XOR などの非暗号関数。
 
 ## 緩和策
 
