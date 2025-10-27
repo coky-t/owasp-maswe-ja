@@ -29,7 +29,7 @@ refs:
 
 ## 概要
 
-Risky or noncompliant cryptographic implementations, such as those that do not meet established security standards such as FIPS 140-2/3 (Federal Information Processing Standards), may use algorithms that have not been sufficiently tested or that lack certification, may not follow best practices for secure key management, or may include custom cryptographic solutions that haven't undergone rigorous peer review or formal validation.
+リスクのある暗号実装、または、FIPS 140-2/3 (Federal Information Processing Standards) などの確立されたセキュリティ標準を満たしていないものなどの非準拠の暗号実装は、十分にテストされていないアルゴリズムや認定を受けていないアルゴリズムを使用する可能性があり、安全な鍵管理のベストプラクティスに従っていない可能性があり、厳密なピアレビューや形式検証を受けていないカスタム暗号ソリューションを含む可能性があります。
 
 ## 影響
 
