@@ -33,12 +33,12 @@ refs:
 
 ## 影響
 
-Custom cryptographic implementations created without following established standards make them more susceptible to attacks such as brute force or differential cryptanalysis. In addition, cryptography is notoriously difficult to implement correctly, and even small errors in a custom solution, such as incorrect padding or faulty random number generation, can completely undermine the security of the system, exposing sensitive data to attackers.
+確立された標準に従わずに作成されたカスタム暗号実装はブルートフォースや差分暗号解析などの攻撃の影響を受けやすくなります。さらに、暗号を正しく実装することは非常に困難であり、正しくないパディングや欠陥のある乱数生成といった、カスタムソリューションの小さなエラーでさえ、システムのセキュリティを完全に弱体化する可能性があり、攻撃者に機密データをさらす可能性があります。
 
-The impact associated with such defects can be very broad and difficult to predict or measure:
+そのような欠陥に伴う影響は非常に広範に及ぶ可能性があり、予測や測定が困難になります。
 
-- **Data breaches**: Risky cryptography implementations can lead to unauthorized access to sensitive data, resulting in data breaches.
-- **Compromised confidentiality, integrity, and authenticity**: The core principles of cryptography (confidentiality, integrity, and authenticity) are compromised. Attackers can decrypt, manipulate, or impersonate legitimate users or systems.
+- **データ侵害**: リスクのある暗号実装は機密データの不正アクセスにつながり、データ侵害をもたらす可能性があります。
+- **機密性、完全性、真正性の侵害**: 暗号の主要な原則 (機密性、完全性、真正性) が侵害されます。攻撃者は、正当なユーザーやシステムを復号、操作、なりすますことが可能です。
 
 ## 流入の形態
 
