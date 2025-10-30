@@ -30,11 +30,11 @@ status: new
 
 ## 流入の形態
 
-- **Broken Algorithms**: Relying on broken encryption algorithms (i.e., that are deprecated or disallowed by NIST or other standards) such as RC4.
-- **Risky Algorithm Configurations**: Using IVs with insufficient entropy or reusing them in modes like AES-CBC or AES-CTR breaks semantic security, allowing attackers to detect patterns or recover plaintext differences. In AEAD modes like AES-GCM, reusing nonces or using authentication tags of insufficient length compromises both confidentiality and integrity.
-- **Broken Modes of Operation**: Using modes that are considered broken. For example, AES-ECB is broken due to practical known-plaintext attacks and it's disallowed by NIST.
-- **Insufficient Key Length**: The use of insufficient key sizes (e.g., 128-bit keys in AES) can compromise encryption strength making the encryption susceptible to brute-force attacks.
-- **Non-Cryptographic Operations**: Relying on techniques such as XOR, Base64 encoding, or simple obfuscation methods for security purposes. These methods provide no actual encryption and can be easily reversed or decoded, exposing sensitive data.
+- **破られたアルゴリズム**: RC4 などの破られた暗号アルゴリズム (つまり、NIST や他の標準で非推奨または禁止されているもの) に依存しています。
+- **リスクのあるアルゴリズム構成**: 不十分なエントロピーの IV を使用したり、AES-CBC や AES-CTR などのモードで再使用すると、セマンティックセキュリティを損ない、攻撃者がパターンを検出したり、平文の差分を復元できるようになります。AES-GCM などの AEAD モードでは、ノンスの再使用や不十分な長さの認証タグを使用することで、機密性と完全性の両方を損ないます。
+- **破られた動作モード**: 破られたとみなされるモードを使用しています。たとえば、AES-ECB は実用的な既知平文攻撃により破られており、NIST によって禁止されています。
+- **不十分な鍵長**: 不十分な鍵サイズ (AES で 128 ビット鍵など) を使用すると暗号強度を損ない、その暗号はブルートフォース攻撃の影響を受けやすくなります。
+- **非暗号操作**: セキュリティ上の理由から、XOR、Base64 エンコーディング、単純な難読化手法などの技法に依存しています。これらの手法は実際の暗号化を提供せず、簡単に復元またはデコードされ、機密データをさらす可能性があります。
 
 ## 緩和策
 
