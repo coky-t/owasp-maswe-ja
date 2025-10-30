@@ -25,8 +25,8 @@ status: new
 
 ## 影響
 
-- **Loss of Confidentiality**: Improper encryption may enable attackers to decipher and obtain sensitive information, resulting in unauthorized exposure and possible data breaches.
-- **Loss of Integrity**: Improper encryption can compromise the integrity of data, allowing adversaries to alter or manipulate the information without detection.
+- **機密性の喪失**: 不適切な暗号化は、攻撃者が機密情報を解読して入手でき、不正な開示やデータ侵害につながる可能性があります。
+- **完全性の喪失**: 不適切な暗号化はデータの完全性を損ない、攻撃者が検出されずに情報を改竄や操作できるようになります。
 
 ## 流入の形態
 
