@@ -38,7 +38,7 @@ status: new
 
 ## 緩和策
 
-- **Use Secure Encryption Modes**: Choose secure modes (e.g. approved by NIST) such as `AES/GCM/NoPadding`.
-- **Ensure Proper Initialization Vector Management**: Generate IVs using cryptographically secure random number generators (with sufficient entropy) and ensure they are unique for every operation.
-- **Use Sufficiently Long Keys**: Enforce sufficiently long keys such as those approved by NIST, e.g., a minimum of 256 bits for AES.
-- **Rely on Proper Cryptographic Primitives**: Rely on well-vetted cryptographic primitives that have undergone rigorous peer review and formal validation.
+- **安全な暗号モードを使用する**: `AES/GCM/NoPadding` などの安全なモード (NIST により承認済みなど) を選択します。
+- **適切な初期ベクトル管理を確保する**: 暗号論的に安全な擬似乱数生成器 (十分なエントロピーを持つ) を使用して IV を生成し、IV がすべての操作で一意であるようにします。
+- **十分に長い鍵を使用する**: AES では最小 256 ビットなど、NIST により承認されているような十分に長い鍵を適用します。
+- **適切な暗号プリミティブに依存する**: 厳格なビアレビューと形式検証を受けた、十分に精査された暗号プリミティブに依存します。
