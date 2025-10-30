@@ -68,7 +68,7 @@
 - MASVS-PLATFORM: プラットフォーム連携
   - [MASWE-0053 ユーザーインタフェースから漏洩した機密データ (Sensitive Data Leaked via the User Interface)](Document/weaknesses/MASVS-PLATFORM/MASWE-0053.md)
   - [MASWE-0054 通知から漏洩した機密データ (Sensitive Data Leaked via Notifications)](Document/weaknesses/MASVS-PLATFORM/MASWE-0054.md)
-  - [MASWE-0055 スクリーンショットから漏洩した機密データ (Sensitive Data Leaked via Screenshots)](Document/weaknesses/MASVS-PLATFORM/MASWE-0055.md)
+  - [MASWE-0055 スクリーンショットまたはスクリーン録画から漏洩した機密データ (Sensitive Data Leaked via Screenshots or Screen Recordings)](Document/weaknesses/MASVS-PLATFORM/MASWE-0055.md)
   - [MASWE-0056 タップジャッキング攻撃 (Tapjacking Attacks)](Document/weaknesses/MASVS-PLATFORM/MASWE-0056.md)
   - [MASWE-0057 StrandHogg 攻撃 / タスクアフィニティ脆弱性 (StrandHogg Attack / Task Affinity Vulnerability)](Document/weaknesses/MASVS-PLATFORM/MASWE-0057.md)
   - [MASWE-0058 安全でないディープリンク (Insecure Deep Links)](Document/weaknesses/MASVS-PLATFORM/MASWE-0058.md)

@@ -85,7 +85,7 @@ This is the unofficial Japanese translation of the [OWASP Mobile Application Sec
 
 - [MASWE-0053](Document/weaknesses/MASVS-PLATFORM/MASWE-0053.md) ユーザーインタフェースから漏洩した機密データ (Sensitive Data Leaked via the User Interface)
 - [MASWE-0054](Document/weaknesses/MASVS-PLATFORM/MASWE-0054.md) 通知から漏洩した機密データ (Sensitive Data Leaked via Notifications)
-- [MASWE-0055](Document/weaknesses/MASVS-PLATFORM/MASWE-0055.md) スクリーンショットから漏洩した機密データ (Sensitive Data Leaked via Screenshots)
+- [MASWE-0055](Document/weaknesses/MASVS-PLATFORM/MASWE-0055.md) スクリーンショットまたはスクリーン録画から漏洩した機密データ (Sensitive Data Leaked via Screenshots or Screen Recordings)
 - [MASWE-0056](Document/weaknesses/MASVS-PLATFORM/MASWE-0056.md) タップジャッキング攻撃 (Tapjacking Attacks)
 - [MASWE-0057](Document/weaknesses/MASVS-PLATFORM/MASWE-0057.md) StrandHogg 攻撃 / タスクアフィニティ脆弱性 (StrandHogg Attack / Task Affinity Vulnerability)
 - [MASWE-0058](Document/weaknesses/MASVS-PLATFORM/MASWE-0058.md) 安全でないディープリンク (Insecure Deep Links)
