@@ -21,7 +21,7 @@ status: new
 
 ## 概要
 
-Improper encryption refers to cryptographic systems or implementations that are vulnerable to attack, allowing unauthorized individuals to decrypt secured data.
+不適切な暗号化は、認可されていない個人が保護されたデータを復号できる、攻撃に対して脆弱な暗号システムや実装を指します。
 
 ## 影響
 
