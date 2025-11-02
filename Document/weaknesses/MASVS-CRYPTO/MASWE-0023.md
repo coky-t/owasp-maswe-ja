@@ -35,8 +35,8 @@ status: new
 
 ## 影響
 
-- **Loss of Integrity**: Attackers can modify ciphertext, exploiting the padding oracle to trick the system into accepting maliciously altered data, leading to unauthorized data modifications.
-- **Loss of Confidentiality**: Attackers can use the padding oracle to iteratively decrypt sensitive information, such as passwords or session tokens, leading to exposure of confidential data.
+- **完全性の喪失**: 攻撃者はパディングオラクルを悪用して暗号文を改変し、システムを騙して悪意を持って改竄されたデータを受け入れさせ、不正なデータ改変につながる可能性があります。
+- **機密性の喪失**: 攻撃者はパディングオラクルを使用して、パスワードやセッショントークンなどの機密情報を反復的に復号し、機密データの開示につながる可能性があります。
 
 ## 流入の形態
 
