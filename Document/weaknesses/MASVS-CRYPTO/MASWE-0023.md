@@ -36,13 +36,13 @@ status: new
 ## 影響
 
 - **完全性の喪失**: 攻撃者はパディングオラクルを悪用して暗号文を改変し、システムを騙して悪意を持って改竄されたデータを受け入れさせ、不正なデータ改変につながる可能性があります。
-- **機密性の喪失**: 攻撃者はパディングオラクルを使用して、パスワードやセッショントークンなどの機密情報を反復的に復号し、機密データの開示につながる可能性があります。
+- **機密性の喪失**: 攻撃者はパディングオラクルを使用して、パスワードやセッショントークンなどの機密情報を反復的に復号し、機密データの露出につながる可能性があります。
 
 ## 流入の形態
 
-- **Unauthenticated Padding for Symmetric Encryption**: Using padding schemes like PKCS#7 without authenticating the ciphertext (e.g., with HMAC) allows padding oracle attacks in modes like AES-CBC.
-- **Risky Padding in Asymmetric Encryption**: Using schemes like PKCS#1 v1.5 for RSA encryption without strict, uniform handling of invalid ciphertext enables oracle attacks.
-- **Exposure of Cryptographic Errors**: Revealing detailed error messages or timing variations during decryption can leak information exploitable by attackers.
+- **対称暗号における認証されていないパディング**: PKCS#7 などのパディングスキームを暗号文の認証 (HMAC など) なしで使用すると、AES-CBC などのモードでパディングオラクル攻撃を可能にします。
+- **非対称暗号でのリスクのあるパディング**: PKCS#1 v1.5 などのスキームを、無効な暗号文を厳密かつ統一的に処理せずに、RSA 暗号に使用すると、オラクル攻撃を可能にします。
+- **暗号エラーの露出**: 詳細なエラーメッセージや復号時のタイミング変動を明らかにすると、攻撃者によって悪用できる情報を漏洩する可能性があります。
 
 ## 緩和策
 
