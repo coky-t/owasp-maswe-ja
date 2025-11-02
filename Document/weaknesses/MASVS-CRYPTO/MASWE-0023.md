@@ -46,6 +46,6 @@ status: new
 
 ## 緩和策
 
-- **Use Authenticated Symmetric Encryption Modes**: Prefer authenticated encryption modes like AES-GCM, which eliminate the need for separate padding validation and incorporate integrity checks. If AES-CBC must be used, adopt the Encrypt-then-MAC paradigm (e.g., append HMAC). See [NIST SP 800-175B Rev.1, Section 4.3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175Br1.pdf).
-- **Use Secure Padding Schemes for Asymmetric Encryption**: Replace risky schemes like PKCS#1 v1.5 with secure ones such as OAEP (Optimal Asymmetric Encryption Padding). See [NIST SP 800-56B Rev.2, Section 7.2.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-56Br2.pdf).
-- **Don't Expose Cryptographic Errors**: Do not expose cryptographic error messages, such as padding errors, to users. This prevents attackers from gaining clues about the padding's correctness.
+- **認証付き対称暗号モードを使用する**: AES-GCM など、個別のパディングバリデーションをなくし、完全性チェックを組み込んでいる、認証付き暗号モードを選択します。AES-CBC を使用する必要がある場合は、Encrypt-then-MAC パラダイム (HMAC を付け加えるなど) を採用します。[NIST SP 800-175B Rev.1, Section 4.3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175Br1.pdf) を参照してください。
+- **非対称暗号には安全なパディングスキームを使用する**: PKCS#1 v1.5 などのリスクのあるスキームを OAEP (Optimal Asymmetric Encryption Padding) などの安全なものに置き換えます。[NIST SP 800-56B Rev.2, Section 7.2.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-56Br2.pdf) を参照してください。
+- **暗号エラーを公開しない**: パディングエラーなどの暗号エラーメッセージをユーザーに公開してはいけません。これは攻撃者がパディングの正確性に関する手がかりを得ることを防ぎます。
