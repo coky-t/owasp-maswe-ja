@@ -24,14 +24,14 @@ status: new
 
 ## 概要
 
-[Padding oracle attacks](https://www.usenix.org/legacy/event/woot10/tech/full_papers/Rizzo.pdf) are a type of side-channel exploit that lets attackers decrypt or manipulate data **without** knowing the key. These attacks aren't due to the padding scheme bring broken itself, they arise when the app reveals whether a padding error occurred (through error messages or timing differences), creating an **oracle**. By submitting modified ciphertexts and observing the app's response, an attacker can gradually recover plaintext or forge ciphertext, compromising both confidentiality and integrity.
+[パディングオラクル攻撃](https://www.usenix.org/legacy/event/woot10/tech/full_papers/Rizzo.pdf) はサイドチャネルエクスプロイトの一種であり、攻撃者が鍵を知ること **なしで** データを復号または操作できます。これらの攻撃はパディングスキーム自体が破綻することによるものではなく、アプリがパディングエラーが発生したかどうかを (エラーメッセージやタイミングのずれを通じて) 明らかにし、**オラクル** を作成することで発生します。改変された暗号文を送信し、アプリのレスポンスを観察することで、攻撃者は段階的に平文を復元したり、暗号文を偽造でき、機密性と完全性の両方を侵害します。
 
-Below are two common examples of cryptographic contexts where risky padding can become a problem:
+以下は、リスクのあるパティングが問題になる可能性がある、暗号コンテキストの二つの一般的な例です。
 
-- **Symmetric Cryptography**: In block cipher modes (e.g., AES-CBC), **PKCS#7 padding** is widely used and it's not broken (not disallowed by NIST). However, it becomes vulnerable to padding oracle attacks if the system leaks detailed error messages or timing differences. To mitigate this, cryptographers often use **authenticated encryption modes** like AES-GCM or pair AES-CBC with a separate integrity check (e.g., HMAC in an Encrypt-then-MAC scheme).
-- **Asymmetric Cryptography**: With RSA, **PKCS#1 v1.5** is known to be susceptible to attacks such as [Bleichenbacher](https://link.springer.com/content/pdf/10.1007/BFb0055716.pdf) (based on padding oracles). This older scheme is now discouraged or disallowed by various standards (for example, see [RFC 8017, Section 7.2](https://datatracker.ietf.org/doc/html/rfc8017#section-7.2) from November 2016 or [NIST SP 800-131A Rev.2, Section 6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) from March 2019).
+- **対称暗号**: ブロック暗号モード (AES-CBC など) では、**PKCS#7 パティング** が広く使用されており、破られてはいません (NIST によって禁止されていません)。しかし、システムが詳細なエラーメッセージやタイミングのずれを漏洩した場合、パティングオラクル攻撃に対して脆弱になります。これを緩和するには、暗号学者は AES-GCM などの **認証付き暗号モード** を使用するか、AES-CBC を別の完全性チェック (Encrypt-then-MAC スキームの HMAC など) とペアにすることがよくあります。
+- **非対称暗号**: RSA では、**PKCS#1 v1.5** は [Bleichenbacher](https://link.springer.com/content/pdf/10.1007/BFb0055716.pdf) のような (パティングオラクルに基づく) 攻撃 の影響を受けやすいことが知られています。この古いスキームは現在さまざまな標準 (たとえば、2016 年 11 月の [RFC 8017, Section 7.2](https://datatracker.ietf.org/doc/html/rfc8017#section-7.2) や 2019 年 3 月の [NIST SP 800-131A Rev.2, Section 6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) を参照) で非推奨または禁止されています。
 
-However, simply using a padding scheme susceptible to padding oracle attacks does not guarantee a vulnerability. As mentioned above, the app must **also** leak information (the "oracle") that indicates whether a padding error has occurred. If both conditions are met, attackers can use these signals to recover sensitive data or to craft malicious ciphertext.
+しかし、パティングオラクル攻撃を受けやすいパディングスキームを使用するだけでは、脆弱性を保証していません。上述のように、アプリは、パディングエラーが発生したかどうかを示す情報 (「オラクル」) を漏洩すること **も** 必要です。両方の条件が満たされる場合、攻撃者はこれらのシグナルを使用して機密データを復元したり、悪意のある暗号文を作成できます。
 
 ## 影響
 
