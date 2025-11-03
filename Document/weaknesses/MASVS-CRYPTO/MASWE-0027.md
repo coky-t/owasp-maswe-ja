@@ -21,7 +21,7 @@ status: new
 
 ## 概要
 
-A [pseudorandom number generator (PRNG)](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) algorithm generates sequences based on a seed with insufficient entropy that may be predictable. Common implementations are not cryptographically secure. For example, they typically use a linear congruential formula, allowing an attacker to predict future outputs, given enough observed outputs. Therefore, it is not suitable for security-critical applications or protecting sensitive data.
+[擬似乱数生成器 (PRNG)](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) アルゴリズムは、予測可能なエントロピーが不十分なシードに基づいてシーケンスを生成します。一般的な実装は暗号論的に安全ではありません。たとえば、一般的に線形合同法を使用するため、十分な観測出力があれば、攻撃者が将来の出力を予測できます。したがって、セキュリティが重要なアプリケーションや機密データの保護には適していません。
 
 ## 影響
 
