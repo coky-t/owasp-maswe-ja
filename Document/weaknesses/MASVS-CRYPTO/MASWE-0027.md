@@ -29,8 +29,8 @@ status: new
 
 ## 流入の形態
 
-- **Risky Random APIs**: The app may use many existing APIs to generate random numbers with insufficient entropy.
-- **Non-random Sources**: The app may use custom methods to create "supposedly random" values, using non-random sources such as the current time.
+- **リスクのあるランダム API**: アプリは多くの既存 API を使用し、不十分なエントロピーの乱数を生成します。
+- **非ランダムソース**: アプリは、現在の時刻などの非ランダムソースを使用して、「ランダムと考えられる」値を作成するカスタムメソッドを使用する可能性があります。
 
 ## 緩和策
 
