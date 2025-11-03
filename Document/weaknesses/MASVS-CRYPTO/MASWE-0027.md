@@ -25,7 +25,7 @@ status: new
 
 ## 影響
 
-- **Bypass Protection Mechanism**: Using a non-cryptographically secure PRNG in a security context, such as authentication, poses significant risks. An attacker could potentially guess the generated numbers and gain access to privileged data or functionality. Predicting or regenerating random numbers can lead to encryption breaches, compromise sensitive user information, or enable user impersonation.
+- **保護メカニズムのバイパス**: 認証などのセキュリティコンテキストで、暗号論的に安全でない PRNG を使用すると、重大なリスクを引き起こします。攻撃者は生成された数値を推測し、特権データや機能にアクセスできる可能性があります。乱数を予測または再生成すると、暗号の侵害、機密性の高いユーザー情報の漏洩、ユーザーのなりすましにつながる可能性があります。
 
 ## 流入の形態
 
