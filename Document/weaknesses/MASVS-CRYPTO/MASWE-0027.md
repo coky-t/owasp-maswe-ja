@@ -34,8 +34,8 @@ status: new
 
 ## 緩和策
 
-For security-relevant contexts, use cryptographically secure random numbers.
+セキュリティ関連のコンテキストでは、暗号論的に安全な乱数を使用します。
 
-In general, it is strongly recommended not to use any random function in a deterministic way, even if it's a secure one, especially those involving hardcoded seed values (which are vulnerable to exposure by decompilation).
+一般的に、たとえ安全なものであっても、特にハードコードされたシード値 (逆コンパイルによってさらされる脆弱となる) を含む、ランダム関数を決定論的な方法で使用しないことを強く推奨します。
 
-Refer to the [RFC 1750 - Randomness Recommendations for Security](https://www.ietf.org/rfc/rfc1750.txt) and the [OWASP Cryptographic Storage Cheat Sheet - Secure Random Number Generation](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html#secure-random-number-generation) for more information and recommendations on random number generation.
+乱数生成に関する詳細情報と推奨事項については [RFC 1750 - Randomness Recommendations for Security](https://www.ietf.org/rfc/rfc1750.txt) および [OWASP Cryptographic Storage Cheat Sheet - Secure Random Number Generation](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html#secure-random-number-generation) を参照してください。
