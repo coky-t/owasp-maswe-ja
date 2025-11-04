@@ -22,11 +22,11 @@ refs:
 
 ## 影響
 
-Hardcoding API keys in the app can lead to a variety of security issues, including but not limited to:
+アプリに API キーをハードコードすると、さまざまなセキュリティ問題につながる可能性があります。以下がありますが、それらに制限されません。
 
-- **Financial Loss**: Attackers can exploit the compromised hardcoded API keys to make unauthorized API calls and abuse services that are billed on a per-use basis (e.g., AI or ML API services), resulting in unexpected charges to the app owner.
-- **Compromise of System Integrity and Business Operations**: Extracted API keys can give attackers unauthorized access to sensitive resources and services. This directly impacts developers and enterprises by compromising app integrity, privacy, and service continuity - potentially leading to disruptions such as Denial of Service (DoS) or service suspension due to policy violations. Such incidents can significantly impact the user experience, erode user trust, and negatively impact business reputation and operations.
-- **Bypass Protection Mechanism**: Hardcoded API keys can make it easier to bypass app protection mechanisms. Attackers can use this to access restricted content, cheat in app functionality, or unlock features that are intended for purchase, impacting both revenue and user experience.
+- **金銭的損失**: 攻撃者は、ハードコードされた API キーを侵害して悪用し、不正な API 呼び出しを行い、使用量に応じて課金されるサービス (AI または ML API サービスなど) を不正使用し、アプリ所有者に予期せぬ請求をもたらす可能性があります。
+- **システム完全性とビジネス業務の侵害**: 抽出された API キーは、攻撃者に機密性の高いリソースやサービスへの不正アクセスを与える可能性があります。これは、アプリの完全性、プライバシー、サービスの継続性を侵害することで、開発者や企業に直接的な影響を与え、サービス拒否 (DoS) やポリシー違反によるサービス停止などの混乱につながる可能性があります。このようなインシデントはユーザーエクスペリエンスに重大な影響を及ぼし、ユーザーの信頼を失墜し、ビジネスの評判や業務に悪影響を及ぼす可能性があります。
+- **保護メカニズムのバイパス**: ハードコードされた API キーはアプリの保護メカニズムのバイパスを容易にする可能性があります。攻撃者はこれを使用して、制限されたコンテンツにアクセスしたり、アプリ機能に不正操作したり、有料を意図した機能をロック解除でき、収益とユーザーエクスペリエンスの両方に影響を及ぼします。
 
 ## 流入の形態
 
