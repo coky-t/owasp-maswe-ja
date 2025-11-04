@@ -18,7 +18,7 @@ refs:
 
 ## 概要
 
-API keys hardcoded in the app package, source code, or compiled binaries, can be easily extracted through reverse engineering.
+アプリパッケージ、ソースコード、またはコンパイルされたバイナリにハードコードされた API キーは、リバースエンジニアリングによって簡単に抽出できます。
 
 ## 影響
 
