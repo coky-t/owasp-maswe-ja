@@ -30,11 +30,11 @@ refs:
 
 ## 流入の形態
 
-API keys can be hardcoded in several areas:
+API キーは以下の複数の領域にハードコードできます。
 
-- **App Source Code**: directly embedded in the app source code.
-- **App Assets**: included in files that are destined for the final deliverable app package (typically APK/IPA), such as configuration files, manifest files, and resource files.
-- **Libraries**: configuration files or source code for third-party, first-party libraries or any other app dependencies.
+- **アプリのソースコード**: アプリのソースコードに直接埋め込まれます。
+- **アプリのアセット**: 設定ファイル、マニフェストファイル、リソースファイルなど、最終的に配布するアプリパッケージ (一般的に APK/IPA) に同梱されるファイルに含まれます。
+- **ライブラリ**: サードパーティ、ファーストパーティのライブラリやその他のアプリ依存関係の構成ファイルやソースコード。
 
 ## 緩和策
 
