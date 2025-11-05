@@ -13,16 +13,16 @@ status: new
 
 ## 概要
 
-[Identity pinning (aka. certificate pinning, public key pinning or TLS pinning)](../../Document/0x04f-Testing-Network-Communication.md/#restricting-trust-identity-pinning) refers to associating a mobile app with a specific cryptographic identity, such as a certificate or public key to ensure that the app only communicates with trusted servers.
+[アイデンティティピン留め (別名、証明書ピン留め、公開鍵ピン留め、TLS ピン留め)](https://github.com/coky-t/owasp-mastg-ja/blob/master/Document/0x04f-Testing-Network-Communication.md#restricting-trust-identity-pinning) は、モバイルアプリを証明書や公開鍵などの特定の暗号アイデンティティに関連付け、アプリが信頼できるサーバーとのみ通信するように確保することを指します。
 
-When a mobile app does not implement certificate pinning, or if it is implemented incorrectly, the app remains vulnerable to [Machine-in-the-Middle (MITM)](../../Document/0x04f-Testing-Network-Communication.md#intercepting-network-traffic-through-mitm) attacks which enable attackers to intercept and modify the communication between the app and the intended server. This occurs because when the app is presented a fraudulent certificate that the app may unknowingly trust, thereby gaining access to sensitive data or injecting malicious content into the data stream.
+モバイルアプリが証明書ピン留めを実装しない場合、または正しく実装されていない場合、アプリは [中間マシン (MITM)](https://github.com/coky-t/owasp-mastg-ja/blob/master/Document/0x04f-Testing-Network-Communication.md#intercepting-network-traffic-through-mitm) 攻撃に脆弱なままとなり、攻撃者はアプリと意図したサーバー間の通信を傍受して改変することができます。これは、アプリが不正な証明書を提示され、アプリがそれを知らないうちに信頼してしまう場合に発生し、それによって機密データにアクセスしたり、データストリームに悪意のあるコンテンツを注入する可能性があります。
 
-**Limitations**: Certificate pinning adds a layer of trust verification by ensuring that the app only accepts connections to servers with specific, pre-determined certificates or public keys. This reduces the risk of unauthorized interception, even if a trusted Certificate Authority (CA) is compromised. However, it is not foolproof:
+**制限事項**: 証明書ピン留めは、アプリが特定の事前定義された証明書または公開鍵を持つサーバーへの接続のみを受け入れるようにすることで、信頼性の検証レイヤを追加します。これは、信頼できる証明機関 (CA) が侵害された場合でも、不正な傍受のリスクを軽減します。ただし、これは確実ではありません。
 
-- Attackers who can reverse-engineer the app may analyze and remove or modify the pre-defined pins or the certificate pinning logic to permanently bypass the checks.
-- Attackers who can perform @MASTG-TECH-0051 techniques to manipulate the app and bypass pinning checks.
+- アプリをリバースエンジニアできる攻撃者は、事前定義された PIN や証明書ピン留めロジックを解析し、削除または改変して、そのチェックを恒久的にバイパスします。
+- [改竄と実行時計装 (Tampering and Runtime Instrumentation)](https://github.com/coky-t/owasp-mastg-ja/blob/master/techniques/generic/MASTG-TECH-0051.md) 技法を実行できる攻撃者は、アプリを操作してピン留めチェックをバイパスします。
 
-This highlights the importance of implementing certificate pinning **alongside other security measures** to enhance the app's resistance to advanced threats.
+これは、高度な教に対するアプリの耐性を強化するために、**他のセキュリティ対策と併せて** 証明書ピン留めを実装することの重要性を浮き彫りにしています。
 
 ## 影響
 
