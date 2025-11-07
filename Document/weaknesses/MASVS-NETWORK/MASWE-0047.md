@@ -33,10 +33,10 @@ status: new
 
 ## 流入の形態
 
-- **Improper Configuration of Pinning Libraries**: Misconfiguring libraries like TrustKit, OkHttp's `CertificatePinner`, Volley, or AFNetworking's `SSLPinningMode`, leading to ineffective pinning.
-- **Dynamic Pinning without Security**: Retrieving pins dynamically over insecure channels without proper validation, making it easy for attackers to supply malicious pins.
-- **Improper Validation Logic**: Custom pinning implementations that do not correctly validate the certificate chain or public key. For example, accepting any certificate that chains to a trusted root CA instead of a specific certificate or public key.
-- **Lack of Backup Pins**: Not including backup pins to prevent connectivity issues if the primary pin is no longer valid.
+- **ピン留めライブラリの不適切な構成**: TrustKit、OkHttp の `CertificatePinner`、Volley、AFNetworking の `SSLPinningMode` などのライブラリを構成ミスして、効果のないピン留めにつながります。
+- **セキュリティなしでの動的なピン留め**: 適切なバリデーションなしで安全でないチャネル経由で動的にピンを取得することで、攻撃者が悪意のあるピンを容易に提供できるようになります。
+- **不適切なバリデーションロジック**: 証明書チェーンや公開鍵を正しく検証しないカスタムピン留め実装。たとえば、特定の証明書や公開鍵ではなく、信頼されているルート CA にチェーンしている証明書をすべて受け入れます。
+- **バックアップピンの欠如**: プライマリピンが有効ではなくなった場合に接続の問題を防ぐためのバックアップピンを含めていません。
 
 ## 緩和策
 
