@@ -26,10 +26,10 @@ status: new
 
 ## 影響
 
-- **Data Interception**: Attackers can capture and read sensitive information transmitted over the network.
-- **Data Manipulation**: Attackers might alter data in transit, causing corruption or injecting malicious content.
-- **Data Exposure**: Sensitive information can be compromised.
-- **Denial of Service**: Incorrect pinning may cause legitimate connections to fail, leading to service disruptions for users. For example, if a pinned certificate expires and is not updated, the app may be unable to establish secure connections.
+- **データ傍受**: 攻撃者はネットワーク経由で送信される機密情報を捕捉して読み取ることができます。
+- **データ操作**: 攻撃者は転送時のデータを改変し、破損を引き起こしたり、悪意のあるコンテンツを注入する可能性があります。
+- **データ露出**: 機密情報が侵害される可能性があります。
+- **サービス拒否**: 不正確なピン留めは正当な接続が失敗し、ユーザーへのサービス中断につながる可能性があります。たとえば、ピン留めされた証明書が有効期限切れして更新されていない場合、アプリは安全な接続を確立できない可能性があります。
 
 ## 流入の形態
 
