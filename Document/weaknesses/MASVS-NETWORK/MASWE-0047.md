@@ -40,10 +40,10 @@ status: new
 
 ## 緩和策
 
-- **Prefer Platform-provided Solutions**: Use platform-provided mechanisms like Android's Network Security Configuration (NSC) or iOS's App Transport Security (ATS) to enforce pinning.
-- **Use Trusted Pinning Libraries**: Refrain from writing custom pinning logic; instead, rely on established and well-maintained libraries and frameworks (e.g., TrustKit, OkHttp's `CertificatePinner`) and ensure they are correctly configured according to best practices.
-- **Secure Dynamic Pinning**: If dynamic pinning is necessary, retrieve pins over secure channels and validate them thoroughly before use.
-- **Pin to Public Keys Instead of Certificates**: Pin to the certificate's public key rather than the whole certificate to avoid issues regarding expiration and renewals.
-- **Consistent Enforcement**: Apply pinning uniformly for all connections to servers that you control.
-- **Regularly Update Pins**: Keep the pinned certificates or public keys up to date with the server's current configuration and have a process for updating the app when changes occur.
-- **Implement Backup Pins**: Include backup pins (hashes of additional trusted public keys) to prevent connectivity issues if the primary key changes.
+- **プラットフォーム提供のソリューションを優先する**: Android の Network Security Configuration (NSC) や iOS の App Transport Security (ATS) などのプラットフォーム提供のメカニズムを使用して、ピン留めを強制します。
+- **信頼できるピン留めライブラリを使用する**: カスタムのピン留めロジックを作成することは控え、代わりに、確立され十分に保守されているライブラリやフレームワーク (TrustKit, OkHttp の `CertificatePinner` など) に依存し、ベストプラクティスに従って正しく構成されることを確保します。
+- **安全な動的ピン留め**: 動的ピン留めが必要な場合、安全なチャネル経由でピンを取得し、使用前に徹底的に検証します。
+- **証明書ではなく公開鍵をピン留めする**: 証明書全体ではなく証明書の公開鍵をピン留めし、有効期限切れや更新に関する問題を避けます。
+- **一貫した適用**: 制御するサーバーへのすべての接続に一様にピン留めを適用します。
+- **ピンを定期的に更新する**: ピン留めされた証明書や公開鍵をサーバーの現在の構成に合わせて最新に保ち、変更が発生した際にアプリを更新するプロセスを用意します。
+- **バックアップピンを実装する**: バックアップピン (追加の信頼できる公開鍵のハッシュ) を含めて、プライマリ鍵が変更した際に接続の問題を防ぎます。
