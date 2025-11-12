@@ -12,7 +12,7 @@ status: new
 
 ## 概要
 
-Applications that do not utilize platform-provided networking APIs or well-established security libraries are susceptible to security vulnerabilities. When developers implement custom networking code or "roll-your-own" security mechanisms, they risk introducing flaws due to a lack of deep expertise in cryptography and network security. Platform-provided APIs and libraries, such as `NSURLSession` on iOS or `HttpsURLConnection` on Android, are designed and maintained by experts, incorporating security best practices and regular updates to address new threats and vulnerabilities.
+プラットフォームが提供するネットワーク API や十分に確立されたセキュリティライブラリを利用しないアプリケーションはセキュリティ脆弱性の影響を受けやすくなります。開発者がカスタムネットワークコードや「独自 (roll-your-own)」のセキュリティメカニズムを実装すると、暗号技術やネットワークセキュリティに関する深い専門知識の不足により欠陥をもたらすリスクがあります。iOS の `NSURLSession` や Android の `HttpsURLConnection` などのプラットフォームが提供する API や ライブラリは専門家によって設計され保守されており、セキュリティのベストプラクティスを取り入れ、新たな脅威や脆弱性に対処するために定期的な更新を行っています。
 
 ## 影響
 
