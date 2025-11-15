@@ -16,11 +16,11 @@ status: new
 
 ## 影響
 
-- **Security Vulnerabilities**: Custom networking implementations may contain flaws that attackers can exploit, leading to data breaches and unauthorized access.
-- **Lack of Updates**: Custom code may not receive timely updates to address new vulnerabilities or comply with evolving security standards.
-- **Inconsistent Security Measures**: Bypassing standard APIs can result in inconsistent application of security features like encryption, certificate validation, and error handling.
-- **Increased Development Complexity**: Writing and maintaining custom networking code increases complexity, making it harder to audit and secure the application.
-- **Non-Compliance with Standards**: Failing to use approved APIs may lead to non-compliance with industry regulations and security guidelines.
+- **セキュリティの脆弱性**: カスタムネットワーク実装は攻撃者が悪用できる欠陥を含む可能性があり、データ侵害や不正アクセスにつながる可能性があります。
+- **アップデートの欠如**: カスタムコードは、新たな脆弱性に対処したり、進化するセキュリティ標準に準拠するためのアップデートをタイムリーに受けられない可能性があります。
+- **一貫性のないセキュリティ対策**: 標準 API をバイパスすると、暗号化、証明書バリデーション、エラー処理などのセキュリティ機能が一貫して適用されなくなる可能性があります。
+- **開発の複雑さの増大**: カスタムネットワークコードの作成と保守は複雑さを増し、アプリケーションの監査と保護がより困難になります。
+- **標準への非準拠**: 承認された API を使用しないと、業界の規制やセキュリティガイドラインへの非準拠につながる可能性があります。
 
 ## 流入の形態
 
