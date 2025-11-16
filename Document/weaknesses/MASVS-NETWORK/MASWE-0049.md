@@ -32,7 +32,7 @@ status: new
 
 ## 緩和策
 
-- **Utilize Platform-Provided Networking APIs**: Always use the networking APIs provided by the platform, such as `NSURLSession` for iOS and `HttpsURLConnection` for Android, which handle many security concerns internally.
-- **Adopt Established Security Libraries**: If additional functionality is required, use reputable, well-maintained libraries like `OkHttp` for Android or `Alamofire` on iOS that adhere to security best practices.
-- **Avoid Custom Security Implementations**: Refrain from implementing custom cryptographic algorithms or security protocols; rely on standard, vetted solutions instead.
-- **Keep Dependencies Updated**: Regularly update all libraries and dependencies to incorporate the latest security patches and improvements.
+- **プラットフォームが提供するネットワーク API を活用する**: iOS の `NSURLSession` や Android の `HttpsURLConnection` など、多くのセキュリティ上の懸念を内部で処理する、プラットフォームが提供するネットワーク API を常に使用します。
+- **確立されたセキュリティライブラリを採用する**: 追加の機能が必要とされる場合には、Android の `OkHttp` や iOS の `Alamofire` など、セキュリティベストプラクティスに準拠する、評判がよく、十分に保守されているライブラリを使用します。
+- **カスタムセキュリティ実装を避ける**: カスタムの暗号アルゴリズムやセキュリティプロトコルを実装することは控え、代わりに標準の精査済みソリューションに依存します。
+- **依存関係を最新の状態に保つ**: すべてのライブラリと依存関係を定期的に更新して、最新のセキュリティパッチと改善を組み込みます。
