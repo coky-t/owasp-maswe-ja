@@ -24,11 +24,11 @@ status: new
 
 ## 流入の形態
 
-- **Custom Networking Stack Development**: Developers create their own networking code instead of using platform-provided APIs, possibly to add custom features or due to unfamiliarity with existing APIs.
-- **Use of Insecure Third-Party Libraries**: Incorporating third-party networking libraries that are outdated or do not follow current security best practices.
-- **Bypassing Security Mechanisms**: Deliberately avoiding standard APIs to circumvent security checks, such as certificate pinning or TLS enforcement.
-- **Insufficient Security Knowledge**: Developers may lack adequate understanding of network security principles, leading to insecure implementations.
-- **Performance Optimization Attempts**: Writing custom networking code to optimize performance without fully considering the security implications.
+- **カスタムネットワークスタックの開発**: 開発者は、カスタム機能を追加するため、または既存の API に慣れていないなどにより、プラットフォームが提供する API を使用する代わりに独自のネットワークコードを作成します。
+- **安全でないサードパーティライブラリの使用**: 古くなった、あるいは現在のセキュリティベストプラクティスに従っていないサードパーティネットワークライブラリを組み込んでいます。
+- **セキュリティメカニズムのバイパス**: 証明書のピン留めや TLS の強制などのセキュリティチェックを回避するために、標準 API を意図的に避けています。
+- **不十分なセキュリティ知識**: 開発者はネットワークセキュリティの原則を十分に理解していないため、安全でない実装につながる可能性があります。
+- **パフォーマンス最適化の試み**: セキュリティの影響を十分に考慮せずに、パフォーマンスを最適化するためにカスタムネットワークコードを記述しています。
 
 ## 緩和策
 
