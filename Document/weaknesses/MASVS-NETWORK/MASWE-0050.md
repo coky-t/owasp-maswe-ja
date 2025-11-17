@@ -1,5 +1,5 @@
 ---
-title: �N���A�e�L�X�g�g���t�B�b�N (Cleartext Traffic)
+title: クリアテキストトラフィック (Cleartext Traffic)
 id: MASWE-0050
 alias: cleartext-traffic
 platform: [android, ios]
@@ -29,15 +29,15 @@ refs:
 status: new
 ---
 
-## �T�v
+## 概要
 
-When data is sent in cleartext (i.e. without encryption) it becomes accessible to attackers who can monitor network channels. Attackers can perform passive eavesdropping to intercept data or employ active [Machine-in-the-Middle (MITM)](../../Document/0x04f-Testing-Network-Communication.md#intercepting-network-traffic-through-mitm) attacks to manipulate data, potentially altering app behavior or injecting malicious content.
+データがクリアテキスト (つまり暗号化なし) で送信されると、ネットワークチャネルを監視できる攻撃者がアクセス可能になります。攻撃者は、受動的な盗聴を実行してデータを傍受したり、能動的な [中間マシン (MITM)](https://github.com/coky-t/owasp-mastg-ja/blob/master/Document/0x04f-Testing-Network-Communication.md#intercepting-network-traffic-through-mitm) 攻撃を使用してデータを操作し、アプリの動作を改変したり、悪意のあるコンテンツを注入する可能性があります。
 
-This weakness is especially concerning when sensitive information is transmitted without encryption, putting user privacy and security at direct risk. Even when sensitive data isn't being transmitted, using cleartext communication remains a vulnerability. Network attacks like ARP poisoning and DNS spoofing can allow attackers to intercept or redirect traffic, potentially disrupting app functionality or deceiving users by redirecting them to malicious sites that impersonate legitimate services.
+この弱点は、機密情報が暗号化なしで送信される場合に特に懸念され、ユーザーのプライバシーとセキュリティが直接的なリスクにされされます。機密データが送信されていない場合でも、クリアテキスト通信を使用することは脆弱性を残します。ARP ポイズニングや DNS スプーフィングなどのネットワーク攻撃は、攻撃者がトラフィックを傍受またはリダイレクトすることを可能にして、アプリ機能を妨害したり、正規のサービスを装う悪意のあるサイトにリダイレクトしてユーザーを欺く可能性があります。
 
-If the connections were secured using encryption and proper authentication mechanisms, these attacks would be much harder to perform because the attacker would need to bypass encryption and certificate validation. Secure network protocols not only provide confidentiality but also ensure data integrity and authenticity through encryption and certificate validation, preventing attackers from altering data.
+接続が暗号化と適切な認証メカニズムを使用して保護されていれば、攻撃者は暗号化と証明書バリデーションをバイパスする必要があるため、これらの攻撃は実行がはるかに困難になります。安全なネットワークプロトコルは、機密性を提供するだけでなく、暗号化と証明書バリデーションを通じてデータの完全性と真正性も確保し、攻撃者がデータを改竄することを防ぎます。
 
-## �e��
+## 影響
 
 - **Data Interception**: Attackers can capture and read sensitive information transmitted over the network.
 - **Data Manipulation**: Attackers might alter data in transit, causing corruption or injecting malicious content.
@@ -46,7 +46,7 @@ If the connections were secured using encryption and proper authentication mecha
 - **Regulatory Compliance Violations**: Exposing sensitive data may lead to non-compliance with laws like GDPR or HIPAA, resulting in legal penalties.
 - **Reputation Damage**: Security breaches can erode user trust and harm the organization's reputation.
 
-## �����̌`��
+## 流入の形態
 
 - **Cleartext Traffic Allowed in Platform-provided Settings:** Configuring platform-provided settings (e.g. Network Security Configuration on Android or App Transport Security on iOS) to explicitly allow cleartext traffic (globally or per-domain), making it the default behavior for all network connections managed by those settings.
 - **Usage of HTTP:** Using HTTP instead of HTTPS for communication, which does not encrypt data in transit.
@@ -55,7 +55,7 @@ If the connections were secured using encryption and proper authentication mecha
 - **Cross-Platform Framework Misconfiguration:** Improper settings in cross-platform frameworks may allow cleartext traffic for both Android and iOS versions of an app.
 - **Third-Party Libraries**: Using third-party libraries or SDKs that default to insecure communication methods or are improperly configured.
 
-## �ɘa��
+## 緩和策
 
 - **Use Secure Protocols:** Always use secure protocols like HTTPS (which employs TLS for encryption), FTPS, SFTP or SMTPS for all communication channels. Ensure these protocols are used consistently throughout the app.
 - **Explicitly Disable Cleartext Traffic:** Never allow cleartext traffic globally in the app configuration. Ensure that cleartext traffic is explicitly disabled using security settings like the Network Security Configuration on Android and App Transport Security (ATS) on iOS. Prefer per-domain exceptions over global settings but use them carefully and only when there is no other option.
