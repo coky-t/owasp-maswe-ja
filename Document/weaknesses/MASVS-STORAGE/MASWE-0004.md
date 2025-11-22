@@ -36,6 +36,5 @@ iOS と Android はアプリデータを自動的にクラウドサービスに�
 
 ## 緩和策
 
-- Android では `android:allowBackup` や `BackupAgent` の `excludeFromBackup` など、プラットフォーム固有の属性を使用して、バックアップから機密ファイルを除外します。iOS では、`NSURLIsExcludedFromBackupKey` などの API はバックアップからの除外を [保証しません](https://developer.apple.com/documentation/foundation/optimizing_your_app_s_data_for_icloud_backup/#3928527)。そのため、代わりにデータを暗号化する必要があります。
-- Keychain や iOS の `Library/Caches` など、デフォルトでバックアップから除外される場所に機密データを保存します。
-- 保存前に機密データを暗号化して、バックアップされた場合でも機密性を確保します。
+- バックアップから機密情報、ファイル、鍵マテリアルを除外します。
+- バックアップに機密データを含める必要がある場合は、バックアップが後で侵害された場合でも、必要な有効期間全体にわたってデータを保護するために十分に強力なアルゴリズムで暗号化されていることを確保します。
