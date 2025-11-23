@@ -39,12 +39,12 @@ status: new
 
 ## 影響
 
-- **Data Interception**: Attackers can capture and read sensitive information transmitted over the network.
-- **Data Manipulation**: Attackers might alter data in transit, causing corruption or injecting malicious content.
-- **Unauthorized Access**: Attackers may intercept session tokens or credentials sent over cleartext channels, enabling them to impersonate users and gain unauthorized access to user accounts or systems.
-- **Privacy Breach**: Personal and confidential user information could be exposed, violating privacy regulations.
-- **Regulatory Compliance Violations**: Exposing sensitive data may lead to non-compliance with laws like GDPR or HIPAA, resulting in legal penalties.
-- **Reputation Damage**: Security breaches can erode user trust and harm the organization's reputation.
+- **データ傍受**: 攻撃者はネットワークで送信される機密情報をキャプチャして読み取ることができます。
+- **データ操作**: 攻撃者は転送時のデータを改竄し、破損を引き起こしたり、悪意のあるコンテンツを注入する可能性があります。
+- **不正アクセス**: 攻撃者はクリアテキストチャネルで送信されたセッショントークンやクレデンシャルを傍受し、ユーザーを騙してユーザーアカウントやシステムに不正にアクセスできる可能性があります。
+- **プライバシー侵害**: 個人情報と機密性の高いユーザー情報が露出し、プライバシー規制に違反する可能性があります。
+- **規制コンプライアンス違反**: 機密データの露出は GDPR や HIPAA などの法律の非準拠につながり、法的罰則をもたらす可能性があります。
+- **評判の失墜**: セキュリティ侵害はユーザーの信頼を損ない、組織の評判を害する可能性があります。
 
 ## 流入の形態
 
