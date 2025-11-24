@@ -48,12 +48,12 @@ status: new
 
 ## 流入の形態
 
-- **Cleartext Traffic Allowed in Platform-provided Settings:** Configuring platform-provided settings (e.g. Network Security Configuration on Android or App Transport Security on iOS) to explicitly allow cleartext traffic (globally or per-domain), making it the default behavior for all network connections managed by those settings.
-- **Usage of HTTP:** Using HTTP instead of HTTPS for communication, which does not encrypt data in transit.
-- **Usage of Non-HTTP Insecure Protocols:** Using insecure protocols such as FTP, SMTP without TLS, TCP sockets or custom protocols which do not encrypt data in transit.
-- **Usage of Low-Level Network APIs:** Use of low-level network APIs that do not enforce encryption and do not honor the platform's network security settings, such as `Socket` on Android or `NSURLConnection` on iOS.
-- **Cross-Platform Framework Misconfiguration:** Improper settings in cross-platform frameworks may allow cleartext traffic for both Android and iOS versions of an app.
-- **Third-Party Libraries**: Using third-party libraries or SDKs that default to insecure communication methods or are improperly configured.
+- **プラットフォーム提供の設定でのクリアテキストトラフィックの許可:** プラットフォーム提供の設定 (Android の Network Security Configuration や iOS の App Transport Security など) を構成して、明示的にクリアテキストトラフィックを許可 (グローバルまたはドメインごとに) し、それらの設定で管理されるすべてのネットワーク接続のデフォルトの動作にします。
+- **HTTP の使用:** 通信に HTTPS ではなく HTTP を使用することで、転送時のデータを暗号化しません。
+- **HTTP 以外の安全でないプロトコルの使用:** FTP、TLS なしの SMTP、TCP ソケット、転送時のデータを暗号化しないカスタムプロトコルなど、安全でないプロトコルを使用します。
+- **低レベルネットワーク API の使用:** Android の `Socket` や iOS の `NSURLConnection` など、暗号化を強制せず、プラットフォームのネットワークセキュリティ設定を尊重しない、低レベルネットワーク API を使用します。
+- **クロスプラットフォームフレームワークの構成ミス:** クロスプラットフォームフレームワークの不適切な設定はアプリの Android バージョンと iOS バージョンの両方でクリアテキストトラフィックを許可する可能性があります。
+- **サードパーティライブラリ**: デフォルトで安全でない通信手法であったり、不適切な構成となっている、サードパーティライブラリや SDK を使用しています。
 
 ## 緩和策
 
