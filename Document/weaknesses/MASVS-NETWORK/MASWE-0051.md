@@ -13,7 +13,7 @@ status: new
 
 ## 概要
 
-Applications that open network ports without proper protection are vulnerable to unauthorized access and potential exploitation. This weakness occurs when an application listens on a network port and accepts incoming connections without adequate security measures, allowing other applications or attackers to connect and interact with it.
+適切な保護なしでネットワークポートを開くアプリケーションは、不正アクセスや潜在的な悪用に脆弱です。この弱点は、アプリケーションがネットワークポートをリッスンし、適切なセキュリティ対策なしで着信接続を受け入れることで発生し、他のアプリケーションや攻撃者が接続してやり取りできるようになります。
 
 ## 影響
 
