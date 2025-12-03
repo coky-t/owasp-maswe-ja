@@ -17,11 +17,11 @@ status: new
 
 ## 影響
 
-- **Unauthorized Access**: Attackers can connect to open ports and gain access to application functionalities or sensitive data.
-- **Data Leakage**: Sensitive information may be exposed through unprotected ports if proper authentication and encryption are not enforced.
-- **Remote Code Execution**: Exploitation of open ports can lead to the execution of arbitrary code on the device.
-- **Denial of Service**: Attackers may overload the open port, causing the application or device to become unresponsive.
-- **Privacy Breach**: User data and application state can be compromised, leading to privacy violations and non-compliance with regulations.
+- **不正アクセス**: 攻撃者はオープンポートに接続し、アプリケーション機能や機密データにアクセスする可能性があります。
+- **データ漏洩**: 適切な認証と暗号化が実施されていない場合、保護されていないポートを通じて機密情報がさらされる可能性があります。
+- **リモートコード実行**: オープンポートの悪用によりデバイス上で任意のコードの実行につながる可能性があります。
+- **サービス拒否**: 攻撃者はオープンポートに過負荷をかけ、アプリケーションやデバイスが応答しなくなる可能性があります。
+- **プライバシー侵害**: ユーザーデータやアプリケーションの状態が侵害され、プライバシー侵害や規制違反につながる可能性があります。
 
 ## 流入の形態
 
