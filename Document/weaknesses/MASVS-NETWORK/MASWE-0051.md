@@ -25,11 +25,11 @@ status: new
 
 ## 流入の形態
 
-- **Binding to All Network Interfaces**: Configuring the application to bind to all available network interfaces (e.g., using wildcard addresses), making it accessible over untrusted networks.
-- **Insecure Loopback Address Usage**: Misconfiguring the application to listen on loopback addresses without proper access restrictions.
-- **Lack of Access Controls**: Failing to implement authentication and authorization mechanisms for services exposed via open ports.
-- **Debug Services Left Enabled**: Leaving development or debugging network services active in production releases.
-- **Misconfigured Firewall Settings**: Not setting up proper firewall rules, allowing unauthorized inbound connections to open ports.
+- **すべてのネットワークインタフェースへのバインド**: アプリケーションを利用可能なすべてのネットワークのインタフェースにバインドするように設定 (ワイルドカードアドレスを使用するなど) し、信頼できないネットワーク経由でもアクセス可能にしています。
+- **安全でないループバックアドレスの使用**: 適切なアクセス制限なしでループバックアドレスでリッスンするようにアプリケーションを誤って構成しています。
+- **アクセス制御の欠如**: オープンポートを介して公開されるサービスに対して認証および認可のメカニズムを実装していません。
+- **デバッグサービスが有効なまま**: 開発またはデバッグ用のネットワークサービスを本番リリースでアクティブなままにしています。
+- **ファイアウォール設定の不備**: 適切なファイアウォールルールを設定しておらず、オープンポートへの不正なインバウンド接続を許可しています。
 
 ## 緩和策
 
