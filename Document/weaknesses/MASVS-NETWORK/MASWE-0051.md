@@ -33,7 +33,7 @@ status: new
 
 ## 緩和策
 
-- **Restrict Network Bindings**: Configure the application to bind only to specific, necessary network interfaces, avoiding the use of wildcard addresses like `INADDR_ANY`.
-- **Implement Strong Access Controls**: Enforce authentication and authorization for any services exposed through open ports to ensure only authorized entities can connect.
-- **Disable Debugging Services in Production**: Ensure that all development and debugging network services are disabled or removed in production builds.
-- **Configure Firewalls Appropriately**: Set up firewall rules to restrict access to open ports, allowing connections only from trusted sources.
+- **ネットワークバインディングを制限する**: アプリケーションを特定の必要なネットワークインタフェースのみにバインドするように構成し、`INADDR_ANY` などのワイルドカードアドレスの使用を避けます。
+- **強力なアクセス制御を実装する**: オープンポートを通じて公開されるすべてのサービスに対して認証と認可を適用し、認可されたエンティティのみが接続できるようにします。
+- **本番でデバッグサービスを無効にする**: すべての開発およびデバッグネットワークサービスが本番ビルドで無効または削除されることを確保します。
+- **ファイアウォールを適切に構成する**: ファイアウォールルールを設定してオープンポートへのアクセスを制限し、信頼できるソースからの接続のみを許可します。
