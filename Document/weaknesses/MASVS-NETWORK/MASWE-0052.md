@@ -23,7 +23,7 @@ status: new
 
 ## 概要
 
-Apps that do not properly validate TLS certificates during secure communication are susceptible to [Machine-in-the-Middle (MITM)](../../Document/0x04f-Testing-Network-Communication.md#intercepting-network-traffic-through-mitm) attacks and other security threats. This weakness occurs when an app accepts invalid, expired, self-signed, or untrusted certificates without appropriate verification, compromising the integrity and confidentiality of data in transit.
+安全な通信時に TLS 証明書を適切に検証しないアプリは [中間マシン (MITM)](https://github.com/coky-t/owasp-mastg-ja/blob/master/Document/0x04f-Testing-Network-Communication.md#intercepting-network-traffic-through-mitm) 攻撃やその他のセキュリティ脅威の影響を受けやすくなります。この弱点は、アプリが無効な証明書、期限切れの証明書、自己署名証明書、または信頼できない証明書を適切な検証なしに受け入れる場合に発生し、転送時のデータの完全性と機密性を損ないます。
 
 ## 影響
 
