@@ -36,12 +36,12 @@ status: new
 
 ## 流入の形態
 
-- **Disabling Certificate Validation**: Developers disable or bypass certificate validation checks to simplify development or troubleshoot connectivity issues.
-- **Accepting Self-Signed Certificates**: Applications accept self-signed or untrusted certificates without proper validation against trusted Certificate Authorities (CAs).
-- **Ignoring Hostname Verification**: Failing to verify that the certificate's hostname matches the server's hostname allows attackers to present valid certificates for other domains.
-- **Using Insecure Custom Trust Managers**: Implementing custom certificate validation logic that is incomplete, incorrect, or insecure.
-- **Incorrect Error Handling**: Proceeding with connections even when certificate validation errors occur, without alerting the user or terminating the connection.
-- **Trusting All Certificates**: Configuring the application to trust all certificates by default, without any validation.
+- **証明書バリデーションの無効化**: 開発者は、開発を簡素化したり、接続の問題をトラブルシュートするために、証明書バリデーションチェックを無効またはバイパスします。
+- **自己署名証明書の受入**: アプリケーションは信頼できる認証局 (CA) による適切なバリデーションなしで自己署名証明書や信頼できない証明書を受け入れます。
+- **ホスト名検証の無視**: 証明書のホスト名がサーバーのホスト名と一致することを検証しないと、攻撃者が他のドメインの有効な証明書を提示できます。
+- **安全でないカスタムトラストマネージャの使用**: 不完全、不正確、または安全でないカスタム証明書バリデーションロジックを実装します。
+- **不適切なエラー処理**: 証明書バリデーションエラーが発生しても、ユーザーに警告したり接続を終了したりせずに、接続を続行します。
+- **すべての証明書を信頼**: バリデーションなしで、デフォルトですべての証明書を信頼するようにアプリケーションを構成します。
 
 ## 緩和策
 
