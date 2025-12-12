@@ -45,8 +45,8 @@ status: new
 
 ## 緩和策
 
-- **Enforce Strict Certificate Validation**: Always validate TLS certificates against a trusted set of Certificate Authorities (CAs) provided by the operating system or a trusted third party.
-- **Avoid Accepting Self-Signed Certificates**: Do not accept self-signed or untrusted certificates in production environments unless there is a secure mechanism to trust them explicitly.
-- **Enable Hostname Verification**: Ensure that the application's network layer verifies the server's hostname against the certificate's Subject Alternative Name (SAN) or Common Name (CN).
-- **Use Standard Trust Managers**: Utilize well-established libraries and platform-provided APIs for certificate validation instead of custom implementations.
-- **Handle Validation Errors Properly**: Terminate the connection and alert the user whenever certificate validation fails due to issues like expiration, revocation, or mismatch.
+- **厳格な証明書バリデーションを実施する**: TLS 証明書をオペレーティングシステムまたは信頼できるサードパーティが提供する信頼できる認証局 (CA) のセットに対して常に検証します。
+- **自己署名証明書の受け入れを避ける**: 明示的に信頼するための安全なメカニズムがない限り、本番環境では自己署名証明書や信頼できない証明書を受け入れてはいけません。
+- **ホスト名検証を有効にする**: アプリケーションのネットワーク層ではサーバーのホスト名を証明書の Subject Alternative Name (SAN) または Common Name (CN) に対して検証することを確保します。
+- **標準のトラストマネージャを使用する**: 証明書バリデーションにはカスタム実装ではなく十分に確立されたライブラリとプラットフォーム提供の API を活用します。
+- **バリデーションエラーを適切に処理する**: 有効期限、失効、不一致などの問題により証明書バリデーションが失敗した場合、接続を終了し、ユーザーに警告します。
