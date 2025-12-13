@@ -28,7 +28,7 @@ status: new
 
 ## 影響
 
-- **Loss of Confidentiality**: Under certain conditions, an attacker could access sensitive data previously displayed on the screen, potentially compromising confidentiality and enabling further attacks, such as identity theft or account takeover.
+- **機密性の喪失**: 特定の状況下では、攻撃者がスクリーンに以前表示されていた機密データにアクセスし、機密性を侵害して、アイデンティティ窃取やアカウント乗っ取りなど、さらなる攻撃を可能にする可能性があります。
 
 ## 流入の形態
 
