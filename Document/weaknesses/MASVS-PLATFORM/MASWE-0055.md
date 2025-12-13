@@ -32,10 +32,10 @@ status: new
 
 ## 流入の形態
 
-This can typically occur in two ways:
+これは一般的に以下の二つの場合に発生します。
 
-- **Screenshots and Screen Recordings Not Prevented:** The app does not implement measures (such as setting secure window flags) to prevent the operating system or other apps from capturing screenshots or screen recordings.
-- **Unredacted Sensitive On-Screen Content:** The app displays sensitive information directly on the screen without masking or redacting it, allowing confidential data to be visible if a screenshot or screen recording is taken.
+- **スクリーンショットとスクリーン録画が防止されていない:** アプリはオペレーティングシステムや他のアプリがスクリーンショットのキャプチャやスクリーン録画を防ぐための対策 (セキュアウィンドウフラグの設定など) を実装していません。
+- **スクリーン上の機密コンテンツを削除されていない:** アプリは機密情報をマスキングや削除なしにスクリーン上に直接表示し、スクリーンショットやスクリーン録画が取得されると、機密データが見えてしまいます。
 
 ## 緩和策
 
