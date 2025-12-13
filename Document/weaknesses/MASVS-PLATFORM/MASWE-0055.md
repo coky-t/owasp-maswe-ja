@@ -39,5 +39,5 @@ status: new
 
 ## 緩和策
 
-- Prevent screenshots and screen recording.
-- Redact sensitive on-screen content so that, if a screenshot is taken, no confidential data is visible.
+- スクリーンショットとスクリーン録画を防止します。
+- スクリーン上の機密コンテンツを削除し、スクリーンショットを取得しても、機密データが見えないようにします。
