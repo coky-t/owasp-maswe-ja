@@ -17,14 +17,14 @@ status: new
 
 ## 概要
 
-Mobile platforms allow users and third-party tools to capture screenshots or record screens. This can expose sensitive data and increase the risk of data leakage.
+モバイルプラットフォームでは、ユーザーやサードパーティのツールがスクリーンショットをキャプチャしたり、スクリーンを録画できます。これは機密データをさらし、データ漏洩のリスクを高める可能性があります。
 
-There are several ways an attacker may obtain this sensitive data:
+攻撃者がこの機密データを入手する方法はいくつかあります。
 
-- **Third-party apps with permission to capture or record the screen**: Third-party apps may record the screen while sensitive content is displayed.
-- **Third-party apps with permission to access the screenshot and recording files**: Third-party apps may access screenshots or recordings saved in storage after they are taken by the user or a tool.
-- **External tools may record the screen**: Tools such as @MASTG-TOOL-0024 and @MASTG-TOOL-0126 can record the device's screen via a USB connection.
-- **Automatic Screenshots when Backgrounding**: When an app enters the background state, the system may capture a screenshot of the app's current view to display in the app switcher. These screenshots are stored on the file system and could potentially be accessed or stolen by malicious actors.
+- **スクリーンのキャプチャまたは録画するためのパーミッションを持つサードパーティアプリ**: サードパーティアプリは機密コンテンツが表示されている際にスクリーンを録画する可能性があります。
+- **スクリーンショットおよび録画ファイルにアクセスするためのパーミッションを持つサードパーティアプリ**: サードパーティアプリは、ユーザーまたはツールによって取得された後、ストレージに保存されたスクリーンショットや録画にアクセスする可能性があります。
+- **外部ツールによるスクリーン録画の可能性**: [Scrcpy](https://github.com/coky-t/owasp-mastg-ja/blob/master/tools/android/MASTG-TOOL-0024.md) や [libimobiledevice suite](https://github.com/coky-t/owasp-mastg-ja/blob/master/tools/ios/MASTG-TOOL-0126.md) などのツールは USB 接続を介してデバイスのスクリーンを録画できます。
+- **バックグラウンド移行時の自動スクリーンショット**: アプリがバックグラウンド状態に入ると、システムはアプリの現在のビューのスクリーンショットをキャプチャし、アプリスイッチャーに表示する可能性があります。これらのスクリーンショットはファイルシステムに保存され、悪意のある人物によってアクセスされたり盗まれる可能性があります。
 
 ## 影響
 
