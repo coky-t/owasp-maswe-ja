@@ -18,7 +18,7 @@ status: new
 
 ## 概要
 
-Mobile apps typically include a configuration flag that determines whether the app is debuggable. While this flag is essential during development, leaving it enabled in production can introduce serious security risks. A debuggable app allows attackers to attach debuggers, inspect memory, manipulate execution flow, and bypass client-side controls, even on non-rooted or non-jailbroken devices. It may also expose sensitive information through verbose logging or developer tools that would otherwise be inaccessible.
+モバイルアプリは一般的にアプリがデバッグ可能かどうかを決定する設定フラグを含みます。このフラグは開発時には不可欠ですが、本番で有効なままにすると深刻なセキュリティリスクをもたらす可能性があります。デバッグ可能なアプリは、ルート化していないデバイスや脱獄していないデバイスであっても、攻撃者がデバッガをアタッチし、メモリを検査し、実行フローを操作し、クライアントサイドコントロールをバイパスすることを可能にします。また、詳細なログ記録や開発者ツールを通じてアクセス可能な機密情報を露出する可能性もあります。
 
 ## 影響
 
