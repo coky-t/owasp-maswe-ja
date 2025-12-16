@@ -1,5 +1,5 @@
 ---
-title: 無効化されていないデバッグフラグ (Debuggable Flag Not Disabled)
+title: 無効化されていないデバッグ可能フラグ (Debuggable Flag Not Disabled)
 id: MASWE-0067
 alias: debuggable-flag
 platform: [android, ios]
@@ -33,4 +33,4 @@ status: new
 
 ## 緩和策
 
-- Ensure that the debuggable flag in the app's configuration file is not enabled for production builds. For example, by using build variants or flavours to separate debug and release configurations, ensure that the debuggable flag is enabled only for debug builds.
+- アプリの構成ファイルのデバッグ可能フラグが本番ビルドで有効になっていないことを確認します。たとえば、ビルドバリアントやフレーバーを使用してデバッグ構成とリリース構成を分離することで、デバッグ可能フラグがデバッグビルドでのみ有効になっていることを確認します。
