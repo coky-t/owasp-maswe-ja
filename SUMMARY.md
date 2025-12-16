@@ -80,7 +80,7 @@
   - [MASWE-0064 安全でないコンテンツプロバイダ (Insecure Content Providers)](Document/weaknesses/MASVS-PLATFORM/MASWE-0064.md)
   - [MASWE-0065 他のアプリと永続的に共有される機密データ (Sensitive Data Permanently Shared with Other Apps)](Document/weaknesses/MASVS-PLATFORM/MASWE-0065.md)
   - [MASWE-0066 安全でないインテント (Insecure Intents)](Document/weaknesses/MASVS-PLATFORM/MASWE-0066.md)
-  - [MASWE-0067 無効化されていないデバッグフラグ (Debuggable Flag Not Disabled)](Document/weaknesses/MASVS-PLATFORM/MASWE-0067.md)
+  - [MASWE-0067 無効化されていないデバッグ可能フラグ (Debuggable Flag Not Disabled)](Document/weaknesses/MASVS-PLATFORM/MASWE-0067.md)
   - [MASWE-0068 WebView での JavaScript ブリッジ (JavaScript Bridges in WebViews)](Document/weaknesses/MASVS-PLATFORM/MASWE-0068.md)
   - [MASWE-0069 ローカルリソースへのアクセスを許可する WebView (WebViews Allows Access to Local Resources)](Document/weaknesses/MASVS-PLATFORM/MASWE-0069.md)
   - [MASWE-0070 信頼できないソースからロードされた JavaScript (JavaScript Loaded from Untrusted Sources)](Document/weaknesses/MASVS-PLATFORM/MASWE-0070.md)
