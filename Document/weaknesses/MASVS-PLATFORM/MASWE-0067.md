@@ -22,10 +22,10 @@ status: new
 
 ## 影響
 
-- **Read and Modify Memory**: Attackers can read and modify the app's memory space, which can lead to the exposure of sensitive information, such as encryption keys, API keys, user credentials, or tokens that otherwise would be inaccessible since they aren't present in the app's code or stored to disk.
-- **Bypassing Security Controls**: Attackers can bypass security controls, such as authentication and authorization mechanisms, by manipulating the app's execution flow.
-- **Execute Unauthorized Code**: Attackers can inject and execute arbitrary code within the app's context, leading to further exploitation of the device or the app's data. For example, attackers can inject reverse engineering tools like Frida into the app even on non-rooted or non-jailbroken devices.
-- **Access to Sensitive Logs**: Attackers can access logs that may contain sensitive information, such as user credentials, API keys, or other sensitive data that would otherwise be inaccessible. This can lead to further exploitation of the app or the device.
+- **メモリの読み取りと改変**: 攻撃者はアプリのメモリ領域を読み取りおよび改変でき、暗号鍵、API キー、ユーザークレデンシャル、トークンなど、アプリのコードに存在せずディスクに保存されていないためアクセスできない機密情報の開示につながる可能性があります。
+- **セキュリティコントロールのバイパス**: 攻撃者は、アプリの実行フローを操作することで、認証や認可のメカニズムなどのセキュリティコントロールをバイパスできます。
+- **不正コードの実行**: 攻撃者はアプリのコンテキスト内に任意のコードを注入して実行し、デバイスやアプリのデータのさらなる悪用につながる可能性があります。たとえば、ルート化されていないデバイスや脱獄されていないデバイスであっても、攻撃者は Frida などのリバースエンジニアツールをアプリに注入できます。
+- **機密ログへのアクセス**: 攻撃者は、ユーザークレデンシャル、API キー、その他の機密データなど、通常はアクセスできない機密情報を含む可能性のあるログにアクセスできます。これはアプリやデバイスのさらなる悪用につながる可能性があります。
 
 ## 流入の形態
 
