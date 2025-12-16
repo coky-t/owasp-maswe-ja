@@ -29,7 +29,7 @@ status: new
 
 ## 流入の形態
 
-- **Misconfigured Build Settings**: Misconfigured build settings can accidentally leave an app in a state that is debuggable, exposing it to security vulnerabilities. This can result from improper selection of build variants, errors in CI/CD configurations, or mistakenly applying debug settings to production environments.
+- **ビルド設定の構成ミス**: ビルド設定の構成ミスは、誤ってアプリがデバッグ可能な状態のままとなり、セキュリティ上の脆弱性にさらされる可能性があります。これは、ビルドバリアントの不適切な選択、CI/CD 構成のエラー、本番環境へのデバッグ設定の誤った適用などから生じる可能性があります。
 
 ## 緩和策
 
