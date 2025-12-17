@@ -13,9 +13,9 @@ status: new
 
 ## 概要
 
-Sensitive data in network traffic refers to the transmission of personal or confidential information over the network in a manner that could be intercepted and accessed by unauthorized parties. While the data may be sent using secure protocols such as HTTPS, the primary concern is the appropriateness and necessity of the data being shared or collected.
+ネットワークトラフィックの機密データは、認可されていないパーティによって傍受およびアクセスされる可能性のある方法でのネットワーク経由の個人情報や機密情報の送信を指します。データは HTTPS などの安全なプロトコルを使用して送信されることもありますが、共有または収集されるデータの適切性と必要性が最優先事項となります。
 
-The risk is not in the security of the transmission method, but in the privacy implications of the data being transmitted. This could include personal user information, location data, usage patterns, or any other information that could compromise user privacy.
+リスクは送信手法のセキュリティではなく、送信されるデータのプライバシーへの影響にあります。これは、ユーザーの個人情報、位置データ、使用パターン、その他のユーザープライバシーを侵害する可能性のある情報を含む可能性があります。
 
 ## 流入の形態
 
