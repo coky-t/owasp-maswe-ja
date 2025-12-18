@@ -19,12 +19,12 @@ status: new
 
 ## 流入の形態
 
-This risk can be introduced in various scenarios, including:
+このリスクは以下のようなさまざまなシナリオでもたらされる可能性があります。
 
-- Over-collection of user data beyond the app's functional requirements.
-- Transmission of detailed user location or behavior analytics without proper anonymization.
-- Sharing sensitive information with third-party services (e.g., analytics, advertising networks) without user consent.
-- Unnecessary collection of identifiers like IMEI, email, or phone numbers.
+- アプリの機能要件を超えるユーザーデータの過剰な収集。
+- 適切な匿名化なしで、詳細なユーザー位置情報や行動分析の送信。
+- ユーザーの同意なしで、サードパーティサービス (アナリティクス、広告ネットワークなど) と機密情報の共有。
+- IMEI、電子メール、電話番号などの識別子の不必要な収集。
 
 ## 影響
 
