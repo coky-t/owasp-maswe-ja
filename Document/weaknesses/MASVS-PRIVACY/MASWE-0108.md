@@ -28,11 +28,11 @@ status: new
 
 ## 影響
 
-The impact of exposing sensitive data in network traffic includes:
+ネットワークトラフィックの機密データ露出の影響には以下があります。
 
-- **Violation of User Privacy**: Users may not be aware that their personal information is being transmitted, leading to privacy infringement.
-- **Compliance and Legal Risks**: Breach of data protection laws and regulations (like GDPR), resulting in legal consequences and fines.
-- **Loss of User Trust**: Users losing trust in the application, leading to reputational damage and potential loss of business.
+- **ユーザープライバシーの侵害**: ユーザーは個人情報が送信されていることに気付かず、プライバシー侵害につながる可能性があります。
+- **コンプライアンスおよび法的リスク**: データ保護の法律や規制 (GDPR など) に違反し、法的措置や罰金につながります。
+- **ユーザー信頼の喪失**: ユーザーはアプリケーションへの信頼を失い、評判の低下やビジネス損失につながる可能性があります。
 
 ## 緩和策
 
