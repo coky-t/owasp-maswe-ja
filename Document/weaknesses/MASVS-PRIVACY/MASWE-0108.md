@@ -36,10 +36,10 @@ status: new
 
 ## 緩和策
 
-To mitigate this risk, consider the following strategies:
+このリスクを緩和するには、以下の戦略を検討します。
 
-- Minimize the collection of user data to what is strictly necessary for app functionality.
-- Implement and strictly enforce data privacy policies, including user consent for data collection and sharing.
-- Use anonymization techniques for user data that is transmitted for analytics or other secondary purposes.
-- Regularly review and audit data transmitted over the network to ensure it aligns with privacy policies and user expectations.
-- Provide clear user-facing privacy settings, allowing users to control what data is shared.
+- ユーザーデータの収集を、アプリ機能に必要不可欠なものに最小限に抑えます。
+- データの収集と共有を含む、データプライバシーポリシーを導入して厳密に施行します。
+- 分析やその他の二次的な目的で送信されるユーザーデータには、匿名化技法を使用します。
+- ネットワーク経由で送信されるデータを定期的にレビューおよび監査し、プライバシーポリシーとユーザーの期待に準拠していることを確認します。
+- ユーザー向けの明確なプライバシー設定を提供し、共有するデータをユーザーが制御できるようにします。
