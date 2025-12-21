@@ -20,9 +20,9 @@ status: new
 
 ## 概要
 
-The absence of unlinkability techniques like data abstraction, anonymization, and pseudonymization can enable the identification and tracking of users across different services and over time. Anonymization, through methods like randomization or generalization, irreversibly de-identifies individuals by removing or altering data, such as obfuscating location or scrambling sensitive attributes. In contrast, pseudonymization replaces identifiable data with tokens or hashed values, making it more secure but still technically reversible under certain conditions.
+データ抽象化、匿名化、仮名化などの連結不可能性技法がなければ、異なるサービス間や長期にわたってユーザーの識別と追跡を可能にできます。匿名化は、ランダム化や汎化などの手法を通じて、位置情報の難読化や機密属性のスクランブル化など、データの削除または変更することで個人を不可逆的に匿名化します。対照的に、仮名化は識別可能なデータをトークンまたはハッシュ地に置き換えることで、より安全になりますが、一定の条件下では技術的に元に戻すことも可能です。
 
-This lack of privacy safeguards can result in unauthorized profiling, targeted advertising without consent, and potential legal liabilities due to non-compliance with privacy regulations.
+このようなプライバシー保護の欠如は、不正なプロファイリング、同意のないターゲッティング広告、プライバシー規制違反による潜在的な法的責任につながる可能性があります。
 
 ## 流入の形態
 
