@@ -26,7 +26,7 @@ status: new
 
 ## 流入の形態
 
-- **Lack of Anonymization or Pseudonymization Measures**: Failure to remove direct identifiers, such as user ID or name, from data before server-side collection, or to manipulate the data to prevent linkage to real-world identities. This also includes not implementing protocols like Private Information Retrieval or Oblivious HTTP (OHTTP) to enhance privacy.
+- **匿名化対策や仮名化対策の欠如**: サーバーサイドの収集前にユーザー ID や名前などの直接的な識別子をデータから削除していない、または実世界のアイデンティティとの関連付けを防ぐためにデータを操作していない。これにはプライバシーを強化するための Private Information Retrieval や Oblivious HTTP (OHTTP) などのプロトコルを実装していないことも含みます。
 
 ## 影響
 
