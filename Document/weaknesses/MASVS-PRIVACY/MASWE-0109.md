@@ -30,8 +30,8 @@ status: new
 
 ## 影響
 
-- **Violation of User Privacy**: Users may not be aware that their personal information is being collected for tracking purposes, leading to privacy infringement.
-- **Compliance and Legal Risks**: Breach of data protection laws and regulations (like GDPR), resulting in legal consequences and fines.
+- **ユーザープライバシーの侵害**: ユーザーは自分の個人情報が追跡目的で収集されていることに気付かず、プライバシー侵害につながる可能性があります。
+- **コンプライアンスおよび法的リスク**: データ保護の法律や規制 (GDPR など) の違反は法的措置や罰金につながります。
 
 ## 緩和策
 
