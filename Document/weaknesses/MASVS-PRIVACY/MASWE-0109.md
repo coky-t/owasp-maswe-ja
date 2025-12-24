@@ -35,4 +35,4 @@ status: new
 
 ## 緩和策
 
-- **Use Anonymisation and Pseudonymisation**: Ensure techniques like anonymisation and pseudonymisation are implemented to prevent user identification.
+- **匿名化と仮名化を使用する**: ユーザーの特定を防ぐために、匿名化と仮名化などの技法が実装されていることを確保します。
