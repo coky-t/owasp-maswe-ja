@@ -17,9 +17,9 @@ status: new
 
 ## 概要
 
-Mobile apps must provide users with a clear and comprehensive statement regarding how their data is collected, processed, shared, and protected. Privacy policies should be easily accessible, tailored specifically to the app in question, and written in a way that users can easily understand. Without a robust privacy policy, users are unable to make informed decisions about their data, and may be unaware of how their information is being used or shared.
+モバイルアプリは、ユーザーデータがどのように収集、処理、共有、保護されるかについて、明確かつ包括的な説明をユーザーに提供しなければなりません。プライバシーポリシーは、容易にアクセスでき、当該のアプリにあわせて調整され、ユーザーが理解しやすい方法で記述されている必要があります。堅牢なプライバシーポリシーなしでは、ユーザーは自身のデータについて十分な情報に基づいた判断を下すことができず、自身の情報がどのように使用や共有されているかを認識できない可能性があります。
 
-A privacy policy that is incomplete, vague, or does not match the app's behavior can mislead users and lead to a lack of transparency, resulting in potential privacy violations and legal repercussions for developers.
+不完全、曖昧、あるいはアプリの動作と一致しないプライバシーポリシーはユーザーに誤解を招き、透明性の欠如につながり、プライバシー侵害や開発者に対する法的影響につながる可能性があります。
 
 ## 流入の形態
 
