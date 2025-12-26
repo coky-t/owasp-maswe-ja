@@ -23,8 +23,8 @@ status: new
 
 ## 流入の形態
 
-- **Unclear or Absent Privacy Policy**: Not providing a privacy policy, or having one that is not easily accessible or clear to the user, or that doesn't specifically address the data practices of that particular app, instead being a generic document that covers multiple services.
-- **Discrepancies in Policy vs Behavior**: Differences between the privacy policy and the app's actual behavior.
+- **不明確または存在しないプライバシーポリシー**: プライバシーポリシーを提供していない、ユーザーが容易にアクセスできない、明確ではない、または、特定のアプリのデータ処理方法について具体的に言及しておらず、複数のサービスをカバーする一般的な文書となっています。
+- **ポリシーと動作の不一致**: プライバシーポリシーとアプリの実際の動作に相違があります。
 
 ## 影響
 
