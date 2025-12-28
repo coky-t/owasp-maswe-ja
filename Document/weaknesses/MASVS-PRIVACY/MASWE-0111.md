@@ -28,9 +28,9 @@ status: new
 
 ## 影響
 
-- **Violation of User Privacy**: Users may unknowingly provide data without understanding how it will be used, exposing them to privacy risks, such as data sharing with third parties, profiling, or targeted advertising without explicit consent.
-- **Loss of User Trust**: Users are more likely to lose trust in an app that lacks transparency, which may lead to negative reviews, decreased user engagement, and reduced retention rates.
-- **Legal and Compliance Issues**: Failure to provide an adequate privacy policy can result in non-compliance with privacy laws and regulations, such as GDPR or CCPA, potentially leading to fines, legal action, or removal from app stores.
+- **ユーザープライバシーの侵害**: ユーザーはデータが使用される方法を理解せずに無意識のうちにデータを提供してしまい、サードパーティとのデータ共有、プロファイリング、明示的な同意なしでのターゲット広告など、プライバシーリスクにさらす可能性があります。
+- **ユーザーからの信頼の喪失**: ユーザーは透明性を欠如したアプリの信頼を失いやすく、否定的なレビュー、ユーザーエンゲージメントの下落、リテンション率の低下につながる可能性があります。
+- **法的およびコンプライアンスの問題**: 適切なプライバシーポリシーを提供しないと、GDPR や CCPA などのプライバシー法規制に非準拠となる可能性があり、罰金、法的措置、アプリストアからの削除につながる可能性があります。
 
 ## 緩和策
 
