@@ -34,6 +34,6 @@ status: new
 
 ## 緩和策
 
-- **Provide a Clear Privacy Policy**: Make sure a comprehensive and understandable privacy policy is readily accessible to users. Tailor it to the specific data practices of your app and write it in clear, understandable language as stated in Article 12 of the GDPR.
-- **Ensure Consistency in Privacy vs Behavior**: Keep your data collection practices documented and up to date in privacy policies, privacy labels, and app store listings. Ensure that these documents match the app's actual behavior to avoid discrepancies that could mislead users or violate platform policies.
-- **Regularly Review and Update Privacy Policy**: Regularly review and update the privacy policy to reflect any changes in data collection practices, new features, or modifications to existing features that may impact how user data is handled.
+- **明確なプライバシーポリシーを提供する**: 包括的で理解しやすいプライバシーポリシーをユーザーが容易にアクセスできるようにします。アプリの具体的なデータの扱いに合わせて調整し、GDPR 第 12 条に記載されているように、明確で理解しやすい言葉で記述します。
+- **プライバシーと動作の一貫性を確保する**: データ収集方法をプライバシーポリシー、プライバシーラベル、アプリストア掲載情報に文書化し、最新に保ちます。これらの文書がアプリの実際の動作と一致することを確保し、ユーザーに誤解を招いたり、プラットフォームのポリシーに違反するような不一致を回避します。
+- **プライバシーポリシーを定期的にレビューして更新する**: データ収集方法の変更、新機能、既存機能の変更など、ユーザーデータの取り扱いに影響する可能性のある変更を反映するため、プライバシーポリシーを定期的にレビューして更新します。
