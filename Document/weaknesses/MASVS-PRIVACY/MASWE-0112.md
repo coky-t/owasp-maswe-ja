@@ -23,11 +23,11 @@ status: new
 
 ## 概要
 
-When a mobile app's stated data collection practices, such as those documented in Apple's [App Privacy Report](https://support.apple.com/en-us/102188) and [Privacy Nutrition Labels](https://support.apple.com/kb/HT211970), or Google's [Data Safety section](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en), are incomplete or inconsistent with the app's actual behavior, users are prevented from making informed decisions about their privacy, including understanding whether data will be linked to their identity, used for tracking, or shared with third parties.
+Apple の [App Privacy Report](https://support.apple.com/en-us/102188) や [Privacy Nutrition Labels](https://support.apple.com/kb/HT211970)、または Google の [Data Safety section](https://support.google.com/googleplay/android-developer/answer/10787469?hl=en) に記載されているようなモバイルアプリの明言されたデータ収集方法が不完全であったり、アプリの実際の動作と一致しない場合、ユーザーは、データが自分のアイデンティティにリンクされているか、追跡に使用されているか、サードパーティと共有されているかどうかを理解することなど、自分のプライバシーについて十分な情報に基づいた判断を下すことができません。
 
-These declarations must clearly outline what data is collected, how it is used, whether it is linked to the user's identity, and whether it is shared with third parties in accordance with the platform's policies.
+これらの宣言では、収集されるデータ、その使用方法、ユーザーのアイデンティティにリンクされるかどうか、プラットフォームのポリシーに従ってサードパーティと共有されるかどうかを明確に示す必要があります。
 
-**Note about third-party libraries (SDKs)**: Developers, as data controllers, are legally responsible for ensuring that third-party components process sensitive data lawfully, fairly, and transparently, as highlighted in the [ENISA study on GDPR compliance](https://www.enisa.europa.eu/sites/default/files/publications/WP2017%20O-2-2-4%20GDPR%20Mobile.pdf) (Section 2.2.7, _"Data transfers and processing by third parties"_). However, in some cases, it may be challenging for mobile app developers to be fully aware of what data these third-party SDKs actually collect.
+**サードパーティライブラリ (SDK) に関する注意**: 開発者は、データ管理者として、[ENISA による GDPR コンプライアンスに関する調査](https://www.enisa.europa.eu/sites/default/files/publications/WP2017%20O-2-2-4%20GDPR%20Mobile.pdf) (Section 2.2.7, _"Data transfers and processing by third parties"_) でハイライトされているように、サードパーティコンポーネントが機密データを合法的で、公平で、透明性のある処理をすることを確保する法的責任を負います。但し、場合によっては、モバイルアプリ開発者がこれらのサードパーティ SDK が実際にどのようにデータを収集しているかを完全に把握することが困難なことがあります。
 
 ## 流入の形態
 
