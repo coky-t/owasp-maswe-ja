@@ -31,8 +31,8 @@ Apple の [App Privacy Report](https://support.apple.com/en-us/102188) や [Priv
 
 ## 流入の形態
 
-- **Undeclared Data Collection and Purpose**: Failing to declare what data is being collected (e.g., location, contacts, identifiers) and for what purposes (e.g., analytics, personalization), leaving users unaware of how their information is used.
-- **Discrepancies in Declarations vs Behavior**: Differences between privacy label declarations (such as Apple's Privacy Nutrition Labels or Google's Data Safety Section) and the app's actual behavior, including undeclared data collection, sharing with third parties not mentioned in privacy labels, or using data for purposes not disclosed, which are against both Apple and Google guidelines.
+- **宣言されていないデータ収集と目的**: 収集されるデータの内容 (位置情報、連絡先、識別子など) とその目的 (分析、パーソナライゼーションなど) を宣言しておらず、ユーザーは自分の情報がどのように使用されるかわからないままです。
+- **宣言と動作の不一致**: プライバシーラベル宣言 (Apple の Privacy Nutrition Labels や Google の Data Safety Section など) とアプリの実際の動作との相違 (宣言されていないデータ収集、プライバシーラベルに記載されていないサードパーティとの共有、開示されていない目的でのデータ使用など) は、Apple と Google の両方のガイドラインに反しています。
 
 ## 影響
 
