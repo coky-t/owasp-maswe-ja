@@ -36,9 +36,9 @@ Apple の [App Privacy Report](https://support.apple.com/en-us/102188) や [Priv
 
 ## 影響
 
-- **Violation of User Privacy**: Users may unknowingly share data without fully understanding its purpose, which can lead to unauthorized sharing, profiling, or targeted advertising.
-- **Loss of User Trust**: Inconsistent declarations can result in users losing trust in the app, leading to negative reviews, lower user engagement, and reduced retention.
-- **Legal and Compliance Issues**: Inaccurate or inconsistent data declarations may lead to non-compliance with regulations like GDPR or CCPA, resulting in potential fines, legal action, or removal from app stores.
+- **ユーザープライバシーの侵害**: ユーザーはその目的を完全に理解せずに無意識のうちにデータを共有する可能性があり、不正な共有、プロファイリング、ターゲット広告につながる可能性があります。
+- **ユーザーの信頼の喪失**: 一貫性のない宣言は、ユーザーへのアプリの信頼を失わせ、否定的なレビュー、ユーザーエンゲージメントの低下、リテンションの低減につながる可能性があります。
+- **法的およびコンプライアンスの問題**: 不正確または一貫性のないデータ宣言は、GDPR や CCPA などの規制への違反につながり、罰金、法的措置、アプリストアからの削除につながる可能性があります。
 
 ## 緩和策
 
