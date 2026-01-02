@@ -42,5 +42,5 @@ Apple の [App Privacy Report](https://support.apple.com/en-us/102188) や [Priv
 
 ## 緩和策
 
-- **Maintain Accurate Privacy Labels**: Comply with Apple's Privacy Nutrition Labels and Google's Data Safety Section requirements by providing accurate and transparent information about your data practices, including data collection and sharing with third parties.
-- **Ensure Consistency in Declarations vs Behavior**: Keep your data collection practices documented and up to date in privacy policies, privacy labels, and app store listings. Ensure that these documents match the app's actual behavior to avoid discrepancies that could mislead users or violate platform policies.
+- **正確なプライバシーラベルを維持する**: データ収集やサードパーティとの共有など、データの取り扱いに関する正確で透明性のある情報を提供することで、Apple の Privacy Nutrition Labels および Google の Data Safety Section の要件を遵守します。
+- **宣言と動作の一貫性を確保する**: プライバシーポリシー、プライバシーラベル、アプリストアの掲載情報において、データ収集の取り扱いについて文書化し、最新に保ちます。これらの文書がアプリの実際の動作と一致することを確保し、ユーザーに誤解を招いたり、プラットフォームポリシーに違反するような相違を避けます。
