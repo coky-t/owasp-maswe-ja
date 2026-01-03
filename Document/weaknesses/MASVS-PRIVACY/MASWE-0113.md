@@ -15,9 +15,9 @@ status: new
 
 ## 概要
 
-When mobile apps do not provide users with mechanisms specifically designed to manage their personal data, users are left without adequate options to manage their information. This limits users' rights over their own data, leading to privacy concerns, increased severity of potential data breaches, and potential non-compliance with privacy regulations.
+モバイルアプリが個人データを管理することに特化して設計されたメカニズムをユーザーに提供しない場合、ユーザーは情報を管理するための適切な選択肢を失います。これは、ユーザーのデータに対する権利を制限し、プライバシーに関する懸念、潜在的なデータ侵害の深刻化、プライバシー規制の潜在的な不遵守につながります。
 
-These mechanisms typically include the ability for users to delete, export, modify, or opt out of data collection directly within the app interface. For example, some apps provide data management features within the settings menu, while others provide a link to an external website where users can manage their data.
+これらのメカニズムは一般的にユーザーがアプリインタフェース内で直接的に削除、エクスポート、変更、またはデータ収集のオプトアウトを行う機能を含みます。たとえば、あるアプリでは設定メニュー内にデータ管理機能を提供したり、別のものではユーザーがデータを管理できる外部ウェブサイトへのリンクを提供します。
 
 ## 流入の形態
 
