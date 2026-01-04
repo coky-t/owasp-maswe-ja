@@ -21,7 +21,7 @@ status: new
 
 ## 流入の形態
 
-- **Lack of Proper Data Management Settings**: Failing to provide users with the ability to delete, export, modify, or opt out of data collection, resulting in users having limited or no control over their personal data.
+- **適切なデータ管理設定の欠如**: ユーザーに削除、エクスポート、変更、データ収集のオプトアウトのための機能を提供しておらず、ユーザーが個人データを制限されたりまったく制御できなくなります。
 
 ## 影響
 
