@@ -25,9 +25,9 @@ status: new
 
 ## 影響
 
-- **Violation of User Rights**: Users may be unable to exercise their rights to manage their personal data, such as deleting or exporting their information, leading to a lack of control and increased privacy risks.
-- **Non-Compliance with Privacy Regulations**: Non-compliance with regulations like GDPR and CCPA, which require providing users with data management capabilities, can result in fines, legal action, and other consequences.
-- **Loss of User Trust**: Users may lose trust in an app that does not allow them to manage their personal data, which can lead to negative reviews, decreased user engagement, and reduced retention.
+- **ユーザー権利の侵害**: ユーザーは、情報の削除やエクスポートなど、個人データを管理する権利を行使できず、制御の欠如とプライバシーリスクの増大につながる可能性があります。
+- **プライバシー規制の不遵守**: GDPR や CCPA など、ユーザーにデータ管理機能を提供することを義務付ける規制に遵守しないと、罰金、法的措置、その他の結果につながる可能性があります。
+- **ユーザーの信頼の喪失**: ユーザーは個人データを管理できないアプリへの信頼を失う可能性があり、否定的なレビュー、ユーザーエンゲージメントの低下、リテンションの低減につながる可能性があります。
 
 ## 緩和策
 
