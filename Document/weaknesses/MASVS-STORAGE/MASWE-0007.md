@@ -46,6 +46,6 @@ iOS では、デスクトップオペレーティングシステムや Android �
 
 外部ストレージに保存される機密データは暗号化する必要があり、利用可能な場合、データ暗号化に使用される鍵はデバイスのハードウェア基盤のキーストアで保護する必要があります。アプリケーション内に暗号鍵をハードコードすることは、絶対に阻止します。また、ファイルを [プライベートアプリサンドボックスまたは内部ストレージ](https://developer.android.com/training/data-storage/app-specific#internal) に保存し、[Android のファイル暗号化用の EncryptedFile API ラッパー](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) を使用することも検討できます。
 
-### !!! 警告
-
-`EncryptedFile` クラスと `EncryptedSharedPreferences` クラスを含む **Jetpack Security Crypto ライブラリ** は [非推奨](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library) になりました。ただし、公式の代替品はまだリリースされていないため、それが利用可能になるまではこれらのクラスを使用することをお勧めします。
+> [!WARNING]
+>
+> `EncryptedFile` クラスと `EncryptedSharedPreferences` クラスを含む **Jetpack Security Crypto ライブラリ** は [非推奨](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library) になりました。ただし、公式の代替品はまだリリースされていないため、それが利用可能になるまではこれらのクラスを使用することをお勧めします。
