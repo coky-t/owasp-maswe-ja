@@ -37,6 +37,6 @@ status: new
 - Android キーストアや iOS キーチェーンなど、プラットフォームのハードウェア基盤のキーストアソリューションのみを使用して暗号鍵を保存します。
 - その他のファイルや設定を保存する場合は、プラットフォームが提供する保存時にデータを暗号化する機能や、Data Encryption Keys (DEK) と Key Encryption Keys (KEK) を用いてエンベロープ暗号化を実装するその他の技法、あるいは同等の手法を使用します。たとえば、Android では [`EncryptedFile`](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) または [`EncryptedSharedPreferences`](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences) を使用し、iOS では [iOS データ保護](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files) を使用します。
 
-### !!! 警告
-
-`EncryptedFile` クラスと `EncryptedSharedPreferences` クラスを含む **Jetpack Security Crypto ライブラリ** は [非推奨](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library) になりました。ただし、公式の代替品はまだリリースされていないため、それが利用可能になるまではこれらのクラスを使用することをお勧めします。
+> [!WARNING]
+> 
+> `EncryptedFile` クラスと `EncryptedSharedPreferences` クラスを含む **Jetpack Security Crypto ライブラリ** は [非推奨](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library) になりました。ただし、公式の代替品はまだリリースされていないため、それが利用可能になるまではこれらのクラスを使用することをお勧めします。
