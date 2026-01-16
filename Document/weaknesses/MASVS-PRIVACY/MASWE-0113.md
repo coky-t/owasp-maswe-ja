@@ -31,6 +31,6 @@ status: new
 
 ## 緩和策
 
-- **Implement Data Management Mechanisms**: Ensure that mechanisms are in place for users to delete, export, or modify their data. Provide granular controls for specific aspects of data collection and sharing (e.g., location services, contacts, media access).
-- **Regularly Update Data Management Features**: Regularly review and update data management features to ensure compliance with evolving regulations and user expectations. This helps maintain transparency and user trust.
-- **User-Friendly Data Management Interface**: Create a user-friendly interface for data management controls, ensuring that users can easily navigate and exercise their rights over their personal data without friction.
+- **データ管理メカニズムを実装する**: ユーザーが自分のデータを削除、エクスポート、変更するためのメカニズムがあることを確認します。データ収集と共有の特定の側面 (位置情報サービス、連絡先、メディアアクセスなど) について、きめ細かな制御を提供します。
+- **データ管理機能を定期的に更新する**: データ管理機能を定期的にレビューおよび更新して、変化する規制やユーザーの期待に応じるようにします。これは透明性とユーザーの信頼を維持するのに役立ちます。
+- **ユーザーフレンドリーなデータ管理インタフェース**: データ管理コントロール用にユーザーフレンドリーなインタフェースを作成し、ユーザーが自分の個人データに関する権利を抵抗なく容易に操作して行使できるようにします。
