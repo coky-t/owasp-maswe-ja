@@ -16,9 +16,9 @@ status: new
 
 ## 概要
 
-If mobile apps do not give users sufficient control over how their personal information is shared with other users or the broader environment, users may inadvertently disclose sensitive data, leading to privacy concerns and unwanted attention from other users or third parties. Examples of such information include last connection status, read receipts, birthday, email address, or discoverability settings.
+個人情報が他のユーザーやより広範な環境にどのように共有されるかを、モバイルアプリがユーザーに十分に制御を与えない場合、ユーザーは意図せず機密データを開示し、プライバシーの懸念や他のユーザーやサードパーティから望ましくない注目につながる可能性があります。このような情報の例には、最終接続ステータス、既読通知、生年月日、電子メールアドレス、検出設定などがあります。
 
-Ensuring that users have clear and granular options, typically in the form of app settings, to control data visibility is critical to maintaining their privacy and building trust in the app.
+ユーザーがデータの可視性を制御するための明確できめ細かなオプションを、一般的にアプリ設定の形で、利用できるようにすることは、ユーザのプライバシーを維持し、アプリへの信頼を築く上で非常に重要です。
 
 ## 流入の形態
 
