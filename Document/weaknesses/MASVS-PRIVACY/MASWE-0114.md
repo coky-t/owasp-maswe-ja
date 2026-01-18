@@ -22,7 +22,7 @@ status: new
 
 ## 流入の形態
 
-- **Lack of Granular Privacy Settings**: Failing to provide privacy settings with sufficient granularity to allow users to control specific aspects of data collection and sharing, such as differentiating between location services, contacts, or media access. This lack of control results in users being unable to decide which types of information are shared and with whom.
+- **きめ細かなプライバシー設定の欠如**: 位置情報サービス、連絡先、メディアアクセスなど、データ収集と共有の特定の側面をユーザーが制御できるほどの十分にきめ細かいプライバシー設定を提供していない。この制御の欠如はユーザーがどの種類の情報を誰と共有するかを決定できないことにつながります。
 
 ## 影響
 
