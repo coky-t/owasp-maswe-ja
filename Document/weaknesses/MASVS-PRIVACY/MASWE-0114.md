@@ -26,9 +26,9 @@ status: new
 
 ## 影響
 
-- **Exposure of Personal Data**: Users may unintentionally expose personal information, such as their email address, birthday, or online status, to others without their consent, increasing the risk of harassment or identity theft.
-- **Non-Compliance with Privacy Regulations**: Apps that do not offer sufficient privacy controls may face non-compliance issues with regulations like GDPR or CCPA, which require user control over data visibility and sharing.
-- **Loss of User Trust**: Users may lose trust in the app if they feel they have inadequate control over what information is shared and with whom, leading to negative reviews and decreased app engagement.
+- **個人データの露出**: ユーザーは、電子メールアドレス、生年月日、オンラインステータスなどの機密情報を、同意なしに他者に意図せず露出する可能性があり、ハラスメントやアイデンティティ窃取のリスクを高めます。
+- **プライバシー規制への非遵守**: 十分なプライバシーコントロールを提供していないアプリは、データの可視化と共有に関するユーザー制御を求める、GDPR や CCPA などの規制への非遵守問題に直面する可能性があります。
+- **ユーザーの信頼の喪失**: ユーザーは、どの情報が誰と共有されるかについて十分な制御をできていないと感じると、アプリへの信頼を失い、否定的なレビューやアプリのエンゲージメントの低下につながる可能性があります。
 
 ## 緩和策
 
