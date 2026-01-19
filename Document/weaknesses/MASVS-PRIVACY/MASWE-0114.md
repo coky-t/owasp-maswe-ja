@@ -32,6 +32,6 @@ status: new
 
 ## 緩和策
 
-- **Offer Granular Privacy Settings**: Provide privacy settings with sufficient granularity, allowing users to control individual data collection categories (e.g., location, contacts) and manage their sharing preferences. Allow users to choose what information is visible to others, such as connection status or discoverability.
-- **User Education on Privacy Options**: Clearly inform users about available privacy settings and how to use them effectively to manage data visibility. This can be done through tutorials, help sections, or contextual tips within the app.
-- **Default Privacy-Friendly Settings**: Set default privacy settings to the most restrictive options, allowing users to opt-in to sharing specific information rather than having to opt-out, which helps to ensure user privacy by default.
+- **きめ細かなプライバシー設定を提供する**: 十分な粒度でプライバシー設定を提供し、ユーザーが個々のデータ収集カテゴリ (位置情報、連絡先など) を制御し、共有設定を管理できるようにします。接続状態や検出可能性など、他者に見える情報をユーザーが選択できるようにします。
+- **プライバシーオプションについてユーザーを教育する**: 利用可能なプライバシー設定と、それらを効果的に使用してデータの可視性を管理する方法について、ユーザーに明確に説明します。これは、チュートリアル、ヘルプセクション、アプリ内のコンテキストに応じたヒントを通じて行うことができます。
+- **デフォルト設定をプライバシーフレンドリーにする**: デフォルトのプライバシー設定を最も制限の厳しいオプションに設定し、ユーザーは特定の情報の共有に、オプトアウトしなければならないのではなく、オプトインできるようにし、デフォルトでユーザーのプライバシーを確保します。
