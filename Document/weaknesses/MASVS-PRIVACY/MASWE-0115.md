@@ -17,11 +17,11 @@ status: new
 
 ## 概要
 
-According to various international privacy regulations, such as the [EU's GDPR](https://gdpr-info.eu/art-7-gdpr/), [California's CCPA](https://cppa.ca.gov/regulations/pdf/cppa_act.pdf), [Brazil's LGPD](https://lgpd-brazil.info/chapter_02/article_08), and [Canada's PIPEDA](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_consent/), user consent must be explicit, informed, and obtained prior to any data processing. Users must be made fully aware of the purposes of the data collection, as well as the potential consequences of providing consent. In addition, consent should be an active choice, specific to the data being processed, and not bundled with other service agreements or presented in a vague or coercive manner.
+[EU の GDPR](https://gdpr-info.eu/art-7-gdpr/), [カリフォルニアの CCPA](https://cppa.ca.gov/regulations/pdf/cppa_act.pdf), [ブラジルの LGPD](https://lgpd-brazil.info/chapter_02/article_08), [カナダの PIPEDA](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_consent/) などのさまざまな国際プライバシー規制に従い、データ処理の前に、ユーザーの同意を明示的かつ十分な情報に基づいて取得する必要があります。ユーザーは、データ収集の目的と、同意を与えた場合の潜在的な結果を十分に認識する必要があります。さらに、同意は、処理されるデータに固有の能動的な選択である必要があり、他のサービス契約とバンドルされたり、曖昧または強制的な方法で提示されてはいけません。
 
-Mobile apps that fail to follow these principles often result in users unknowingly consenting to data collection or processing that could pose significant risks to their fundamental rights and freedoms. For example, apps may use vague or non-negotiable consent requests, pressuring users to provide consent without fully understanding the implications.
+これらの原則に従わないモバイルアプリは、ユーザーが知らないうちにデータの収集や処理に同意してしまう結果となり、基本的な権利や自由に重大なリスクをもたらす可能性があります。たとえば、アプリは曖昧または交渉の余地のない同意を求め、ユーザーがその意味を十分に理解しないまま同意を迫ることがあります。
 
-In addition, users must be able to easily withdraw their consent at any time and should be clearly informed of how to do so, including the potential impact on the functionality of the app. Developers must maintain a record of user consent and ensure that consent requests are clear, separate from other terms, and legally valid, and avoid practices that obscure the full scope of data processing.
+さらに、ユーザーはいつでも簡単に同意を撤回でき、アプリの機能への潜在的な影響を含め、その方法を明確に通知する必要があります。開発者は、ユーザーの同意の記録を保持し、同意の要求が明確で、他の条件とは区別され、法的に有効であることを確保し、データ処理の全範囲を不明瞭にするような慣行を避けなければなりません。
 
 ## 流入の形態
 
