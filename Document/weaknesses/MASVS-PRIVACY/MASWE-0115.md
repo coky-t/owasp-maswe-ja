@@ -25,8 +25,8 @@ status: new
 
 ## 流入の形態
 
-- **Failure to Prompt for Consent Changes**: Failing to prompt the user for consent when data collection practices change or when additional data is collected beyond what was originally specified.
-- **Ambiguous Consent Mechanisms**: Consent is bundled with terms of service, often covering future use cases without notifying the user again. In some cases, consent is implied if the user doesn't explicitly deny access, leading to data collection without clear approval.
+- **同意変更のためのプロンプトの不備**: データ収集方法に変更がある場合や、当初の規定を超えて追加データが収集される場合に、ユーザーに同意を求めていません。
+- **曖昧な同意メカニズム**: 同意は利用規約にバンドルされており、多くの場合、ユーザーに再度通史することなく、将来のユースケースをカバーしています。場合によっては、ユーザーが明示的にアクセスを拒否しない限り、同意が暗黙的に与えられ、明確な承認なしでのデータ収集につながります。
 
 ## 影響
 
