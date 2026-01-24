@@ -30,9 +30,9 @@ status: new
 
 ## 影響
 
-- **Violation of User Privacy**: When ambiguous consent mechanisms are used, user privacy is severely compromised as users may unknowingly give up control over their data. This exposes them to the risk of their information being used without clear or informed consent for purposes they may find objectionable or harmful, such as targeted advertising, profiling, discrimination or even identity theft.
-- **Loss of User Trust**: Users may lose trust in the app and abandon it, share negative reviews, or discourage others from using it, leading to reputational damage and potential loss of business.
-- **Legal and Compliance Issues**: Non-compliance with laws and platform requirements can result in legal consequences, fines, or removal from app stores.
+- **ユーザープライバシーの侵害**: 曖昧な同意メカニズムが使用されると、ユーザーが知らないうちに自身のデータに対するコントロールを放棄してしまう可能性があり、ユーザープライバシーがひどく侵害されます。これは、明確な同意や十分な情報に基づく同意なしに、ユーザーが不快または有害と感じる目的 (ターゲット広告、プロファイリング、差別、さらにはアイデンティティ窃取など) に情報が使用されるリスクにさらします。
+- **ユーザーの信頼の喪失**: ユーザーはアプリへの信頼を失い、アプリを放棄したり、否定的なレビューを共有したり、他のユーザーにアプリの使用を思いとどまられる可能性があり、評判を損ない、ビジネスの損失につながる可能性があります。
+- **法的およびコンプライアンスの問題**: 法律やプラットフォームの要件を遵守しないと、法的措置、罰金、アプリストアからの削除につながる可能性があります。
 
 ## 緩和策
 
