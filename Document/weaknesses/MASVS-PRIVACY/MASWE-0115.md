@@ -36,6 +36,6 @@ status: new
 
 ## 緩和策
 
-- **Prompt for Consent on Changes**: Establish mechanisms for prompting users for consent if data collection practices change or if additional data is being collected, ensuring transparency when app functionality evolves.
-- **Obtain Clear and Explicit User Consent for Immediate Actions**: Before accessing sensitive resources like sensors or local data (e.g., camera, location), always request explicit permission from the user. Clearly explain why the permission is needed, using mechanisms like [purpose strings](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources) on iOS or [similar prompts](https://developer.android.com/training/permissions/requesting#explain) on Android, to ensure users understand the immediate use of their data.
-- **Ensure Informed and Transparent Consent**: Provide users with clear, specific information about what data will be collected, how it will be used, and the potential impact. Consent should not be hidden in terms of service or bundled for future uses. Users must confirm consent separately for each purpose, especially when permissions extend beyond the initial request.
+- **変更時に同意を促す**: データ収集方法に変更がある場合や、追加データが収集される場合に、ユーザーに同意を促すメカニズムを確立し、アプリ機能が進化する際の透明性を確保します。
+- **即時アクションについて明確で明示的なユーザー同意を取得する**: センサやローカルデータ (カメラ、位置情報など) などの機密性の高いリソースにアクセスする前に、常にユーザーから明示的な許可を要求します。iOS では [目的の文字列](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources)、Android では [同様のプロンプト](https://developer.android.com/training/permissions/requesting#explain) などのメカニズムを使用して、許可が必要とされる理由を明確に説明し、ユーザーが自分のデータの即時使用を理解するようにします。
+- **情報に基づいた透明性のある同意を確保する**: 収集されるデータの種類、その使用方法、潜在的な影響について、明確かつ具体的な情報をユーザーに提供します。同意は、サービス規約に隠されたり、将来の使用にまとめたりしてはいけません。特に最初の要求を超えて許可を拡張する場合、ユーザーは目的ごとに個別に同意を確認しなければなりません。
