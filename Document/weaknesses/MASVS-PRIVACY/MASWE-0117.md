@@ -25,7 +25,7 @@ status: new
 
 ## 概要
 
-Permissions control access to sensitive device features such as the camera, microphone, location, and storage, making them a crucial aspect of mobile app privacy. Proper permission management is essential to protect user privacy and comply with regulations, as permissions serve as the gateway for data collection and processing.
+パーミッションは、カメラ、マイク、位置情報、ストレージといった機密性の高いデバイス機能へのアクセスを制御し、モバイルアプリプライバシーの重要な側面となります。パーミッションはデータ収集と処理の関門として機能するため、適切なパーミッション管理は、ユーザープライバシーを保護し、規制を遵守するために不可欠です。
 
 ### ファーストパーティアプリ
 
