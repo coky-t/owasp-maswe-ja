@@ -29,9 +29,9 @@ status: new
 
 ### ファーストパーティアプリ
 
-First-party apps may request more permissions than necessary, sometimes overlooking privacy-friendly alternatives due to a lack of awareness, technical constraints, or business needs. Developers face the challenge of balancing functionality with privacy: while some permissions are essential for core features (e.g., a camera app requiring camera access), excessive permissions can lead to unnecessary data collection and potential privacy violations.
+ファーストパーティアプリは必要以上に多くのパーミッションを要求することがあり、認識不足、技術的制約、ビジネスニーズによりプライバシーに配慮した代替策を見落とすことがよくあります。開発者は機能性とプライバシーのバランスを取るという課題に直面しています。一部のパーミッションはコア機能に不可欠です (例: カメラアプリはカメラアクセスを必要とします) が、過剰なパーミッションは不要なデータ収集や潜在的なプライバシー侵害につながる可能性があります。
 
-From the user's perspective, privacy concerns may lead to reluctance in granting permissions, forcing them to choose between privacy and app functionality as in some cases, refusing to grant permissions could render the app unusable. Conversely, users may grant permissions without fully understanding the implications, resulting in unintended data exposure.
+ユーザーの視点から、プライバシーの懸念はパーミッション付与をためらうことにつながり、場合によってはプライバシーとアプリの機能性のいずれかを選ばざるを得なくなり、パーミッション付与を拒否するとアプリが使用できなくなる可能性があります。逆に、ユーザーは影響を十分に理解せずにパーミッションを付与し、意図しないデータ露出につながる可能性があります。
 
 ### 事前インストール済みアプリ
 
