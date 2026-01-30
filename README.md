@@ -105,6 +105,7 @@ This is the unofficial Japanese translation of the [OWASP Mobile Application Sec
 - [MASWE-0072](Document/weaknesses/MASVS-PLATFORM/MASWE-0072.md) ユニバーサル XSS (Universal XSS)
 - [MASWE-0073](Document/weaknesses/MASVS-PLATFORM/MASWE-0073.md) 安全でない WebResourceResponse 実装 (Insecure WebResourceResponse Implementations)
 - [MASWE-0074](Document/weaknesses/MASVS-PLATFORM/MASWE-0074.md) ウェブコンテンツのデバッグ有効化 (Web Content Debugging Enabled)
+- [MASWE-0118](Document/weaknesses/MASVS-PLATFORM/MASWE-0118.md) 使用後に削除されない機密データ (Sensitive Data Not Removed After Use)
 
 ### MASVS-CODE: コード品質
 

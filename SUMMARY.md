@@ -88,6 +88,7 @@
   - [MASWE-0072 ユニバーサル XSS (Universal XSS)](Document/weaknesses/MASVS-PLATFORM/MASWE-0072.md)
   - [MASWE-0073 安全でない WebResourceResponse 実装 (Insecure WebResourceResponse Implementations)](Document/weaknesses/MASVS-PLATFORM/MASWE-0073.md)
   - [MASWE-0074 ウェブコンテンツのデバッグ有効化 (Web Content Debugging Enabled)](Document/weaknesses/MASVS-PLATFORM/MASWE-0074.md)
+  - [MASWE-0118 使用後に削除されない機密データ (Sensitive Data Not Removed After Use)](Document/weaknesses/MASVS-PLATFORM/MASWE-0118.md)
 
 - MASVS-CODE: コード品質
   - [MASWE-0075 実装されていない強制アップデート (Enforced Updating Not Implemented)](Document/weaknesses/MASVS-CODE/MASWE-0075.md)
