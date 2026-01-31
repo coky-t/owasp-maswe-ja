@@ -35,7 +35,7 @@ status: new
 
 ### 事前インストール済みアプリ
 
-Pre-installed apps frequently come with excessive permissions that users cannot control or revoke, as they are often granted by default without explicit consent. This lack of control can result in continuous data collection and persistent privacy risks.
+事前インストール済みアプリは、ユーザーが制御または取り消しできない過剰なパーミッションを付与していることがよくあります。多くの場合、それらは明示的な同意なしにデフォルトで付与されているためです。この制御の欠如は継続的なデータ収集や永続的なプライバシーリスクにつながる可能性があります。
 
 ### サードパーティライブラリ (SDK)
 
