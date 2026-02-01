@@ -39,7 +39,7 @@ status: new
 
 ### サードパーティライブラリ (SDK)
 
-**Third-party libraries (SDKs)** further complicate permission management by inheriting app permissions and introducing privacy and security risks that are difficult to audit and control. Mobile permission models often fail to distinguish between permissions granted to an app and those assigned to third-party components, a challenge highlighted in the [IEEE research paper "Engineering Privacy in Smartphone Apps"](https://ieeexplore.ieee.org/document/9001128) (Section IV, _"Third-party content"_). Furthermore, third-party services behind these SDKs may continue accessing data collected over the network even after permissions are revoked or the app is deleted, creating long-term risks for user privacy.
+**サードパーティライブラリ (SDK)** はアプリのパーミッションを継承することでパーミッション管理をさらに複雑化し、監査や対策が困難なプライバシーとセキュリティのリスクをもたらします。モバイルのパーミッションモデルは、アプリに付与されたパーミッションとサードパーティコンポーネントに割り当てられたものの間で区別できないことが多く、この課題は [IEEE 研究論文 "Engineering Privacy in Smartphone Apps"](https://ieeexplore.ieee.org/document/9001128) (Section IV, _"Third-party content"_) で強調されています。さらに、これらの SDK の背後にあるサードパーティサービスは、パーミッションが取り消された後やアプリが削除された後でも、ネットワーク経由で収集されたデータにアクセスし続ける可能性があり、ユーザーのプライバシーに対して長期的なリスクをもたらします。
 
 ## 流入の形態
 
