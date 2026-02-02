@@ -43,10 +43,10 @@ status: new
 
 ## 流入の形態
 
-- **Requesting Excessive Permissions**: Apps requesting more permissions than necessary for their core functionality.
-- **Lack of Use of Privacy-Friendly Alternatives**: Failing to use privacy-friendly alternatives to permissions that are less intrusive and provide users with more control over their data. For example, using coarse location instead of fine location, or using an image picker instead of requesting access to the camera and photo gallery.
-- **Lack of Proactive Permission Revocation**: Not automatically revoking app permissions that are no longer necessary, resulting in unnecessary data access over time.
-- **Inadequate Permission Explanations**: Failing to provide clear explanations for why each permission is required.
+- **過剰なパーミッションの要求**: アプリはコア機能に必要よりも多くのパーミッションを要求します。
+- **プライバシーに配慮した代替手段の使用の欠如**: ユーザーを邪魔せず、データに対するより多くのコントロールを提供する、プライバシーに配慮した代替手段をパーミッションに使用していません。たとえば、詳細な位置情報ではなく大まかな位置情報を使用したり、カメラやフォトギャラリーへのアクセスを要求する代わりに画像ピッカーを使用します。
+- **積極的なパーミッション失効の欠如**: もはや必要ではないアプリのパーミッションを自動的に取り消さず、時間の経過とともに不要なデータアクセスにつながります。
+- **不適当なパーミッションの説明**: 各パーミッションが必要な理由について明確な説明を提供していません。
 
 ## 影響
 
