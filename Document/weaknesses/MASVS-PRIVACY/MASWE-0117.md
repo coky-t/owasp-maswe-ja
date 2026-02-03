@@ -50,11 +50,11 @@ status: new
 
 ## 影響
 
-- **Violation of User Privacy**: Users may have their personal data unnecessarily accessed by mobile apps, leading to potential misuse, identity theft, or surveillance.
-- **Loss of User Trust**: Users may lose trust in an app if it requests unnecessary permissions or does not allow them to revoke permissions that are no longer relevant. This can lead to negative reviews, lower user engagement, and reduced retention.
-- **Legal and Compliance Issues**: Apps that improperly manage permissions may face non-compliance with privacy regulations like GDPR or CCPA, which require data minimization and appropriate user control over data access, resulting in potential fines, legal action, or removal from app stores.
-- **Malicious Abuse:** Harmful apps can misuse permissions from privileged apps to record, track, or steal data without user consent.
-- **Data Breaches:** Once sensitive data leaves the app, its security can no longer be guaranteed, increasing the risk of large-scale data exposure via data breaches.
+- **ユーザープライバシーの侵害**: ユーザーが持つ個人データをモバイルアプリにより不必要にアクセスされ、不正使用、アイデンティティ窃取、偵察につながる可能性があります。
+- **ユーザーの信頼の喪失**: アプリが不要なパーミッションを要求したり、もはや関係のないパーミッションを取り消せない場合、ユーザーはアプリの信頼を失う可能性があります。これは、否定的なレビュー、ユーザーエンゲージメントの低下、リテンションの低下につながる可能性があります。
+- **法的およびコンプライアンスの問題**: パーミッションを適切に管理していないアプリは、GDPR や CCPA などのプライバシー規制の非遵守に直面する可能性があります。これらはデータ最小化と、データアクセスに対する適切なユーザー制御を要求しており、罰金、法的措置、アプリストアからの削除につながる可能性があります。
+- **悪意のある不正使用:** 有害なアプリは、特権アプリのパーミッションを悪用して、ユーザーの同意なしにデータを記録、追跡、窃取する可能性があります。
+- **データ侵害:** 機密データがアプリから離れると、そのセキュリティは保証されなくなり、データ侵害による大規模なデータ開示のリスクが高まります。
 
 ## 緩和策
 
