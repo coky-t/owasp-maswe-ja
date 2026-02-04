@@ -58,8 +58,8 @@ status: new
 
 ## 緩和策
 
-- **Enable Proactive Permission Revocation**: Automatically revoke permissions that are no longer necessary to minimize unnecessary data access over time. Ensure that users can manually revoke permissions at any time through a clear and accessible interface.
-- **Prefer Privacy-Friendly Alternatives**: Use privacy-friendly alternatives to permissions that are less intrusive and provide users with more control over their data. For example, use coarse location instead of fine location, or use an image picker instead of requesting access to the camera and photo gallery.
-- **Limit Permissions to Essential Needs**: Ensure apps only request permissions necessary for core functionality, avoiding the collection of unnecessary data and adhering to the principle of data minimization.
-- **Implement Just-in-Time Permission Requests**: Request permissions only when they are needed, providing clear explanations for why each permission is required. This approach helps build user trust and ensures users understand the implications of granting access to their data.
-- **User Education on Permissions**: Educate users about why specific permissions are needed and how they can manage these permissions. Providing transparency builds user trust and ensures users understand the importance and relevance of each permission.
+- **プロアクティブなパーミッション失効を有効にする**: もはや必要ではないパーミッションを自動的に失効し、時間の経過に伴う不要なデータアクセスを最小限に抑えます。ユーザーは、わかりやすくアクセスしやすいインタフェースを通じて、いつでも手動でパーミッションを失効できるようにします。
+- **プライバシーに配慮した代替手段を優先する**: プライバシーに配慮した代替手段をパーミッションに使用し、より侵入的ではなく、ユーザーのデータに対するより多くのコントロールを提供します。たとえば、詳細な位置情報ではなく大まかな位置情報を使用したり、カメラやフォトギャラリーへのアクセスを要求する代わりに画像ピッカーを使用します。
+- **パーミッションを必要不可欠なものに制限する**: アプリがコア機能に必要なパーミッションのみを要求するようにし、不要なデータの収集を避け、データ最小化の原則を遵守します。
+- **ジャストインタイムのパーミッションリクエストを実装する**: 必要な場合にのみパーミッションを要求し、各パーミッションが必要な理由を明確に説明します。このアプローチは、ユーザーの信頼を構築するのに役立ち、データへのアクセスを付与する影響をユーザーが理解するようにします。
+- **パーミッションに関するユーザー教育**: 特定のパーミッションが必要な理由と、それらのパーミッションを管理する方法についてユーザーを教育します。透明性を提供することでユーザーの信頼を築き、各パーミッションの重要性と関連性をユーザーが理解するようにします。
