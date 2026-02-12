@@ -29,11 +29,11 @@ status: new
 
 ## 概要
 
-User tracking in mobile applications involves collecting and analyzing data to monitor user behavior, preferences, and movements. This enables companies to recognize and follow users over time and across different apps, devices, and services. Such tracking often occurs without the user's explicit knowledge or consent, leading to significant privacy concerns.
+モバイルアプリケーションでのユーザー追跡は、ユーザーの行動、嗜好、活動を監視するためのデータ収集と解析を伴います。これは企業が時間の経過とともにさまざまなアプリ、デバイス、サービスにわたってユーザーを認識して追跡できます。そのような追跡はユーザーの明示的な認識や同意なしに発生することが多く、重大なプライバシー上の懸念につながります。
 
-Mobile apps commonly include embedded utilities or third-party SDKs from companies like Google, Meta (formerly Facebook), X (formerly Twitter), and others. Examples of these utilities include analytics tools, ad networks, and social media integration components. These components can collect data not directly related to the app's functionality, potentially accessing sensitive information like contact lists or location history, depending on the permissions granted. Pre-installed apps by device manufacturers can further complicate the issue, as they may engage in invasive data collection without users' knowledge.
+モバイルアプリは、Google, Meta (旧 Facebook), X (旧 Twitter) などの企業からのユーティリティやサードパーティ SDK を組み込まれることがよくあります。これらのユーティリティの例としては、分析ツール、広告ネットワーク、ソーシャルメディア統合コンポーネントなどがあります。これらのコンポーネントはアプリの機能に直接関係のないデータを収集する可能性があり、付与されたパーミッションによっては、連絡先リストや位置情報履歴などの機密情報にアクセスする可能性があります。デバイス製造業者がプリインストールしたアプリは、ユーザーの知らないうちに侵襲的なデータ収集を行う可能性があるため、問題をさらに複雑にする可能性があります。
 
-One common method of tracking is through the use of unique identifiers, especially those that cannot be reset. When combined with data from multiple apps, these identifiers can be used to create detailed profiles of individuals—estimating interests, health status, sexual orientation, and other personal attributes. This information can be utilized for targeted advertising, personalized content delivery, or even to influence political opinions.
+追跡のよくある手法の一つは固有識別子、特にリセットできないもの、を使用することです。複数のアプリからのデータと組み合わせることで、これらの識別子を使用して個人の詳細なプロファイルを作成し、興味、健康状態、性的指向、その他の個人属性を推定できます。この情報は、ターゲット広告、パーソナライズされたコンテンツ配信、さらには政治的意見に影響を与えるために活用される可能性があります。
 
 ## 流入の形態
 
