@@ -44,9 +44,9 @@ status: new
 
 ## 影響
 
-- **Loss of User Trust**: Users are likely to lose trust in an app that lacks transparency in how unique identifiers are used for tracking, which may lead to negative reviews, decreased engagement, and reduced retention rates.
-- **Violation of User Privacy**: Users may not be fully aware of the implications when accepting tracking, such as the collection of unique identifiers or usage patterns. In some cases, tracking may be mandatory to use an app, leaving users without a real choice. This can lead to privacy violations, unauthorized use of their information, and an erosion of user control over their data.
-- **Compliance and Legal Risks**: Violation of data protection laws and regulations (like GDPR), resulting in legal consequences, fines, and potential non-compliance with platform guidelines, which may lead to app store removal.
+- **ユーザーの信頼の喪失**: 追跡に固有の識別子がどのように使用されるかについて透明性が欠如しているアプリでは、ユーザーは信頼を失う可能性が高く、否定的なレビュー、エンゲージメントの低下、維持率の低下につながる可能性があります。
+- **ユーザープライバシーの侵害**: ユーザーは、固有の識別子や使用パターンの収集といった、追跡を受け入れる際の影響を十分に認識していない可能性があります。場合によっては、アプリの使用に追跡が必須となり、ユーザーに実質的な選択肢がないこともあります。これは、プライバシー侵害、情報の不正使用、ユーザーのデータ管理の侵害につながる可能性があります。
+- **コンプライアンスおよび法的リスク**: データ保護法や規制 (GDPR など) の違反は、法的措置や罰金をもたらし、プラットフォームガイドラインに準拠しない可能性があり、アプリストアからの削除につながる可能性があります。
 
 ## 緩和策
 
