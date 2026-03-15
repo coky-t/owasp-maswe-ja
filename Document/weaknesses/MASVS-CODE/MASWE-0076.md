@@ -29,31 +29,31 @@ refs:
 
 ## 概要
 
-Mobile apps often depend on third-party libraries, software development kits (SDKs), or frameworks, either open-source components maintained by the community or closed-source products provided by commercial vendors, to implement functionality, streamline development, or integrate platform services.
+モバイルアプリは、機能の実装、開発の効率化、プラットフォームサービスの統合のために、コミュニティによって保守されているオープンソースコンポーネントまたは商用ベンダーによって提供されるクローズドソース製品のいずれかの、サードパーティライブラリ、ソフトウェア開発キット (SDK)、フレームワークに依存することがよくあります。
 
-When these dependencies contain vulnerabilities, they can be more easily exploited than vulnerabilities in first-party code because these vulnerabilities (and some exploits) are often documented in public databases, such as the CVE list, or accessible through security advisories.
+これらの依存関係に脆弱性を含む場合、これらの脆弱性 (および一部のエクスプロイト) は CVE リストなどの公開データベースに文書化されていたり、セキュリティアドバイザリを通じてアクセス可能であることが多いため、ファーストパーティコードの脆弱性よりも簡単に悪用される可能性があります。
 
-**The developer is responsible** for ensuring all dependencies are secure and up to date because they are part of the app's codebase and therefore extend the app's attack surface. Google and Apple emphasize this in their security best practices:
+**開発者は** すべての依存関係が安全かつ最新であることを確保する **責任があります**。なぜなら、それらはアプリのコードベースの一部であり、それゆえにアプリの攻撃対象領域を拡大するためです。Google と Apple は以下のセキュリティベストプラクティスでこれを強調しています。
 
-!!! quote "Google's [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895)"
+> [!NOTE]
+> "Google の [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895)"  
+> "アプリに SDK を含む場合、サードパーティのコードとプラクティスが Google Play Developer Program Policies に準拠していること、およびアプリがポリシーに違反しないことを確保する責任があなたにあります。"
 
-    "If you include an SDK in your app, you are responsible for ensuring that their third-party code and practices are compliant with Google Play Developer Program Policies and do not cause your app to violate policies."
+> [!NOTE]
+> "Apple の [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)"  
+> "広告ネットワーク、分析サービス、サードパーティ SDK など、アプリ内のすべてがこれらのガイドラインに準拠していることを確認するのはあなたの責任ですので、慎重に確認して選択してください。"
 
-!!! quote "Apple's [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)"
+プライバシーの観点では、依存関係が適切な同意や透明性なしにユーザーデータを収集したり送信する場合、リスクをもたらす可能性があります。Google と Apple の両社は、アプリで使用されるサードパーティ SDK に、ユーザーデータが安全かつ透明性のあるように取り扱われることを確保するため、それぞれのプライバシーポリシーとガイドラインを遵守することを求めています。たとえライブラリ自体が直接管理下にない場合や、プラットフォームのポリシーに違反する可能性のある特定のコードを使用していない場合でも、アプリで使用されるサードパーティライブラリや SDK がこれらの要件に遵守していることを確保するのは開発者の責任です。
 
-    "You are responsible for making sure everything in your app complies with these guidelines, including ad networks, analytics services, and third-party SDKs, so review and choose them carefully."
+> [!NOTE]
+> "Google の [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895)"  
+> "アプリ開発者は、SDK によってアプリ内で収集されたデータを、直接収集したかのように扱う必要があります。"
 
-In terms of privacy, dependencies can introduce risks if they collect or transmit user data without proper consent or transparency. Both Google and Apple require third-party SDKs used in apps to comply with their privacy policies and guidelines to ensure user data is handled securely and transparently. It is the developer's responsibility to ensure that any third-party libraries or SDKs used in the app adhere to these requirements, even if the libraries themselves are not under their direct control and even if they don't use the specific code that could violate the platform's policies.
+> [NOTE]
+> "Apple の [Third-party SDK requirements](https://developer.apple.com/support/third-party-SDK-requirements/)"  
+> "アプリでサードパーティ SDK を使用する場合、SDK がアプリに含めるすべてのコードについてあなたが責任を負い、そのデータ収集や使用方法を把握する必要があります。"
 
-!!! quote "Google's [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895)"
-
-    "App developers are required to treat any data collection from within their app by an SDK as if they collected it directly."
-
-!!! quote "Apple's [Third-party SDK requirements](https://developer.apple.com/support/third-party-SDK-requirements/)"
-
-    "When you use a third-party SDK with your app, you are responsible for all the code the SDK includes in your app, and need to be aware of its data collection and use practices.
-
-For more information on privacy and data collection declarations, see @MASWE-0112.
+プライバシーとデータ収集に関する宣言の詳細については、[不十分なデータ収集宣言 (Inadequate Data Collection Declarations)](../MASVS-PRIVACY/MASWE-0112.md) を参照してください。
 
 ## 影響
 
