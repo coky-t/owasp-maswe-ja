@@ -49,7 +49,7 @@ refs:
 > "Google の [Using SDKs safely and securely](https://support.google.com/googleplay/android-developer/answer/13326895)"  
 > "アプリ開発者は、SDK によってアプリ内で収集されたデータを、直接収集したかのように扱う必要があります。"
 
-> [NOTE]
+> [!NOTE]
 > "Apple の [Third-party SDK requirements](https://developer.apple.com/support/third-party-SDK-requirements/)"  
 > "アプリでサードパーティ SDK を使用する場合、SDK がアプリに含めるすべてのコードについてあなたが責任を負い、そのデータ収集や使用方法を把握する必要があります。"
 
