@@ -57,11 +57,11 @@ refs:
 
 ## 影響
 
-Using dependencies with known vulnerabilities in mobile apps can result in various security risks, including but not limited to:
+モバイルアプリで既知の脆弱性を持つ依存関係を使用すると、以下のようなさまざまなセキュリティリスクにつながる可能性があります。ただし、これらに限定されません。
 
-- **Sensitive Data Exposure**: Vulnerable dependencies may be exploited to bypass access controls or cryptographic protections, which could lead to the exposure of sensitive user data, including credentials, session tokens, and personally identifiable information (PII). This can result in data breaches, which can have legal, financial and reputational consequences.
-- **Execution of Unauthorized Code or Privilege Escalation**: Exploitable vulnerabilities in embedded dependencies can allow attackers to execute arbitrary code within the app's context (e.g., through code injection), escalate privileges, or manipulate app behavior. The overall impact can range from full compromise of user accounts, abuse of backend services or persistent access to protected resources. The business impact can be severe, including financial loss, service disruption, and damage to customer trust.
-- **Regulatory and Policy Non-Compliance**: Including dependencies with publicly known CVEs may violate regulatory requirements (e.g., GDPR, HIPAA, PCI-DSS) or platform security policies (e.g., Google Play or App Store guidelines). Failure to update or remediate such vulnerabilities can result in app rejection, fines, or mandatory disclosures.
+- **機密データの露出**: 脆弱な依存関係は悪用され、アクセス制御や暗号化保護をバイパスする可能性があり、クレデンシャル、セッショントークン、個人を識別できる情報 (PII) などの機密性の高いユーザーデータの露出につながる可能性があります。これはデータ侵害につながり、法的、経済的、評判的な悪影響を及ぼす可能性があります。
+- **不正なコードの実行や権限昇格**: 組み込まれた依存関係の悪用可能な脆弱性は、攻撃者がアプリのコンテキスト内で (例: コードインジェクションを通じて) 任意のコードを実行したり、権限を昇格したり、アプリの動作を操作することを可能性にします。全体的な影響は、ユーザーアカウントの完全な侵害、バックエンドサービスの悪用、保護されたリソースへの永続的なアクセスなど多岐にわたります。ビジネスへの影響は深刻で、金銭的損失、サービス中断、顧客からの信頼の失墜などを含みます。
+- **規制およびポリシーの非遵守**: 公知の CVE を持つ依存関係を含むと、規制要件 (GDPR, HIPAA, PCI-DSS など) やプラットフォームセキュリティポリシー (Google Play や App Store のガイドラインなど) に違反する可能性があります。このような脆弱性を更新または修正しないと、アプリの不認可、罰金、開示義務につながる可能性があります。
 
 ## 流入の形態
 
