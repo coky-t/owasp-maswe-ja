@@ -80,7 +80,6 @@
   - [MASWE-0064 安全でないコンテンツプロバイダ (Insecure Content Providers)](Document/weaknesses/MASVS-PLATFORM/MASWE-0064.md)
   - [MASWE-0065 他のアプリと永続的に共有される機密データ (Sensitive Data Permanently Shared with Other Apps)](Document/weaknesses/MASVS-PLATFORM/MASWE-0065.md)
   - [MASWE-0066 安全でないインテント (Insecure Intents)](Document/weaknesses/MASVS-PLATFORM/MASWE-0066.md)
-  - [MASWE-0067 無効化されていないデバッグ可能フラグ (Debuggable Flag Not Disabled)](Document/weaknesses/MASVS-PLATFORM/MASWE-0067.md)
   - [MASWE-0068 WebView での JavaScript ブリッジ (JavaScript Bridges in WebViews)](Document/weaknesses/MASVS-PLATFORM/MASWE-0068.md)
   - [MASWE-0069 ローカルリソースへのアクセスを許可する WebView (WebViews Allows Access to Local Resources)](Document/weaknesses/MASVS-PLATFORM/MASWE-0069.md)
   - [MASWE-0070 信頼できないソースからロードされた JavaScript (JavaScript Loaded from Untrusted Sources)](Document/weaknesses/MASVS-PLATFORM/MASWE-0070.md)
@@ -109,6 +108,7 @@
 
 - MASVS-RESILIENCE: リバースエンジニアリングと改竄に対する耐性
   - [MASWE-0008 デバイスのセキュアロック検証の実装の欠如 (Missing Device Secure Lock Verification Implementation)](Document/weaknesses/MASVS-RESILIENCE/MASWE-0008.md)
+  - [MASWE-0067 無効化されていないデバッグ可能フラグ (Debuggable Flag Not Disabled)](Document/weaknesses/MASVS-RESILIENCE/MASWE-0067.md)
   - [MASWE-0089 実装されていないコード難読化 (Code Obfuscation Not Implemented)](Document/weaknesses/MASVS-RESILIENCE/MASWE-0089.md)
   - [MASWE-0090 実装されていないリソース難読化 (Resource Obfuscation Not Implemented)](Document/weaknesses/MASVS-RESILIENCE/MASWE-0090.md)
   - [MASWE-0091 実装されていない逆難読化防止技法 (Anti-Deobfuscation Techniques Not Implemented)](Document/weaknesses/MASVS-RESILIENCE/MASWE-0091.md)

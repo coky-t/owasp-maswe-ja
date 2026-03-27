@@ -97,7 +97,6 @@ This is the unofficial Japanese translation of the [OWASP Mobile Application Sec
 - [MASWE-0064](Document/weaknesses/MASVS-PLATFORM/MASWE-0064.md) 安全でないコンテンツプロバイダ (Insecure Content Providers)
 - [MASWE-0065](Document/weaknesses/MASVS-PLATFORM/MASWE-0065.md) 他のアプリと永続的に共有される機密データ (Sensitive Data Permanently Shared with Other Apps)
 - [MASWE-0066](Document/weaknesses/MASVS-PLATFORM/MASWE-0066.md) 安全でないインテント (Insecure Intents)
-- [MASWE-0067](Document/weaknesses/MASVS-PLATFORM/MASWE-0067.md) 無効化されていないデバッグ可能フラグ (Debuggable Flag Not Disabled)
 - [MASWE-0068](Document/weaknesses/MASVS-PLATFORM/MASWE-0068.md) WebView での JavaScript ブリッジ (JavaScript Bridges in WebViews)
 - [MASWE-0069](Document/weaknesses/MASVS-PLATFORM/MASWE-0069.md) ローカルリソースへのアクセスを許可する WebView (WebViews Allows Access to Local Resources)
 - [MASWE-0070](Document/weaknesses/MASVS-PLATFORM/MASWE-0070.md) 信頼できないソースからロードされた JavaScript (JavaScript Loaded from Untrusted Sources)
@@ -128,6 +127,7 @@ This is the unofficial Japanese translation of the [OWASP Mobile Application Sec
 ### MASVS-RESILIENCE: リバースエンジニアリングと改竄に対する耐性
 
 - [MASWE-0008](Document/weaknesses/MASVS-RESILIENCE/MASWE-0008.md) デバイスのセキュアロック検証の実装の欠如 (Missing Device Secure Lock Verification Implementation)
+- [MASWE-0067](Document/weaknesses/MASVS-RESILIENCE/MASWE-0067.md) 無効化されていないデバッグ可能フラグ (Debuggable Flag Not Disabled)
 - [MASWE-0089](Document/weaknesses/MASVS-RESILIENCE/MASWE-0089.md) 実装されていないコード難読化 (Code Obfuscation Not Implemented)
 - [MASWE-0090](Document/weaknesses/MASVS-RESILIENCE/MASWE-0090.md) 実装されていないリソース難読化 (Resource Obfuscation Not Implemented)
 - [MASWE-0091](Document/weaknesses/MASVS-RESILIENCE/MASWE-0091.md) 実装されていない逆難読化防止技法 (Anti-Deobfuscation Techniques Not Implemented)
