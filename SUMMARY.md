@@ -105,7 +105,7 @@
   - [MASWE-0086 SQL インジェクション (SQL Injection)](Document/weaknesses/MASVS-CODE/MASWE-0086.md)
   - [MASWE-0087 安全でないパースとエスケープ (Insecure Parsing and Escaping)](Document/weaknesses/MASVS-CODE/MASWE-0087.md)
   - [MASWE-0088 安全でないオブジェクトのデシリアライゼーション (Insecure Object Deserialization)](Document/weaknesses/MASVS-CODE/MASWE-0088.md)
-  - [MASWE-0116 使用されていないコンパイラ提供のセキュリティ機能 (Compiler Provided Security Features Not Used)](Document/weaknesses/MASVS-CODE/MASWE-0116.md)
+  - [MASWE-0116 使用されていないコンパイラ提供のセキュリティ機能 (Compiler-Provided Security Features Not Used)](Document/weaknesses/MASVS-CODE/MASWE-0116.md)
 
 - MASVS-RESILIENCE: リバースエンジニアリングと改竄に対する耐性
   - [MASWE-0008 デバイスのセキュアロック検証の実装の欠如 (Missing Device Secure Lock Verification Implementation)](Document/weaknesses/MASVS-RESILIENCE/MASWE-0008.md)

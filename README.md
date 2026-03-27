@@ -123,7 +123,7 @@ This is the unofficial Japanese translation of the [OWASP Mobile Application Sec
 - [MASWE-0086](Document/weaknesses/MASVS-CODE/MASWE-0086.md) SQL インジェクション (SQL Injection)
 - [MASWE-0087](Document/weaknesses/MASVS-CODE/MASWE-0087.md) 安全でないパースとエスケープ (Insecure Parsing and Escaping)
 - [MASWE-0088](Document/weaknesses/MASVS-CODE/MASWE-0088.md) 安全でないオブジェクトのデシリアライゼーション (Insecure Object Deserialization)
-- [MASWE-0116](Document/weaknesses/MASVS-CODE/MASWE-0116.md) 使用されていないコンパイラ提供のセキュリティ機能 (Compiler Provided Security Features Not Used)
+- [MASWE-0116](Document/weaknesses/MASVS-CODE/MASWE-0116.md) 使用されていないコンパイラ提供のセキュリティ機能 (Compiler-Provided Security Features Not Used)
 
 ### MASVS-RESILIENCE: リバースエンジニアリングと改竄に対する耐性
 
