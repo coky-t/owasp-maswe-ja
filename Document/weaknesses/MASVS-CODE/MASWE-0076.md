@@ -65,11 +65,11 @@ refs:
 
 ## 流入の形態
 
-- **Direct Dependencies**: Vulnerable dependencies can be introduced into the app either manually (by copying and linking source or binary files) or more commonly via package managers and build tools (e.g., Gradle, CocoaPods, Swift Package Manager). This includes both first- and third-party SDKs, and may involve both statically and dynamically linked libraries.
-- **Transitive Dependencies**: Dependencies can be pulled in indirectly through other libraries or SDKs that the app uses. This means that an app may still be affected by a vulnerable library if one of its dependencies includes it, even if the app does not directly include the library itself.
-- **Dynamically Loaded Dependencies**: Some libraries may be dynamically loaded at runtime, which can make it difficult to track and manage dependencies. This can lead to situations where a vulnerable version of a library is used without the developer's knowledge.
-- **Outdated Platform Security Components**: Mobile apps may depend on platform-provided security components, such as cryptographic libraries or SSL/TLS implementations. If these components are outdated or lack timely updates, they can introduce known vulnerabilities into the application. For instance, on Android, the system's security provider responsible for secure network communications must be explicitly updated by the developer at app startup.
-- **Usage of Third-Party Frameworks**: Applications may be built in a third-party application framework such as Flutter or React Native. The framework itself, as well as any platform-specific bindings may contain vulnerabilities.
+- **直接的な依存関係**: 脆弱な依存関係は、手動で (ソースファイルやバイナリファイルをコピーしてリンクすることで) アプリにもたらされることもあれば、より一般的にはパッケージマネージャやビルドツール (Gradle, CocoaPods, Swift Package Manager など) を介してもたらされることもあります。これはファーストパーティおよびサードパーティの SDK を含み、静的および動的にリンクする両方のライブラリが関与する可能性があります。
+- **推移的依存関係**: 依存関係はアプリが使用する他のライブラリや SDK を通じて間接的に取り込まれることがあります。つまり、アプリが脆弱なライブラリ自体を直接含んでいなくても、依存関係のいずれかがそれを含む場合、アプリは依然としてその影響を受ける可能性があることを意味します。
+- **動的にロードされる依存関係**: 一部のライブラリは実行時に動的にロードされることがあり、依存関係の追跡と管理を困難にする可能性があります。これは、開発者の知らないうちに脆弱なバージョンのライブラリが使用される事態につながる可能性があります。
+- **古くなったプラットフォームセキュリティコンポーネント**: モバイルアプリは、暗号ライブラリや SSL/TLS 実装など、プラットフォームが提供するセキュリティコンポーネントに依存していることがあります。これらのコンポーネントが古くなっていたり、タイムリーな更新を欠いている場合、既知の脆弱性をアプリケーションにもたらす可能性があります。たとえば、Android では、安全なネットワーク通信を担うシステムのセキュリティプロバイダは、アプリ起動時に開発者によって明示的に更新される必要があります。
+- **サードパーティフレームワークの使用**: アプリケーションは Flutter や React Native などのサードパーティアプリケーションフレームワークで構築されることがあります。フレームワーク自体、およびプラットフォーム固有のバインディングには脆弱性を含む可能性があります。
 
 ## 緩和策
 
