@@ -2,7 +2,7 @@
 title: プライベートストレージに暗号化されずに保存される機密データ (Sensitive Data Stored Unencrypted in Private Storage)
 id: MASWE-0001
 alias: data-unencrypted-private-storage
-requirement: "The app encrypts sensitive data stored in private storage."
+requirement: "アプリはプライベートストレージに保存される機密データを暗号化している。"
 platform: [android, ios]
 profiles: [L2]
 threat: MAS-THREAT-0001
