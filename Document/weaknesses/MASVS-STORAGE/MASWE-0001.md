@@ -22,9 +22,9 @@ refs:
 
 ## 概要
 
-This weakness occurs when an app stores sensitive data unencrypted in private storage locations, such as the application sandbox, where it can be exposed via incorrect file permissions, an app or device vulnerability, or data backup mechanisms.
+この脆弱性は、アプリが機密データを暗号化せずに、アプリケーションサンドボックスなどのプライベートストレージの場所に保存する場合に発生します。不適切なファイルパーミッション、アプリやデバイスの脆弱性、データバックアップメカニズムを介して露出する恐れ場あります。
 
-Sensitive data may include personally identifiable information (PII), passwords, cryptographic keys, or session tokens.
+機密データには、個人を識別できる情報 (PII)、パスワード、暗号鍵、セッショントークンを含むことがあります。
 
 ## 流入の形態
 
