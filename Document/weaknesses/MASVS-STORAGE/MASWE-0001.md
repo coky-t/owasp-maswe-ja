@@ -28,12 +28,12 @@ refs:
 
 ## 流入の形態
 
-- **Data Stored Unencrypted**: Writing sensitive data to the app's private data directory (sandbox) unencrypted.
-- **Hardcoded Encryption Key**: Encrypting sensitive data with a key that is hardcoded inside the application.
-- **Encryption Key Stored on Filesystem**: Encrypting sensitive data but storing the generated key alongside it or in another easily accessible location.
-- **Insufficient Encryption**: Encrypting sensitive data with an algorithm or configuration that is not considered strong.
-- **Insufficient Access Restrictions**: Exposing private files to other apps through incorrect file permissions (e.g. the deprecated `MODE_WORLD_READABLE`/`MODE_WORLD_WRITEABLE` file permission modes on Android), a misconfigured `FileProvider`, or Keychain items protected with weak accessibility attributes on iOS (e.g. `kSecAttrAccessibleAlways`).
-- **Data Not Removed After Use**: Retaining sensitive data in private storage (including caches, temporary files, WebView state, and network caches) longer than needed.
+- **暗号化なしで保存されたデータ**: 機密データを暗号化なしでアプリのプライベートデータディレクトリ (サンドボックス) に書き込みます。
+- **ハードコードされた暗号鍵**: 機密データをアプリケーション内にハードコードされた鍵で暗号化します。
+- **ファイルシステム上に保存された暗号鍵**: 機密データを暗号化しますが、生成鍵は近くまたは簡単にアクセスできる別の場所に保存します。
+- **不十分な暗号化**: 機密データを強いとはみなされないアルゴリズムや設定で暗号化します。
+- **不十分なアクセス制限**: プライベートファイルを、不適切なファイルパーミッション (Android で非推奨の `MODE_WORLD_READABLE`/`MODE_WORLD_WRITEABLE` ファイルパーミッションモードなど)、設定不備のある `FileProvider`、あるいは iOS で弱いアクセシビリティ属性 (`kSecAttrAccessibleAlways` など) で保護されたキーチェーンアイテムを通じて、他のアプリに露出します。
+- **使用後に削除されないデータ**: 機密データをプライベートストレージ (キャッシュ、一時ファイル、WebView ステート、ネットワークキャッシュを含む) に必要以上に長く保持します。
 
 ## 影響
 
