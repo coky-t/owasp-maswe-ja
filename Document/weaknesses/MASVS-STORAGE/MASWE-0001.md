@@ -37,8 +37,8 @@ refs:
 
 ## 影響
 
-- **Compromise of Sensitive Data**: Attackers can extract PII and other user data from the application sandbox, resulting in unauthorized disclosure and enabling further attacks such as identity theft.
-- **Authentication or Authorization Bypass**: Attackers can extract passwords, cryptographic keys, or session tokens, resulting in account takeover or unauthorized access to protected functionality.
+- **機密データの侵害**: 攻撃者はアプリケーションサンドボックスから PII やその他のユーザーデータを抽出し、不正な開示につながり、なりすましなどのさらなる攻撃を可能にします。
+- **認証や認可のバイパス**: 攻撃者はパスワード、暗号鍵、またはセッショントークンを抽出でき、アカウント乗っ取りや保護された機能への不正アクセスにつながります。
 
 ## 緩和策
 
