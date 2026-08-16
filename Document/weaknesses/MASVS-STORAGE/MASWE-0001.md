@@ -42,11 +42,11 @@ refs:
 
 ## 緩和策
 
-- **Minimize Local Storage of Sensitive Data**: Avoid storing sensitive data locally if it is not required for app functionality, e.g. keep PII server-side, render it at time of use, and remove any cached data on logout.
-- **Restrict File Access**: Use platform APIs to restrict file access as much as possible (least privilege principle). On Android, share data through a properly configured `ContentProvider`/ `FileProvider` with per-grant permissions instead of the deprecated `MODE_WORLD_READABLE`/`MODE_WORLD_WRITEABLE` file permission modes. On iOS, store Keychain items with the strictest viable accessibility attribute (e.g. `kSecAttrAccessibleWhenUnlockedThisDeviceOnly`).
-- **Remove Data When No Longer Needed**: Clear sensitive data, caches, and temporary files as soon as they are no longer needed (e.g. on logout or when leaving a sensitive flow) to limit the window during which they can be exposed.
-- **Use Platform Keystores**: Store cryptographic keys exclusively using the platform's hardware-backed keystore solution, such as the Android Keystore or the iOS Keychain.
-- **Encrypt Data at Rest**: For other files and preferences, use platform-provided features for encrypting data at rest or techniques implementing envelope encryption with Data Encryption Keys (DEK) and Key Encryption Keys (KEK) or equivalent methods. For example, on Android, use [`EncryptedFile`](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) or [`EncryptedSharedPreferences`](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences); on iOS, use [iOS Data Protection](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files).
+- **機密データのローカル保存を最小限に抑える**: アプリ機能に必要とされない限り、機密データをローカルに保存することを避けます。たとえば、PII をサーバーサイドに保持し、使用時に描画し、ログアウト時にキャッシュされたデータを削除します。
+- **ファイルアクセスを制限する**: プラットフォーム API を使用して、ファイルアクセスを可能な限り制限します (最小権限の原則)。Android では、非推奨の `MODE_WORLD_READABLE`/`MODE_WORLD_WRITEABLE` ファイルパーミッションモードではなく、個別のパーミッション付与で適切に設定された `ContentProvider`/ `FileProvider` を通じてデータを共有します。iOS では、実現可能な最も厳格なアクセスビリティ属性 (`kSecAttrAccessibleWhenUnlockedThisDeviceOnly` など) でキーチェーンアイテムを保存します。
+- **不要になったデータを削除する**: 機密データ、キャッシュ、一時ファイルが不要になった際 (ログアウト時や機密性の高いフローを去る場合など) に直ちに削除し、露出する恐れのある期間を制限します。
+- **プラットフォームキーストアを使用する**: Android キーストアや iOS キーチェーンなど、プラットフォームのハードウェア基盤のキーストアソリューションのみを使用して暗号鍵を保存します。
+- **保存時にデータを暗号化する**: その他のファイルや設定には、プラットフォームが提供する保存時にデータを暗号化する機能や、Data Encryption Keys (DEK) と Key Encryption Keys (KEK) を用いてエンベロープ暗号化を実装するその他の技法、あるいは同等の手法を使用します。たとえば、Android では [`EncryptedFile`](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) または [`EncryptedSharedPreferences`](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences) を使用し、iOS では [iOS データ保護](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/encrypting_your_app_s_files) を使用します。
 
 > [!WARNING]
 > 
