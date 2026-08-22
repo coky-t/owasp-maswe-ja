@@ -2,7 +2,7 @@
 title: プライベートストレージの外部に暗号化されずに保存される機密データ (Sensitive Data Stored Unencrypted Outside of Private Storage)
 id: MASWE-0002
 alias: data-unencrypted-shared-storage-no-user-interaction
-requirement: "The app encrypts sensitive data stored outside of private storage."
+requirement: "アプリはプライベートストレージの外部に保存される機密データを暗号化している。"
 platform: [android, ios]
 profiles: [L1, L2]
 threat: MAS-THREAT-0002
