@@ -22,11 +22,11 @@ refs:
 
 ## 概要
 
-This weakness occurs when an app stores sensitive data unencrypted in shared or external storage, where other apps can access it without any user interaction.
+この脆弱性は、アプリが機密データを共有ストレージや外部ストレージに暗号化せずに保存し、ユーザーのやり取りなしで他のアプリがそれにアクセスできる場合に発生します。
 
-On Android, apps can store data explicitly in an app-specific external storage (`getExternalFilesDir()`), use the `MediaStore`-API  or Storage Access Framework (SAF) to access shared folders. The app-specific external storage can not be accessed by other apps. However, if the external storage is located on a physical SD card, it can be removed and read. If the external storage is emulated by the system, actors with access to an unlocked phone can access it using _Android Debug Bridge (ADB)_.
+Android では、アプリはアプリ固有の外部ストレージ (`getExternalFilesDir()`) に明示的にデータを保存し、`MediaStore`-API やストレージアクセスフレームワーク (SAF) を使用して共有フォルダにアクセスできます。アプリ固有の外部ストレージは他のアプリからはアクセスできません。しかし、外部ストレージが物理的な SD カードにある場合、それを取り外して読み取ることができます。外部ストレージがシステムによってエミュレートされている場合、アンロックされた端末にアクセスする人は _Android Debug Bridge (ADB)_ を使用してそれにアクセスできます。
 
-This weakness primarily concerns Android, which permits the explicit use of shared and external storage.  However, while it is not possible to directly read and write an external folder on iOS, apps can use the by default pre-installed Files app or the document picker to read and write to a system-wide shared location.
+この脆弱性は主に、共有ストレージや外部ストレージの明示的な使用を許可している、Android に関わるものです。一方で、iOS では外部フォルダを直接読み書きすることはできませんが、アプリはデフォルトでプリインストールされている Files アプリやドキュメントピッカーを使用して、システム全体で共有される場所への読み書きができます。
 
 ## 流入の形態
 
