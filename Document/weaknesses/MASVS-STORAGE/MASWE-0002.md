@@ -30,11 +30,11 @@ Android では、アプリはアプリ固有の外部ストレージ (`getExtern
 
 ## 流入の形態
 
-- **Data Stored Unencrypted**: Writing sensitive data to shared or external storage unencrypted. On Android, this also includes the app-specific external storage.
-- **Hardcoded Encryption Key**: Encrypting sensitive data stored in external storage with a key that is hardcoded inside the application.
-- **Encryption Key Stored on Filesystem**: Encrypting sensitive data stored in external storage but storing the key alongside it or in another easily accessible location.
-- **Insufficient Encryption**: Encrypting sensitive data with an algorithm or configuration that is not considered strong.
-- **Reuse of Encryption Key**: Sharing the encryption key between two devices owned by a single user, enabling data cloning between those devices via external storage.
+- **暗号化せずに保存されたデータ**: 機密データを暗号化せずに共有ストレージや外部ストレージに書き込みます。Android では、これにはアプリ固有の外部ストレージも含みます。
+- **ハードコードされた暗号鍵**: 外部ストレージに保存する機密データを、アプリケーション内にハードコードされた鍵で暗号化します。
+- **ファイルシステム上に保存された暗号鍵**: 外部ストレージに保存する機密データを暗号化しますが、鍵をそのそばやその他の容易にアクセスできる場所に保存します。
+- **不十分な暗号化**: 強力とはみなされていないアルゴリズムや設定で機密データを暗号化します。
+- **暗号鍵の再使用**: 単一ユーザーによって所有される二つのデバイス間で暗号鍵を共有し、外部ストレージを介してそれらのデバイス間でデータを複製できます。
 
 ## 影響
 
