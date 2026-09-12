@@ -38,9 +38,9 @@ Android では、アプリはアプリ固有の外部ストレージ (`getExtern
 
 ## 影響
 
-- **Compromise of Sensitive Data**: Attackers can extract personal information and media such as photos, documents, and audio files, resulting in unauthorized disclosure of user data.
-- **Authentication or Authorization Bypass**: Attackers can extract passwords, cryptographic keys, and session tokens, resulting in identity theft or account takeover.
-- **Bypass of Protection Mechanisms**: Attackers can tamper with data used by the app, e.g. a database describing the state of premium features, resulting in circumvention of business logic and revenue loss for the app owner.
+- **機密データの侵害**: 攻撃者は、個人情報や、写真、ドキュメント、音声ファイルなどのメディアを抽出して、ユーザーデータの不正な開示を招く恐れがあります。
+- **認証または認可のバイパス**: 攻撃者はパスワード、暗号鍵、セッショントークンを抽出して、なりすましやアカウント乗っ取りにつながる恐れがあります。
+- **保護メカニズムのバイパス**: 攻撃者は、プレミアム機能の状態を記述するデータベースなど、アプリで使用されるデータを改竄して、ビジネスロジックの回避やアプリ所有者の収益損失をもたらす恐れがあります。
 
 ## 緩和策
 
