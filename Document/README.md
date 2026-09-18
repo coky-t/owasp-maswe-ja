@@ -52,6 +52,7 @@ MAS 支持者は OWASP MASWE, MASVS, MASTG の業界採用者であり、一貫�
 <a href="https://mas.owasp.org/MASTG/0x02c-Acknowledgements#our-mastg-advocates">
 <img src="https://raw.githubusercontent.com/OWASP/mastg/refs/heads/master/Document/Images/Other/nowsecure-logo.png" width="200px;" />
 <img src="https://raw.githubusercontent.com/OWASP/mastg/refs/heads/master/Document/Images/Other/guardsquare-logo.png" width="200px;" />
+<img src="https://raw.githubusercontent.com/OWASP/mastg/master/Document/Images/Other/vulnit-logo.png" width="200px;" />
 </a>
 
 <br><br>
