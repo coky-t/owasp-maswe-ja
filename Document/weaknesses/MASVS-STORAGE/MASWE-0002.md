@@ -44,11 +44,11 @@ Android では、アプリはアプリ固有の外部ストレージ (`getExtern
 
 ## 緩和策
 
-- **Prefer Private Storage**: Store files in the [private internal storage](https://developer.android.com/training/data-storage/app-specific#internal) whenever possible.
-- **Limit Platform File Sharing**: Prohibit sensitive data to be shared using the platform's storage sharing frameworks such as Storage Access Framework (SAF) on Android or document picker on iOS whenever possible.
-- **Encrypt Data Before Writing**: Encrypt any sensitive data stored in shared or external storage, e.g. using [Android's `EncryptedFile` API](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile).
-- **Protect Encryption Keys**: Protect any keys used for data encryption with the device's hardware-backed keystore where available, and never hardcode them inside the application.
+- **プライベートストレージを優先する**: 可能な限り [プライベートな内部ストレージ](https://developer.android.com/training/data-storage/app-specific#internal) にファイルを保存します。
+- **プラットフォームのファイル共有を制限する**: 可能な限り Android の Storage Access Framework (SAF) や iOS のドキュメントピッカーといったプラットフォームのストレージ共有フレームワークを使用して機密データを共有することを禁止します。
+- **書き込み前にデータを暗号化する**: 共有ストレージや外部ストレージに保存される機密データは [Android の `EncryptedFile` API](https://developer.android.com/reference/androidx/security/crypto/EncryptedFile) などを使用して暗号化します。
+- **暗号鍵を保護する**: データ暗号化で使用される鍵を、利用可能な場合にはデバイスのハードウェア支援のキーストアで保護します。決してアプリケーション内にハードコードしてはいけません。
 
-!!! Warning
-
-    The **Jetpack security crypto library**, including the `EncryptedFile` and `EncryptedSharedPreferences` classes, has been [deprecated](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library). However, since an official replacement has not yet been released, we recommend using these classes until one is available.
+> [!WARNING]
+> 
+> `EncryptedFile` クラスと `EncryptedSharedPreferences` クラスを含む **Jetpack Security Crypto ライブラリ** は [非推奨](https://developer.android.com/privacy-and-security/cryptography#jetpack_security_crypto_library) になりました。ただし、公式の代替品はまだリリースされていないため、それが利用可能になるまではこれらのクラスを使用することをお勧めします。
