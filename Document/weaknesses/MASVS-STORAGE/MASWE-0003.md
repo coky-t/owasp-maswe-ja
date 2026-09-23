@@ -2,7 +2,7 @@
 title: プラットフォームキーストアの外部に保存される暗号鍵 (Cryptographic Keys Stored Outside of Platform Keystore)
 id: MASWE-0003
 alias: crypto-keys-not-protected-at-rest
-requirement: "The app stores cryptographic keys inside the platform-provided secure keystore."
+requirement: "アプリはプラットフォームが提供する安全なキーストア内に暗号鍵を保存している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0003
