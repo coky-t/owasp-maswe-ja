@@ -2,7 +2,7 @@
 title: アプリパッケージ内にハードコードされた機密データ (Sensitive Data Hardcoded in the App Package)
 id: MASWE-0004
 alias: data-hardcoded-app-package
-requirement: "The app does not hardcode sensitive data in the application package."
+requirement: "アプリはアプリケーションパッケージ内に機密データをハードコードしていない。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0004
