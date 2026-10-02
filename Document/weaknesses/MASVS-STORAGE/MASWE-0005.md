@@ -2,7 +2,7 @@
 title: 機密データのログへの挿入 (Insertion of Sensitive Data into Logs)
 id: MASWE-0005
 alias: data-in-logs
-requirement: "The app excludes sensitive data from application logs."
+requirement: "アプリはアプリケーションログから機密データを除外している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0005
