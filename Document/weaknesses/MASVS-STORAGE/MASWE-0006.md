@@ -2,7 +2,7 @@
 title: バックアップから除外されない機密データ (Sensitive Data Not Excluded From Backup)
 id: MASWE-0006
 alias: data-not-excluded-backup
-requirement: "The app excludes sensitive data from backups."
+requirement: "アプリはバックアップから機密データを除外している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0006
