@@ -2,7 +2,7 @@
 title: 不適切な暗号化 (Improper Encryption)
 id: MASWE-0007
 alias: improper-encryption
-requirement: "The app properly encrypts sensitive data."
+requirement: "アプリは機密データを適切に暗号化している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0007
