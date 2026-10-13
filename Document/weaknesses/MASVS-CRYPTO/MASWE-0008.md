@@ -2,7 +2,7 @@
 title: 不適切なハッシュ化 (Improper Hashing)
 id: MASWE-0008
 alias: improper-hashing
-requirement: "The app properly hashes sensitive data."
+requirement: "アプリは機密データを適切にハッシュ化している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0008
