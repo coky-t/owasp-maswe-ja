@@ -2,7 +2,7 @@
 title: メッセージ認証コード (MAC) の不適切な使用 (Improper Use of Message Authentication Code (MAC))
 id: MASWE-0009
 alias: improper-mac
-requirement: "The app properly uses Message Authentication Codes (MACs)."
+requirement: "アプリはメッセージ認証コード (MAC) を適切に使用している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0009
