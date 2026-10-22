@@ -2,7 +2,7 @@
 title: 暗号署名の不適切な生成 (Improper Generation of Cryptographic Signatures)
 id: MASWE-0010
 alias: improper-signature-generation
-requirement: "The app properly generates cryptographic signatures."
+requirement: "アプリは暗号署名を適切に生成している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0010
