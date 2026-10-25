@@ -2,7 +2,7 @@
 title: 暗号署名の不適切な検証 (Improper Verification of Cryptographic Signature)
 id: MASWE-0011
 alias: improper-signature-verification
-requirement: "The app properly verifies cryptographic signatures."
+requirement: "アプリは暗号署名を適切に検証している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0011
