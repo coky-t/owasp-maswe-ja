@@ -2,7 +2,7 @@
 title: 不適切な乱数生成 (Improper Random Number Generation)
 id: MASWE-0012
 alias: improper-random-number-generation
-requirement: "The app properly generates random numbers."
+requirement: "アプリは乱数を適切に生成している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0012
