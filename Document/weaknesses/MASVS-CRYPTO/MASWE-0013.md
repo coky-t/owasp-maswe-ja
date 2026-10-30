@@ -2,7 +2,7 @@
 title: 不適切な暗号鍵生成 (Improper Cryptographic Key Generation)
 id: MASWE-0013
 alias: improper-crypto-key-generation
-requirement: "The app securely generates cryptographic keys."
+requirement: "アプリは暗号鍵を安全に生成している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0013
