@@ -2,7 +2,7 @@
 title: 実装されていない暗号鍵ローテーション (Cryptographic Key Rotation Not Implemented)
 id: MASWE-0015
 alias: no-key-rotation
-requirement: "The app rotates cryptographic keys regularly."
+requirement: "アプリは暗号鍵を定期的に入れ替えている。"
 platform: [android, ios]
 profiles: [L2, EUDIW]
 threat: MAS-THREAT-0015
