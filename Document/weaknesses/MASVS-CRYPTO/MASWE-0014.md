@@ -2,7 +2,7 @@
 title: 不適切な暗号鍵導出 (Improper Cryptographic Key Derivation)
 id: MASWE-0014
 alias: improper-crypto-key-derivation
-requirement: "The app derives cryptographic keys using approved key derivation functions."
+requirement: "アプリは承認された鍵導出関数を使用して暗号鍵を導出している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0014
