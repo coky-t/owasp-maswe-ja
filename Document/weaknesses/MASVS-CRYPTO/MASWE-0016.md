@@ -2,7 +2,7 @@
 title: 制限されていない暗号鍵へのアクセス (Cryptographic Key Access Not Restricted)
 id: MASWE-0016
 alias: crypto-key-access-not-restricted
-requirement: "The app restricts access to cryptographic keys."
+requirement: "アプリは暗号鍵へのアクセスを制限している。"
 platform: [android, ios]
 profiles: [L2, EUDIW]
 threat: MAS-THREAT-0016
