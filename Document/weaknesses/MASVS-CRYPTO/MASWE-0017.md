@@ -2,7 +2,7 @@
 title: 強制されていないデバイスのセキュアロック (Device Secure Lock Not Enforced)
 id: MASWE-0017
 alias: device-secure-lock-not-enforced
-requirement: "The app verifies that the device has a secure lock configured."
+requirement: "アプリはデバイスがセキュアロックを設定されていることを検証している。"
 platform: [android, ios]
 profiles: [L2, EUDIW]
 threat: MAS-THREAT-0017
