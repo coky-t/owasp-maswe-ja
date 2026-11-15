@@ -2,7 +2,7 @@
 title: アプリコンポーネントでの認証や認可の欠如 (Lack of Authentication or Authorization on App Components)
 id: MASWE-0018
 alias: missing-auth-app-components
-requirement: "The app enforces authentication and authorization on its components."
+requirement: "アプリはそのコンポーネントでの認証や認可を強制している。"
 platform: [android, ios]
 profiles: [L1, L2, EUDIW]
 threat: MAS-THREAT-0018
