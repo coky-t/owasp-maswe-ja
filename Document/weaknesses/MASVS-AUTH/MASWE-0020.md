@@ -2,7 +2,7 @@
 title: バイパスされる可能性のあるローカル認証 (Local Authentication Can Be Bypassed)
 id: MASWE-0020
 alias: event-bound-biometric-auth
-requirement: "The app implements local authentication securely."
+requirement: "アプリはローカル認証を安全に実装している。"
 platform: [android, ios]
 profiles: [L2, EUDIW]
 threat: MAS-THREAT-0020
