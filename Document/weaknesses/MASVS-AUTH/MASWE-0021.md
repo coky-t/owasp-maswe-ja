@@ -2,7 +2,7 @@
 title: 機密性の高いトランザクションで許可されている非生体クレデンシャルへのフォールバック (Fallback to Non-biometric Credentials Allowed for Sensitive Transactions)
 id: MASWE-0021
 alias: no-biometric-fallback
-requirement: "The app does not allow fallback to non-biometric credentials for sensitive transactions."
+requirement: "アプリは機密性の高いトランザクションにおいて非生体クレデンシャルへのフォールバックを許可していない。"
 platform: [android, ios]
 profiles: [L2, EUDIW]
 threat: MAS-THREAT-0021
